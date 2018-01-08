@@ -1,5 +1,5 @@
 # Get Programming with Scala
-Code, exercises and answers for the book Get Programming with Scala
+Code, exercises and answers for the book [Get Programming with Scala](https://www.manning.com/books/get-programming-with-scala)
 
 Installation Requirements
 ---
