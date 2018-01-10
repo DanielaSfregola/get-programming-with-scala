@@ -22,5 +22,4 @@ object `16.2.MySecondCalculatorProgram` {
   multiply(5, 3)
   divide(6, 2)
   negate(-5)
-  ""
 }

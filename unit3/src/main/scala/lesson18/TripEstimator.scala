@@ -26,8 +26,8 @@ object TripEstimator extends CostEstimator {
       estimateCosts(rental, rome)
   }
 
-  val toyota = Rental("Toyota Rav", Diesel, kmPerLitre = 16, costPerDay = 50, insuranceCost = 50)
+  val suv = Rental("SUV", Diesel, kmPerLitre = 16, costPerDay = 50, insuranceCost = 50)
 
-  val honda = Rental("Honda CR-V", Petrol, kmPerLitre = 10, costPerDay = 40, insuranceCost = 0)
+  val cityCar = Rental("City Car", Petrol, kmPerLitre = 10, costPerDay = 40, insuranceCost = 0)
 
 }
