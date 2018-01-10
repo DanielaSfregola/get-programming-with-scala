@@ -11,6 +11,6 @@ object `17.6.SelectorByValueAndNameFunctions` {
                      opB: => Int,
                      flag: Boolean): Int =
     if (flag) opA else opB
-  
+
 }
 
