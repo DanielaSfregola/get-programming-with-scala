@@ -1,6 +1,6 @@
 package lesson7
 
-object `7.4.DefiningAClassTest` {
+object `7.1.DefiningAClassTest` {
 
   class Test {
     val configA = "I am public"
