@@ -1,6 +1,6 @@
 package lesson9
 
-object `9.7.TheAbstractClassRobot` {
+object `9.6.TheAbstractClassRobot` {
 
   abstract class Robot(name: String) {
 

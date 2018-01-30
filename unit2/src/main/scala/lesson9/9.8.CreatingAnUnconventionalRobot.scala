@@ -1,6 +1,6 @@
 package lesson9
 
-object `9.9.CreatingAnUnconventionalRobot` {
+object `9.8.CreatingAnUnconventionalRobot` {
 
   abstract class Robot(name: String) {
     def welcome(n: String): String
