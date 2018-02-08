@@ -1,6 +1,7 @@
 package lesson14
 
-object `14.1.IsEvenFunction` {
+// Listing 14.1
+object IsEvenFunction extends App {
 
   def isEven(n: Int): Boolean = {
     n % 2 == 0

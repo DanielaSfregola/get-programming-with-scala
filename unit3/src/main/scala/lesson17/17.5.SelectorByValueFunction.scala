@@ -1,6 +1,7 @@
 package lesson17
 
-object `17.5.SelectorByValueFunction` {
+// Listing 17.5
+object SelectorByValueFunction extends App {
 
   def selectorByValue(opA: Int, opB: Int, flag: Boolean): Int =
     if (flag) opA else opB

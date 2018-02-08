@@ -1,8 +1,9 @@
 package lesson1
 
-import `1.1.MyClassExample`.MyClass
+import MyClassExample.MyClass
 
-object `1.2.MyObjectExample` {
+// Listing 1.2
+object MyObjectExample extends App {
 
   object MyObject {
     val a = new MyClass

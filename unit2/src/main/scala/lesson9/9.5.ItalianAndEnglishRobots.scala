@@ -1,8 +1,9 @@
 package lesson9
 
-object `9.5.ItalianAndEnglishRobots` {
+// Listing 9.5
+object ItalianAndEnglishRobots extends App {
 
-  class Robot(val name: String = "Unknown") { #A
+  class Robot(val name: String = "Unknown") { //#A
     def welcome(n: String) = "Welcome $n! My name is $name"
   }
 

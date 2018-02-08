@@ -1,8 +1,9 @@
 package lesson11
 
-import lesson11.`11.1.TheTraitAnimal`.Animal
+import lesson11.TheTraitAnimal.Animal
 
-object `11.3.MixingOfTraits` {
+// Listing 11.3
+object MixingOfTraits extends App {
 
   trait Cute {
 

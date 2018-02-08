@@ -1,6 +1,7 @@
 package lesson17
 
-object `17.4.PredicateSelectorFunction` {
+// Listing 17.4
+object PredicateSelectorFunction extends App {
 
   sealed trait Mode
   case object Length extends Mode

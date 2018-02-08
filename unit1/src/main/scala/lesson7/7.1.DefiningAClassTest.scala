@@ -1,6 +1,7 @@
 package lesson7
 
-object `7.1.DefiningAClassTest` {
+// Listing 7.1
+object DefiningAClassTest extends App {
 
   class Test {
     val configA = "I am public"

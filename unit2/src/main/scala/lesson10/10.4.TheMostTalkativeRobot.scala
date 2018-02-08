@@ -1,8 +1,7 @@
 package lesson10
 
-import lesson10.`10.1.TheDictionaryObject`.Dictionary
-
-object `10.4.TheMostTalkativeRobot` {
+// Listing 10.4
+object TheMostTalkativeRobot extends App {
 
   abstract class Robot(name: String) {
 

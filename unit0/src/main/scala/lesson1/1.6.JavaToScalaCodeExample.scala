@@ -1,7 +1,7 @@
 package lesson1
 
-
-object `1.6.JavaToScalaCodeExample` {
+// Listing 1.6
+object JavaToScalaCodeExample extends App {
 
   // file Snippet.java
   //String dateAsString = "22.11.2017";

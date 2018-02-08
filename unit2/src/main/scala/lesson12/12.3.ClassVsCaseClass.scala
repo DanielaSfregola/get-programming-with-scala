@@ -1,6 +1,7 @@
 package lesson12
 
-object `12.3.ClassVsCaseClass` {
+// Listing 12.3
+object ClassVsCaseClass extends App {
 
   class Person(n: String, a: Int) {
 

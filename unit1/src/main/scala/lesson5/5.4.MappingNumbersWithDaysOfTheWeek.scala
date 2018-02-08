@@ -1,6 +1,7 @@
 package lesson5
 
-object `5.4.MappingNumbersWithDaysOfTheWeek` {
+// Listing 5.4
+object MappingNumbersWithDaysOfTheWeek extends App {
   def toDayOfWeek(n: Int): String = n match {
     case 1 => "Sunday"
     case 2 => "Monday"

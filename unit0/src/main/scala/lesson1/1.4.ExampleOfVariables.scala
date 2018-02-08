@@ -1,6 +1,7 @@
 package lesson1
 
-object `1.4.ExampleOfVariables` {
+// Listing 1.4
+object ExampleOfVariables extends App {
 
   var a = "hello"
   println(a)

@@ -1,6 +1,7 @@
 package lesson17
 
-object `17.6.SelectorByValueAndNameFunctions` {
+// Listing 17.6
+object SelectorByValueAndNameFunctions extends App {
 
   def selectorByValue(opA: Int,
                       opB: Int,

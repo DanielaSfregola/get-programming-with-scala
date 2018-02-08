@@ -1,6 +1,7 @@
 package lesson16
 
-object `16.2.MySecondCalculatorProgram` {
+// Listing 16.2
+object MySecondCalculatorProgram extends App {
 
   object MySecondCalculator {
 

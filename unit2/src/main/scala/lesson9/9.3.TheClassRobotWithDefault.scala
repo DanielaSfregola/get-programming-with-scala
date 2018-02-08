@@ -1,6 +1,7 @@
 package lesson9
 
-object `9.3.TheClassRobotWithDefault` {
+// Listing 9.3
+object TheClassRobotWithDefault extends App {
 
   class Robot(val name: String = "Unknown")
 

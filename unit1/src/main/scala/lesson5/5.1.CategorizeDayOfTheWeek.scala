@@ -1,6 +1,7 @@
 package lesson5
 
-object `5.1.CategorizeDayOfTheWeek` {
+// Listing 5.1
+object CategorizeDayOfTheWeek extends App {
 
   def categorizeDayOfWeek(n: Int) = {
     if (n == 1 || n == 7) {

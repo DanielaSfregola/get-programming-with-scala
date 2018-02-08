@@ -1,6 +1,7 @@
 package lesson9
 
-object `9.2.TheClassRobotWithVal` {
+// Listing 9.2
+object TheClassRobotWithVal extends App {
 
   class Robot(val name: String)
 

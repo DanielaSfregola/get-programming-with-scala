@@ -30,4 +30,9 @@ object TripEstimator extends CostEstimator {
 
   val cityCar = Rental("City Car", Petrol, kmPerLitre = 10, costPerDay = 40, insuranceCost = 0)
 
+  def prettyEstimationMsg(rental: Rental) =
+    s"Cost Estimation for car ${rental.name}: ${estimateTripCosts(rental)}"
+
+  prettyEstimationMsg(suv)
+  prettyEstimationMsg(cityCar)
 }

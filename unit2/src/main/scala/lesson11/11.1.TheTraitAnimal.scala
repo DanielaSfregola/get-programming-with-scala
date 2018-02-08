@@ -1,6 +1,7 @@
 package lesson11
 
-object `11.1.TheTraitAnimal` {
+// Listing 11.1
+object TheTraitAnimal extends App {
 
   trait Animal {
 

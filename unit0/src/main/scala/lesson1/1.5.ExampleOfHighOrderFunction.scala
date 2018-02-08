@@ -1,6 +1,7 @@
 package lesson1
 
-object `1.5.ExampleOfHighOrderFunction` {
+// Listing 1.5
+object ExampleOfHighOrderFunction extends App {
 
   def plusOne(f: Int => Int): Int => Int =
     f andThen (_ + 1)

@@ -1,6 +1,7 @@
 package lesson1
 
-object `1.3.ExampleOfThrowingAndCatchingExceptions` {
+// Listing 1.3
+object ExampleOfThrowingAndCatchingExceptions extends App {
 
   try {
     throw new IllegalStateException("BOOM!")

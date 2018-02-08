@@ -1,6 +1,7 @@
 package lesson14
 
-object `14.2.ThePersonCaseClass` {
+// Listing 14.2
+object ThePersonCaseClass extends App {
 
   case class Person(name: String) {
 

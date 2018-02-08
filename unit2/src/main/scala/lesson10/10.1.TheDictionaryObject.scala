@@ -1,6 +1,6 @@
 package lesson10
 
-object `10.1.TheDictionaryObject` {
+object `10.1.TheDictionaryObject` extends App {
 
   object Dictionary extends App {
 
@@ -10,7 +10,7 @@ object `10.1.TheDictionaryObject` {
 
   }
 
-  Dictionary.sentenceA
-  Dictionary.sentenceB("John")
+  println(Dictionary.sentenceA)
+  println(Dictionary.sentenceB("John"))
 
 }

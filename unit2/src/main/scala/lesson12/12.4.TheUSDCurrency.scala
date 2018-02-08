@@ -1,6 +1,7 @@
 package lesson12
 
-object `12.4.TheUSDCurrency` {
+// Listing 12.4
+object TheUSDCurrency extends App {
 
   case object USD
 }

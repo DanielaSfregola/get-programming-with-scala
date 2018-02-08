@@ -1,6 +1,7 @@
 package lesson9
 
-object `9.6.TheAbstractClassRobot` {
+// Listing 9.6
+object TheAbstractClassRobot extends App {
 
   abstract class Robot(name: String) {
 

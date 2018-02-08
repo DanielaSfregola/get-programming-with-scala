@@ -1,8 +1,9 @@
 package lesson12
 
-import lesson12.`12.1.ThePersonCaseClass`.Person
+import lesson12.ThePersonCaseClass.Person
 
-object `12.2.PatternMatchingOfAPerson` {
+// Listing 12.2
+object PatternMatchingOfAPerson extends App {
 
   def welcome(person: Person): String = person match {
     case Person("Tom", _) => "Good to see you Tom!"

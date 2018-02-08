@@ -1,6 +1,7 @@
 package lesson5
 
-object `5.2.LabellingANumber` {
+// Listing 5.2
+object LabellingANumber extends App {
 
   def label(n: Int): String =
     if (n == 0) "neutral"

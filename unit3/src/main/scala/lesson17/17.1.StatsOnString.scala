@@ -1,6 +1,7 @@
 package lesson17
 
-object `17.1.StatsOnString` {
+// Listing 17.1
+object StatsOnString extends App {
 
   def size(s: String): Int  =
     s.length

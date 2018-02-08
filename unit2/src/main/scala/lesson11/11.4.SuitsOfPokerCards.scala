@@ -1,6 +1,7 @@
 package lesson11
 
-object `11.4.SuitsOfPokerCards` {
+// Listing 11.4
+object SuitsOfPokerCards extends App {
 
   sealed trait Suit
   object Clubs extends Suit

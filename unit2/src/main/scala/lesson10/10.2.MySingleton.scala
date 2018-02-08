@@ -1,38 +1,43 @@
 package lesson10
 
-/** Java
-  public class MySingleton {
-    private static MySingleton instance = null;
+// Listing 10.2
+object MySingleton extends App {
 
-    protected MySingleton() {}
+  /** Java
+    * public class MySingleton {
+    * private static MySingleton instance = null;
+    **
+    *protected MySingleton() {}
+    **
+    *public static MySingleton getInstance() {
+    * if(instance == null) {
+    * instance = new ClassicSingleton();
+    * }
+    * return instance;
+    * }
+    * }
+    * */
 
-    public static MySingleton getInstance() {
-      if(instance == null) {
-        instance = new ClassicSingleton();
-      }
-      return instance;
-    }
-  }
-  **/
+  /** JavaScript
+    * var MySingleton = (function () {
+    * var instance;
+    **
+    *function createInstance() {
+    * var object = new Object("my-instance");
+    * return object;
+    * }
+    **
+    *return {
+    * getInstance: function () {
+    * if (!instance) {
+    * instance = createInstance();
+    * }
+    * return instance;
+    * }
+    * };
+    * })();
+    * */
 
-/** JavaScript
-  var MySingleton = (function () {
-    var instance;
+  object MySingleton
 
-    function createInstance() {
-      var object = new Object("my-instance");
-      return object;
-    }
-
-    return {
-      getInstance: function () {
-        if (!instance) {
-          instance = createInstance();
-        }
-        return instance;
-      }
-    };
-  })();
-    **/
-
-object MySingleton
+}

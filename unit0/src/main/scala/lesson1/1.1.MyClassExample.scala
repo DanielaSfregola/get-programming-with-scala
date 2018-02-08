@@ -1,6 +1,7 @@
 package lesson1
 
-object `1.1.MyClassExample` {
+// Listing 1.1
+object MyClassExample extends App {
 
   class MyClass {
     def sayHello(name: String) =

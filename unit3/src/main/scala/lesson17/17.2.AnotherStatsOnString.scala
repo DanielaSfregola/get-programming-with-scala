@@ -1,6 +1,7 @@
 package lesson17
 
-object `17.2.AnotherStatsOnString` {
+// Listing 17.2
+object AnotherStatsOnString extends App {
 
   def stats(s: String, predicate: Char => Boolean): Int =
     s.count(predicate)

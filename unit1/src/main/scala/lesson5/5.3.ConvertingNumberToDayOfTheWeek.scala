@@ -1,6 +1,7 @@
 package lesson5
 
-object `5.3.ConvertingNumberToDayOfTheWeek` {
+// Listing 5.3
+object ConvertingNumberToDayOfTheWeek extends App {
 
   def toDayOfWeek(n: Int): String =
     if (n == 1) "Sunday"

@@ -1,8 +1,9 @@
 package lesson11
 
-import lesson11.`11.1.TheTraitAnimal`.Animal
+import lesson11.TheTraitAnimal.Animal
 
-object `11.2.UsageOfTraitAnimal` {
+// Listing 11.2
+object UsageOfTraitAnimal extends App {
 
   class Dog extends Animal {
     def eat(food: String): String = ???

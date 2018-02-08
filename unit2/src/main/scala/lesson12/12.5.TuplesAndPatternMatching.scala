@@ -1,6 +1,7 @@
 package lesson12
 
-object `12.5.TuplesAndPatternMatching` {
+// Listing 12.5
+object TuplesAndPatternMatching extends App {
 
   def hello(text: String, n: Int): String =
     (text, n) match {

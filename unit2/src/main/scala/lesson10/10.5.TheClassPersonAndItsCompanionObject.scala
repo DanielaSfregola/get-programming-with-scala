@@ -1,6 +1,7 @@
 package lesson10
 
-object `10.5.TheClassPersonAndItsCompanionObject` {
+// Listing 10.5
+object TheClassPersonAndItsCompanionObject extends App {
 
   class Person(val name: String, val age: Int)
 
