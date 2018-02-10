@@ -1,16 +1,13 @@
 # Get Programming with Scala
-Code, exercises and answers for the book Get Programming with Scala.
-Have a look at the [Index](#Index) for links to all the available lessons.
+Code, exercises, and answers for the book Get Programming with Scala.
+Have a look at the [Index](#index) for links to all the available lessons.
 
-Installation Requirements
----
+## Installation Requirements
 Make sure the following are installed:
- - jdk 7+
- - sbt
+ - JDK 7+
+ - SBT
 
-How to compile and run the code
------
-
+## How to compile and run the code
 Start SBT:
 ```
 sbt
@@ -25,13 +22,12 @@ Run the code of a specific unit. For example, to run the code of unit 0:
 ```
 > unit0/run
 ```
-Then select the number corresponding to the snippet of code you'r like to execute.
+Then select the number corresponding to the snippet of code you'd like to execute.
 
 Note: if you just execute the command `run`, you will get a "No main class detected" message.
 
 
-Index
-------
+## Index
 - [Unit 0](unit0)
     - [Lesson 1](unit0/src/main/scala/lesson1)
     - [Lesson 2](unit0/src/main/scala/lesson2)
