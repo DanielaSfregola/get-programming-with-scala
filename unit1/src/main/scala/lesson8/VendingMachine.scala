@@ -16,7 +16,7 @@ class VendingMachine {
     val productQuantity = {
       if (product == "chocolate") chocolateBar
       else if (product == "granola") granolaBar
-      else -1
+      else 0
     }
     productQuantity > 0
   }
