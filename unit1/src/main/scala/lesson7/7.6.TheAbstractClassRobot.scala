@@ -1,6 +1,6 @@
-package lesson9
+package lesson7
 
-// Listing 9.6
+// Listing 7.6
 object TheAbstractClassRobot extends App {
 
   abstract class Robot(name: String) {

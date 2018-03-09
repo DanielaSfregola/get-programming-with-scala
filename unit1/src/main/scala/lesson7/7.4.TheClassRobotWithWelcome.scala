@@ -1,6 +1,6 @@
-package lesson9
+package lesson7
 
-// Listing 9.4
+// Listing 7.4
 object TheClassRobotWithWelcome extends App {
 
   class Robot(val name: String = "Unknown") {

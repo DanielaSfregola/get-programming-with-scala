@@ -1,6 +1,6 @@
-package lesson9
+package lesson7
 
-// Listing 9.5
+// Listing 7.5
 object ItalianAndEnglishRobots extends App {
 
   class Robot(val name: String = "Unknown") { //#A
