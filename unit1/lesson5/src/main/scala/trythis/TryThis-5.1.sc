@@ -3,7 +3,7 @@
 // -	10% discount if the price is at least $50 but less than $100
 // -	15% discount if the price is at least $100
 
-def applyDiscount(price: Int) = {
+def applyDiscount(price: Double) = {
   val discount = {
     if (price < 50) 0
     else if (price < 100) 0.10
