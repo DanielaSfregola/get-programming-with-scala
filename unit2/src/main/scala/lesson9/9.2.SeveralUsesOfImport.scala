@@ -7,5 +7,5 @@ import scala.concurrent.duration.Duration.create
 import scala.io.{Source => Src}
 import scala.math.{BigDecimal, BigInt}
 
-// Listing 6.2
+// Listing 9.2
 object SeveralUsesOfImport extends App

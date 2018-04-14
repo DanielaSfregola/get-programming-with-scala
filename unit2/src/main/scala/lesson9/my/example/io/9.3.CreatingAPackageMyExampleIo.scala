@@ -2,7 +2,7 @@ package lesson6.my.example.io
 
 import scala.io.Source
 
-// Listing 6.3
+// Listing 9.3
 object CreatingAPackageMyExampleIo {
 
   def readFileIntoString(filename: String) =
