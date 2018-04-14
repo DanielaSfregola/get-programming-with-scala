@@ -1,3 +1,7 @@
+// Change the code of your mark function to keep track of both the lowest and
+// the highest mark computed so far. 
+
+
 var marksSum = 0 	//#A
 var marksCount = 0	//#A
 
