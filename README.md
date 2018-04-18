@@ -65,10 +65,17 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 8](unit1/lesson8): CAPSTONE 1
 
 - **UNIT 2: HTTP SERVICE**
+<<<<<<< HEAD
     - LESSON 9: Imports and packages
     - LESSON 10: Access Modifiers
     - LESSON 11: Singleton Objects
     - LESSON 12: Traits as interfaces
+=======
+    - [LESSON 9](unit2/lesson9): Imports and packages
+    - [LESSON 10](unit2/lesson10): Access Modifiers
+    - LESSON 11: Traits as interfaces
+    - LESSON 12: Objects are important too!
+>>>>>>> [unit 2] Refactored code lesson 10
     - LESSON 13: Pattern Matching
     - LESSON 14: Anonymous Functions
     - LESSON 15: Partial Functions
