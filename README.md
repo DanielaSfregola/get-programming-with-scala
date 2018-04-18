@@ -61,12 +61,12 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 4](unit1/lesson4): Values and Variables
     - [LESSON 5](unit1/lesson5): Conditional Statements and Loops
     - [LESSON 6](unit1/lesson6): Function as the most fundamental block of code
-    - [LESSON 7](unit1/lesson7): Classes as a representation of our world 
+    - [LESSON 7](unit1/lesson7): Classes as a representation of our world
     - [LESSON 8](unit1/lesson8): CAPSTONE 1
 
 - **UNIT 2: HTTP SERVICE**
     - [LESSON 9](unit2/lesson9): Imports and packages
-    - LESSON 10: Access Modifiers
+    - [LESSON 10](unit2/lesson10): Access Modifiers
     - LESSON 11: Traits as interfaces
     - LESSON 12: Objects are important too!
     - LESSON 13: Pattern Matching
