@@ -67,8 +67,8 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 - **UNIT 2: HTTP SERVICE**
     - [LESSON 9](unit2/lesson9): Imports and packages
     - [LESSON 10](unit2/lesson10): Access Modifiers
-    - LESSON 11: Traits as interfaces
-    - LESSON 12: Objects are important too!
+    - [LESSON 11](unit2/lesson11): Singleton Objects
+    - LESSON 12: Traits as interfaces
     - LESSON 13: Pattern Matching
     - LESSON 14: Partial Functions
     - LESSON 15: HTTP API with http4s
