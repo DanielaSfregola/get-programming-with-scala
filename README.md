@@ -82,7 +82,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 12: Traits as interfaces
 >>>>>>> [unit 2] Refactored code lesson 11
     - LESSON 13: Pattern Matching
-    - LESSON 14: Anonymous Functions
+    - [LESSON 14](unit2/lesson14): Anonymous Functions
     - LESSON 15: Partial Functions
     - LESSON 16: HTTP API with http4s
 <<<<<<< HEAD
