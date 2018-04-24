@@ -70,24 +70,24 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 11](unit2/lesson11): Singleton Objects
     - LESSON 12: Traits as interfaces
     - LESSON 13: Pattern Matching
-    - LESSON 14: Partial Functions
-    - LESSON 15: HTTP API with http4s
-    - LESSON 16: CAPSTONE 2
+    - LESSON 14: Anonymous Functions
+    - LESSON 15: Partial Functions
+    - LESSON 16: HTTP API with http4s
+    - [LESSON 17](unit2/lesson17): CAPSTONE 2
 
 - **UNIT 3: DATA REPRESENTATION**
-    - LESSON 17: Traits as composable block of codes
-    - LESSON 18: Lazy values
-    - LESSON 19: Infix and Postfix Notation
-    - LESSON 20: Case classes to structure our data
-    - LESSON 21: Groups of Function Parameters
-    - LESSON 22: Implicit functions and values
-    - LESSON 23: JSON (De)serialization with circe
-    - LESSON 24: CAPSTONE 3
+    - LESSON 18: Traits as composable block of codes
+    - LESSON 19: Lazy values
+    - LESSON 20: Infix and Postfix Notation
+    - LESSON 21: Case classes to structure our data
+    - LESSON 22: Groups of Function Parameters
+    - LESSON 23: Implicit functions and values
+    - LESSON 24: JSON (De)serialization with circe
+    - LESSON 25: CAPSTONE 3
 
 - **UNIT 4: DATA MANIPULATION**
-    - LESSON 25: Impure and Pure Functions
-    - LESSON 26: The importance of Purity
-    - LESSON 27: Anonymous Functions
+    - LESSON 26: Impure and Pure Functions
+    - LESSON 27: The importance of Purity
     - LESSON 28: High Order Functions
     - LESSON 29: List
     - LESSON 30: Map
