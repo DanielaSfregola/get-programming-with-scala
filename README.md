@@ -85,7 +85,11 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 14: Anonymous Functions
     - LESSON 15: Partial Functions
     - LESSON 16: HTTP API with http4s
+<<<<<<< HEAD
     - LESSON 17: CAPSTONE 2
+=======
+    - [LESSON 17](unit2/lesson17): CAPSTONE 2
+>>>>>>> [unit 2] code lesson 17
 
 - **UNIT 3: DATA REPRESENTATION**
     - LESSON 18: Traits as composable block of codes
