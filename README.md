@@ -70,7 +70,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 11](unit2/lesson11): Singleton Objects
     - LESSON 12: Traits as interfaces
     - LESSON 13: Pattern Matching
-    - LESSON 14: Anonymous Functions
+    - [LESSON 14](unit2/lesson14): Anonymous Functions
     - LESSON 15: Partial Functions
     - LESSON 16: HTTP API with http4s
     - [LESSON 17](unit2/lesson17): CAPSTONE 2
