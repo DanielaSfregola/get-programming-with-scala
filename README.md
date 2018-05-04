@@ -68,7 +68,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 9](unit2/lesson9): Imports and packages
     - [LESSON 10](unit2/lesson10): Access Modifiers
     - [LESSON 11](unit2/lesson11): Singleton Objects
-    - LESSON 12: Traits as interfaces
+    - [LESSON 12](unit2/lesson12): Traits as interfaces
     - LESSON 13: Pattern Matching
     - [LESSON 14](unit2/lesson14): Anonymous Functions
     - LESSON 15: Partial Functions
