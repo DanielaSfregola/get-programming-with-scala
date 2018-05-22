@@ -5,9 +5,9 @@
 
 def applyDiscount(price: Double) = {
   val discount = {
-    if (price < 50) 0
-    else if (price < 100) 0.10
-    else 0.15
+    if (price >= 100) 0.15
+    else if (price >= 50) 0.10
+    else 0
   }
 
   price * (1 - discount)
