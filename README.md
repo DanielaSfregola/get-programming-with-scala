@@ -75,25 +75,25 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 16: HTTP API with http4s
     - [LESSON 17](unit2/lesson17): CAPSTONE 2
 
-- **UNIT 3: DATA REPRESENTATION**
-    - LESSON 18: Traits as composable block of codes
-    - LESSON 19: Lazy values
-    - LESSON 20: Infix and Postfix Notation
-    - LESSON 21: Case classes to structure our data
-    - LESSON 22: Groups of Function Parameters
-    - LESSON 23: Implicit functions and values
-    - LESSON 24: JSON (De)serialization with circe
-    - LESSON 25: CAPSTONE 3
+- **UNIT 3: IMMUTABLE DATA AND STRUCTURES**
+    - LESSON 18: Case classes to structure our data			
+    - LESSON 19: Impure and Pure Functions				
+    - LESSON 20: High Order Functions					
+    - LESSON 21: List							
+    - LESSON 22: Map							
+    - LESSON 23: Option							
+    - LESSON 24: Working with Option					
+    - LESSON 25: CAPSTONE 3						
 
-- **UNIT 4: DATA MANIPULATION**
-    - LESSON 26: Impure and Pure Functions
-    - LESSON 27: The importance of Purity
-    - LESSON 28: High Order Functions
-    - LESSON 29: List
-    - LESSON 30: Map
-    - LESSON 31: Option
-    - LESSON 32: Working with Option
-    - LESSON 33: CAPSTONE 4
+- **UNIT 4: JSON (DE)SERIALIZATION**
+    - LESSON 26: Infix and Postfix Notation				
+    - LESSON 27: Traits as composable block of codes	     		
+    - LESSON 28: Lazy values						
+    - LESSON 29: Groups of Function Parameters				
+    - LESSON 30: Implicit functions and values				
+    - LESSON 31: The IO type						
+    - LESSON 32: JSON (De)serialization with circe				
+    - LESSON 33: CAPSTONE 4									
 
 - **UNIT 5: ERROR HANDLING AND DATA STORAGE**
     - LESSON 34: Either
