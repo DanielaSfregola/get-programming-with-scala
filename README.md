@@ -78,11 +78,11 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 - **UNIT 3: IMMUTABLE DATA AND STRUCTURES**
     - LESSON 18: Case classes to structure our data			
     - LESSON 19: Impure and Pure Functions				
-    - LESSON 20: High Order Functions					
-    - LESSON 21: List							
-    - LESSON 22: Map							
-    - LESSON 23: Option							
-    - LESSON 24: Working with Option					
+    - LESSON 20: High Order Functions
+    - LESSON 21: Option							
+    - LESSON 22: Working with Option					
+    - LESSON 23: List							
+    - LESSON 24: Map												
     - LESSON 25: CAPSTONE 3						
 
 - **UNIT 4: JSON (DE)SERIALIZATION**
