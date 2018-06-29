@@ -1,5 +1,5 @@
 // Change the code of your mark function to keep track of both the lowest and
-// the highest mark computed so far. 
+// the highest mark computed so far.
 
 
 var marksSum = 0 	//#A
@@ -11,7 +11,7 @@ var maxMark = -100
 def averageMark: Double =
   marksSum.toDouble / marksCount //#B
 
-def mark(q1: Double, q2: Double, q3: Double): Int = {
+def markExam(q1: Double, q2: Double, q3: Double): Int = {
   val avgScore = (q1 + q2 + q3) / 3
   val scaledScore = avgScore * 10 / 3
   val mark = Math.round(scaledScore).toInt
@@ -19,12 +19,16 @@ def mark(q1: Double, q2: Double, q3: Double): Int = {
   marksSum += mark
   marksCount += 1
 
-  trackMinMax(mark)
+  updateMinMark(mark)
+  updateMaxMark(mark)
 
   mark //#C
 }
 
-def trackMinMax(mark: Int) = {
+def updateMinMark(mark: Int) = {
   if (mark < minMark) minMark = mark
+}
+
+def updateMaxMark(mark: Int) = {
   if (mark > maxMark) maxMark = mark
 }
