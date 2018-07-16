@@ -1,6 +1,6 @@
 try {
-  throw new IllegalStateException("BOOM!")
+  throw new IllegalStateException("ERROR!")
 } catch {
   case ex :RuntimeException =>
-    println("Something exploded...")
+    println("Something went bad...")
 }

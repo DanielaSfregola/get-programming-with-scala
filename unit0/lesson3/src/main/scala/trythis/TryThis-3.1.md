@@ -6,6 +6,6 @@ What is it going to happen? Validate your assumptions by running the modified co
 
 ANSWERS:
 
-1. SBT no longer recognize the object Main as executable, so it throws an exception when executing the command "sbt run". More on this, when we are going to discuss traits in lesson 12.
+1. SBT no longer recognizes the object Main as executable, so it throws an exception when executing the command "sbt run". More on this, when we are going to discuss traits in lesson 12.
 
-2. In Main.scala change the string from "Hello, World!". Compile and run it using the command "sbt run"
+2. In Main.scala change the string from "Hello, World!". Compile and run it using the command "sbt run".
