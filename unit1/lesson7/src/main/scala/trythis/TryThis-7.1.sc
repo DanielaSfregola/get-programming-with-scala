@@ -1,5 +1,7 @@
-// Represent cold and hot beverages a bar can offer using classes and subclasses.
-// A customer can request to add more ice to cold drinks or reheat hot ones.
+// A bar serves cold and hot beverages. You can request to add more ice
+// to a cold drink or to reheat an hot one.
+// Express these relations using classes and subclasses.
+
 
 abstract class Drink(name: String, price: Double)
 
