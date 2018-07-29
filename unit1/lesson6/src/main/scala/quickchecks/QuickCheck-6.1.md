@@ -8,10 +8,10 @@ Which of the following functions do not compile? Why?
 
 ANSWERS:
 
-The answers are following:
-1.	It doesn’t compile: the parameter x must have a type
-2.	It compiles
-3.	It doesn’t compile: true is of type Boolean, and you cannot use it as a default for type Int
-4.	It doesn’t compile: an abstract function must have a return type
-5.	It doesn’t compile: its return type is Int, but its implementation has type Boolean
-6.  It compiles
+The answers are the following:
+1.	It doesn’t compile: the parameter x must have a type.
+2.	It compiles.
+3.	It doesn’t compile: true is a value of type Boolean. The compiler doesn’t know how to fit a value of type Boolean into an Int, so you cannot use it as a default for x.
+4.	It doesn’t compile: an abstract function must have a return type.
+5.	It doesn’t compile: its return type is Int, but the expression x == 1 returns a value of type Boolean.
+6.	It compiles.

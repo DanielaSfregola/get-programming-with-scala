@@ -7,8 +7,8 @@ object Main extends App {
   println(machine.chocolateBar)
   println(machine.granolaBar)
 
-  machine.chocolateBar = 2
-  machine.granolaBar = 1
+  machine.chocolateBar += 2
+  machine.granolaBar += 1
 
   println(machine.buy("chocolate", 1.5))
 

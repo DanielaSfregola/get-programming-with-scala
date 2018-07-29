@@ -1,4 +1,4 @@
-// Write a function, called count, to print all the numbers for one to ten using a while loop.
+// Write a function, called count, to print all the numbers from one to ten using a while loop.
 
 
 def count() = {
