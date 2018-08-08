@@ -1,7 +1,7 @@
-Create a new module in an SBT project, called my.quick.check. Add two files to it:
--	Test1.scala should belong to my.quick.check
--	Test2.scala should belong to both my.quick and my.quick.check
+Create a new package in an SBT project, called my.quick.check. Add two files to it:
+-	TestA.scala contains a class, called TestA
+-	TestB.scala contains a class, called TestB
 
-ANSWERS: 
+ANSWERS:
 
-See files Test1.scala and Test2.scala in in the directory src/main/scala/my/quick/check
+See files TestA.scala and TestB.scala in the directory src/main/scala/my/quick/check
