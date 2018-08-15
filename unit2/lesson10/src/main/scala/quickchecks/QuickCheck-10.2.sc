@@ -1,4 +1,4 @@
-//Consider the following snippet of code: Is age accessible from the class Student?
+//Consider the following snippet of code: is age accessible from the class Student?
 // Use the REPL to validate your hypothesis.
 
 class Person {
