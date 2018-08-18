@@ -11,7 +11,7 @@ Which of the following statements are correct? Use the REPL to validate your hyp
 
 
 ANSWER:
-Answers are following:
+The answers are the following:
 
 1. True - A class can extend a class
 2. False - A class can extend an object

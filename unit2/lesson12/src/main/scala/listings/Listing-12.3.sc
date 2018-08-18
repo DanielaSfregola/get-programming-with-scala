@@ -9,9 +9,9 @@ trait Animal {
 
 class Cat extends Animal {
 
-  override val sleep = ???
+  override val sleep = "sleepy cat!"
 
-  def eat(food: String) = ???
+  def eat(food: String) = s"the cat is eating $food"
 
-  def move(x: Int, y: Int) = ???
+  def move(x: Int, y: Int) = s"the cat is moving to ($x,$y)"
 }
