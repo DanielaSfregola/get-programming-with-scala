@@ -18,6 +18,5 @@ object MySecondCalculator {
 
 // ANSWER
 
-// The values sum, subtract, multiply, divide have type (Int, Int) => Int,
+// The values sum, subtract, multiply, divide have the type (Int, Int) => Int,
 // while the value negate has type Int => Int.
-
