@@ -1,4 +1,5 @@
-// Consider the function objInfo shown in listing 13.3. Guess the type and value that the function returns for the following cases.
+// Consider the function objInfo shown in listing 13.3.Guess the type and value
+// that the function returns for the following inputs.
 // Use the REPL to validate your hypotheses.
 
 def objInfo(param: Any) = param match {

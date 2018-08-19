@@ -1,6 +1,6 @@
-// In listing 11.5, you have added an apply method to create an instance of person given two existing ones.
-// Create new functions for the class Person to:
-// - Determine the oldest of two people
+// In listing 11.5, you have added an apply method to create an instance of
+// a person given two existing ones. Create new functions for the class Person to:
+// - Determine the oldest between two people
 // - Create a person by copying the parameters of an existing one
 
 class Person(val name: String, val age: Int)

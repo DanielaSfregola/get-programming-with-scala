@@ -15,7 +15,7 @@ trait Nameable {
 
 class Dog(val name: String) extends Animal with Nameable {
 
-  def eat(food: String) = ???
+  def eat(food: String) = s"$food $food"
 
-  def move(x: Int, y: Int) = ???
+  def move(x: Int, y: Int) = "let's go to ($x, $y)!"
 }
