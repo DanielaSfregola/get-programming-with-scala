@@ -72,8 +72,8 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 13](unit2/lesson13): CAPSTONE 2
 
 - **UNIT 3: HTTP SERVICE**
-    - [LESSON 14](unit2/lesson14): Pattern Matching
-    - [LESSON 15](unit2/lesson15): Anonymous Functions
+    - [LESSON 14](unit3/lesson14): Pattern Matching
+    - [LESSON 15](unit3/lesson15): Anonymous Functions
     - LESSON 16: Partial Functions
     - LESSON 17: HTTP API with http4s
     - LESSON 18: CAPSTONE 3
