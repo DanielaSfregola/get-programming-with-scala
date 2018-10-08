@@ -76,7 +76,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 15](unit3/lesson15): Anonymous Functions
     - LESSON 16: Partial Functions
     - LESSON 17: HTTP API with http4s
-    - LESSON 18: CAPSTONE 3
+    - [LESSON 18](unit3/lesson18): CAPSTONE 3
 
 - **UNIT 4: IMMUTABLE DATA AND STRUCTURES**
     - LESSON 19: Case classes to structure our data			
