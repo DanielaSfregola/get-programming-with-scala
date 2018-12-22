@@ -6,7 +6,7 @@ Perform the following operations in the REPL:
 3.	Quit the REPL using the appropriate REPL command.
 
 
-ANSWERS:
+ANSWER:
 
 1. scala> "na" * 3 + 42
    res1: String = nanana42

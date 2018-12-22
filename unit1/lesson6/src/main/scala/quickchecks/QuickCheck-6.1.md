@@ -6,7 +6,7 @@ Which of the following functions do not compile? Why?
 5.	def myFunc(x: Int): Int = x == 1
 6.	def myFunc(x: Int) = x == 1
 
-ANSWERS:
+ANSWER:
 
 The answers are the following:
 1.	It doesn’t compile: the parameter x must have a type.
