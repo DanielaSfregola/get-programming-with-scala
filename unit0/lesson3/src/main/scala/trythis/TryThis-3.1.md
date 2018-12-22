@@ -4,7 +4,7 @@ What is it going to happen? Validate your assumptions by running the modified co
 2.	Change your hello-world-template to print your name in the console: compile and run it using SBT.
 
 
-ANSWERS:
+ANSWER:
 
 1. SBT no longer recognizes the object Main as executable, so it throws an exception when executing the command "sbt run". More on this, when we are going to discuss traits in lesson 12.
 
