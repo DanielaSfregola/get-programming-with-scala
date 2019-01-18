@@ -80,44 +80,41 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 - **UNIT 4: IMMUTABLE DATA AND STRUCTURES**
     - LESSON 19: Case classes to structure our data			
-    - LESSON 20: Impure and Pure Functions				
-    - LESSON 21: High Order Functions
+    - LESSON 20: High Order Functions
+    - LESSON 21: What is Purity?				
     - LESSON 22: Option							
-    - LESSON 23: Working with Option					
-    - LESSON 24: List							
-    - LESSON 25: Map												
+    - LESSON 23: Working with Option: map and flatMap
+    - LESSON 24: Working with Option: for-comprehension
+    - LESSON 25: Tuple and Unapply
     - LESSON 26: CAPSTONE 4						
 
-- **UNIT 5: JSON (DE)SERIALIZATION**
-    - LESSON 27: Infix and Postfix Notation				
-    - LESSON 28: Traits as composable block of codes	     		
-    - LESSON 29: Lazy values						
-    - LESSON 30: Groups of Function Parameters				
-    - LESSON 31: Implicit functions and values				
-    - LESSON 32: The IO type						
-    - LESSON 33: JSON (De)serialization with circe				
-    - LESSON 34: CAPSTONE 5									
+- **UNIT 5: COLLECTIONS**
+    - LESSON 27: Infix and Postfix Notation		
+    - LESSON 28: List							
+    - LESSON 29: Working with List							
+    - LESSON 30: Set		
+    - LESSON 31: Map		
+    - LESSON 32: CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
-    - LESSON 35: Either
-    - LESSON 36: Tuple
-    - LESSON 37: Try: an operation that can fail
-    - LESSON 38: Working with Try
-    - LESSON 39: Database queries with quill
-    - LESSON 40: CAPSTONE 6
+    - LESSON 33: Either
+    - LESSON 34: Try: an operation that can fail
+    - LESSON 35: Working with Try
+    - LESSON 36: Database queries with quill
+    - LESSON 37: CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
-    - LESSON 41: Concurrency is hard!
-    - LESSON 42: Future
-    - LESSON 43: Working with Future
-    - LESSON 44: Applicative with cats
-    - LESSON 45: CAPSTONE 7
+    - LESSON 38: Future					
+    - LESSON 39: Working with Future: map and flatMap				
+    - LESSON 40: Working with Future: for-comprehension				
+    - LESSON 41: Future and Promise
+    - LESSON 42: CAPSTONE 7
 
-- **UNIT 8: DSL PROGRAMS**
-    - LESSON 46: Pimp your library
-    - LESSON 47: Generics: hide details that do not matter
-    - LESSON 48: Bound your types
-    - LESSON 49: Type Classes
-    - LESSON 50: Working with Type Classes
-    - LESSON 51: Useful type classes with cats
-    - LESSON 52: CAPSTONE 8
+- **UNIT 8: JSON (DE)SERIALIZATION**
+    - LESSON 43: Traits as composable block of codes	     										
+    - LESSON 44: Lazy values
+    - LESSON 45: By Name Parameters
+    - LESSON 46: Implicit functions and values				
+    - LESSON 47: The IO type						
+    - LESSON 48: JSON (De)serialization with circe				
+    - LESSON 49: CAPSTONE 8
