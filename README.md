@@ -86,7 +86,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 23: Working with Option: map and flatMap
     - LESSON 24: Working with Option: for-comprehension
     - LESSON 25: Tuple and Unapply
-    - LESSON 26: CAPSTONE 4						
+    - [LESSON 26](unit4/lesson26): CAPSTONE 4						
 
 - **UNIT 5: COLLECTIONS**
     - LESSON 27: Infix and Postfix Notation		
