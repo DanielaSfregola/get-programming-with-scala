@@ -85,7 +85,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 22: Option							
     - LESSON 23: Working with Option: map and flatMap
     - LESSON 24: Working with Option: for-comprehension
-    - LESSON 25: Tuple and Unapply
+    - [LESSON 25](unit4/lesson25): Tuple and Unapply
     - LESSON 26: CAPSTONE 4						
 
 - **UNIT 5: COLLECTIONS**
