@@ -89,11 +89,11 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - LESSON 26: CAPSTONE 4						
 
 - **UNIT 5: COLLECTIONS**
-    - LESSON 27: Infix and Postfix Notation		
-    - LESSON 28: List							
-    - LESSON 29: Working with List							
-    - LESSON 30: Set		
-    - LESSON 31: Map		
+    - LESSON 27: List							
+    - LESSON 28: Working with List							
+    - LESSON 29: Set		
+    - LESSON 30: Map		
+    - LESSON 31: Testing with ScalaTest	
     - LESSON 32: CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
