@@ -83,7 +83,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 20](unit4/lesson20): High Order Functions
     - [LESSON 21](unit4/lesson21): What is Purity?								
     - [LESSON 22](unit4/lesson22): Option		
-    - LESSON 23: Working with Option: map and flatMap
+    - [LESSON 23](unit4/lesson23): Working with Option: map and flatMap
     - LESSON 24: Working with Option: for-comprehension
     - LESSON 25: Tuple and Unapply
     - LESSON 26: CAPSTONE 4						
