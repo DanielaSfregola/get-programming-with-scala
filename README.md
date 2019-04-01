@@ -80,7 +80,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 - **UNIT 4: IMMUTABLE DATA AND STRUCTURES**
     - [LESSON 19](unit4/lesson19): Case classes to structure our data			
-    - LESSON 20: High Order Functions
+    - [LESSON 20](unit4/lesson20): High Order Functions
     - LESSON 21: What is Purity?				
     - LESSON 22: Option							
     - LESSON 23: Working with Option: map and flatMap
