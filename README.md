@@ -79,21 +79,21 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 18](unit3/lesson18): CAPSTONE 3
 
 - **UNIT 4: IMMUTABLE DATA AND STRUCTURES**
-    - LESSON 19: Case classes to structure our data			
-    - LESSON 20: High Order Functions
-    - LESSON 21: What is Purity?				
-    - LESSON 22: Option							
-    - LESSON 23: Working with Option: map and flatMap
-    - LESSON 24: Working with Option: for-comprehension
+    - [LESSON 19](unit4/lesson19): Case classes to structure our data			
+    - [LESSON 20](unit4/lesson20): High Order Functions
+    - [LESSON 21](unit4/lesson21): What is Purity?								
+    - [LESSON 22](unit4/lesson22): Option		
+    - [LESSON 23](unit4/lesson23): Working with Option: map and flatMap
+    - [LESSON 24](unit4/lesson24): Working with Option: for-comprehension
     - [LESSON 25](unit4/lesson25): Tuple and Unapply
     - LESSON 26: CAPSTONE 4						
 
 - **UNIT 5: COLLECTIONS**
-    - LESSON 27: Infix and Postfix Notation		
-    - LESSON 28: List							
-    - LESSON 29: Working with List							
-    - LESSON 30: Set		
-    - LESSON 31: Map		
+    - LESSON 27: List							
+    - LESSON 28: Working with List							
+    - LESSON 29: Set		
+    - LESSON 30: Map		
+    - LESSON 31: Testing with ScalaTest	
     - LESSON 32: CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
