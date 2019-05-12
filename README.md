@@ -90,31 +90,32 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 - **UNIT 5: COLLECTIONS**
     - LESSON 27: List							
-    - LESSON 28: Working with List							
-    - LESSON 29: Set		
-    - LESSON 30: Map		
-    - LESSON 31: Testing with ScalaTest	
-    - LESSON 32: CAPSTONE 5			
+    - LESSON 28: Working with List: basic operations
+    - LESSON 29: Working with List: advanced operations							
+    - LESSON 30: Set		
+    - LESSON 31: Map		
+    - LESSON 32: Testing with ScalaTest
+    - LESSON 33: CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
-    - LESSON 33: Either
-    - LESSON 34: Try: an operation that can fail
-    - LESSON 35: Working with Try
-    - LESSON 36: Database queries with quill
-    - LESSON 37: CAPSTONE 6
+    - LESSON 34: Either
+    - LESSON 35: Try: an operation that can fail
+    - LESSON 36: Working with Try
+    - LESSON 37: Database queries with quill
+    - LESSON 38: CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
-    - LESSON 38: Future					
-    - LESSON 39: Working with Future: map and flatMap				
-    - LESSON 40: Working with Future: for-comprehension				
-    - LESSON 41: Future and Promise
-    - LESSON 42: CAPSTONE 7
+    - LESSON 39: Future					
+    - LESSON 40: Working with Future: map and flatMap				
+    - LESSON 41: Working with Future: for-comprehension				
+    - LESSON 42: Future and Promise
+    - LESSON 43: CAPSTONE 7
 
 - **UNIT 8: JSON (DE)SERIALIZATION**
-    - LESSON 43: Traits as composable block of codes	     										
-    - LESSON 44: Lazy values
-    - LESSON 45: By Name Parameters
-    - LESSON 46: Implicit functions and values				
-    - LESSON 47: The IO type						
-    - LESSON 48: JSON (De)serialization with circe				
-    - LESSON 49: CAPSTONE 8
+    - LESSON 44: Traits as composable block of codes	     										
+    - LESSON 45: Lazy values
+    - LESSON 46: By Name Parameters
+    - LESSON 47: Implicit functions and values				
+    - LESSON 48: The IO type						
+    - LESSON 49: JSON (De)serialization with circe				
+    - LESSON 50: CAPSTONE 8
