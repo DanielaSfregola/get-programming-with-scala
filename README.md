@@ -90,32 +90,34 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 - **UNIT 5: COLLECTIONS**
     - LESSON 27: List							
-    - LESSON 28: Working with List: basic operations
-    - LESSON 29: Working with List: advanced operations							
-    - LESSON 30: Set		
-    - LESSON 31: Map		
-    - LESSON 32: Testing with ScalaTest
-    - LESSON 33: CAPSTONE 5			
+    - LESSON 28: Working with List: map and flatMap
+    - LESSON 29: Working with List: properties
+    - LESSON 30: Working with List: filtering
+    - LESSON 31: Working with List: element selection
+    - LESSON 32: Working with List: aggregation
+    - LESSON 33: Working with List: comparing							
+    - LESSON 34: Map and other collections
+    - LESSON 35: CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
-    - LESSON 34: Either
-    - LESSON 35: Try: an operation that can fail
-    - LESSON 36: Working with Try
-    - LESSON 37: Database queries with quill
-    - LESSON 38: CAPSTONE 6
+    - LESSON 36: Either
+    - LESSON 37: Try: an operation that can fail
+    - LESSON 38: Working with Try
+    - LESSON 39: Database queries with quill
+    - LESSON 40: CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
-    - LESSON 39: Future					
-    - LESSON 40: Working with Future: map and flatMap				
-    - LESSON 41: Working with Future: for-comprehension				
-    - LESSON 42: Future and Promise
-    - LESSON 43: CAPSTONE 7
+    - LESSON 41: Future					
+    - LESSON 42: Working with Future: map and flatMap				
+    - LESSON 43: Working with Future: for-comprehension				
+    - LESSON 44: Future and Promise
+    - LESSON 45: CAPSTONE 7
 
 - **UNIT 8: JSON (DE)SERIALIZATION**
-    - LESSON 44: Traits as composable block of codes	     										
-    - LESSON 45: Lazy values
-    - LESSON 46: By Name Parameters
-    - LESSON 47: Implicit functions and values				
-    - LESSON 48: The IO type						
-    - LESSON 49: JSON (De)serialization with circe				
-    - LESSON 50: CAPSTONE 8
+    - LESSON 46: Traits as composable block of codes	     										
+    - LESSON 47: Lazy values
+    - LESSON 48: By Name Parameters
+    - LESSON 49: Implicit functions and values				
+    - LESSON 50: The IO type						
+    - LESSON 51: JSON (De)serialization with circe				
+    - LESSON 52: CAPSTONE 8
