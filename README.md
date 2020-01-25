@@ -88,18 +88,18 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 25](unit4/lesson25): Tuple and Unapply
     - [LESSON 26](unit4/lesson26): CAPSTONE 4						
 
-- **UNIT 5: COLLECTIONS**
+- **UNIT 5: LIST**
     - [LESSON 27](unit5/lesson27): List							
-    - LESSON 28: Working with List: map and flatMap
+    - [LESSON 28](unit5/lesson28): Working with List: map and flatMap
     - [LESSON 29](unit5/lesson29): Working with List: properties
-    - LESSON 30: Working with List: filtering
-    - LESSON 31: Working with List: element selection
-    - LESSON 32: Working with List: aggregation
-    - LESSON 33: Working with List: comparing							
-    - LESSON 34: Map and other collections
-    - LESSON 35: CAPSTONE 5			
+    - [LESSON 30](unit5/lesson30): Working with List: element selection
+    - [LESSON 31](unit5/lesson31): Working with List: filtering
+    - [LESSON 32](unit5/lesson32): Working with List: sorting and other operations
+    - [LESSON 33](unit5/lesson33): CAPSTONE 5			
 
 - **UNIT 6: ERROR HANDLING AND DATA STORAGE**
+    - LESSON 34: Set							
+    - LESSON 35: Map
     - LESSON 36: Either
     - LESSON 37: Try: an operation that can fail
     - LESSON 38: Working with Try
