@@ -89,7 +89,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 26](unit4/lesson26): CAPSTONE 4						
 
 - **UNIT 5: COLLECTIONS**
-    - LESSON 27: List							
+    - [LESSON 27](unit5/lesson27): List							
     - LESSON 28: Working with List: map and flatMap
     - LESSON 29: Working with List: properties
     - LESSON 30: Working with List: filtering
