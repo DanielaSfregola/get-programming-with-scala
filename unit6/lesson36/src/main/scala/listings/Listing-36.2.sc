@@ -15,10 +15,10 @@ val jon = Student(id = 1, name = "Jon Snow")
 val daenerys = Student(id = 2, name = "Daenerys Targaryen")
 val arya = Student(id = 3, name = "Arya Stark")
 
-val studentExamSessions: Map[ExamSession, List[Student]] = Map(
+val registrations: Map[ExamSession, List[Student]] = Map(
   historySession -> List(jon, daenerys),
   chemistrySession -> List(jon, arya)
 )
 
 val mathSession = ExamSession("Math", localDate = LocalDate.now)
-studentExamSessions + (mathSession -> List(daenerys)) - chemistrySession
+registrations + (mathSession -> List(daenerys)) - chemistrySession
