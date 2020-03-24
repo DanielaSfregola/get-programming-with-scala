@@ -2,7 +2,7 @@ import java.time.LocalDate
 
 // Representing our data…
 case class Student(id: Int, name: String)
-case class ExamSession(topic: String, localDate: LocalDate)
+case class ExamSession(title: String, localDate: LocalDate)
 
 // Instances of ExamSession
 val historySession = ExamSession(
