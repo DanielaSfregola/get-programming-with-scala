@@ -1,7 +1,7 @@
 import java.time.LocalDate
 
 case class Student(id: Int, name: String)
-case class ExamSession(topic: String, localDate: LocalDate)
+case class ExamSession(title: String, localDate: LocalDate)
 
 def totExamSessions(registrations: Map[ExamSession, List[Student]]): Int =
   registrations.size
