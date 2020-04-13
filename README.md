@@ -97,14 +97,15 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 32](unit5/lesson32): Working with List: sorting and other operations
     - [LESSON 33](unit5/lesson33): CAPSTONE 5			
 
-- **UNIT 6: ERROR HANDLING AND DATA STORAGE**
-    - LESSON 34: Set							
-    - LESSON 35: Map
-    - LESSON 36: Either
-    - LESSON 37: Try: an operation that can fail
-    - LESSON 38: Working with Try
-    - LESSON 39: Database queries with quill
-    - LESSON 40: CAPSTONE 6
+- **UNIT 6: OTHER COLLECTIONS AND ERROR HANDLING**
+    - [LESSON 34](unit6/lesson34): Set							
+    - [LESSON 35](unit6/lesson35): Working with Set
+    - [LESSON 36](unit6/lesson36): Map
+    - [LESSON 37](unit6/lesson37): Working with Map
+    - [LESSON 38](unit6/lesson38): Either
+    - [LESSON 39](unit6/lesson39): Working with Either
+    - [LESSON 40](unit6/lesson40): Try: an operation that can fail
+    - [LESSON 41](unit6/lesson41): CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
     - LESSON 41: Future					
