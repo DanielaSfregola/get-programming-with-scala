@@ -104,7 +104,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 37](unit6/lesson37): Working with Map
     - [LESSON 38](unit6/lesson38): Either
     - [LESSON 39](unit6/lesson39): Working with Either
-    - [LESSON 40](unit6/lesson40): Try: an operation that can fail
+    - [LESSON 40](unit6/lesson40): Error Handling with Try
     - [LESSON 41](unit6/lesson41): CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
