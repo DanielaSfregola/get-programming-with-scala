@@ -97,27 +97,27 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 32](unit5/lesson32): Working with List: sorting and other operations
     - [LESSON 33](unit5/lesson33): CAPSTONE 5			
 
-- **UNIT 6: ERROR HANDLING AND DATA STORAGE**
-    - LESSON 34: Set							
-    - LESSON 35: Map
-    - LESSON 36: Either
-    - LESSON 37: Try: an operation that can fail
-    - LESSON 38: Working with Try
-    - LESSON 39: Database queries with quill
-    - LESSON 40: CAPSTONE 6
+- **UNIT 6: OTHER COLLECTIONS AND ERROR HANDLING**
+    - [LESSON 34](unit6/lesson34): Set							
+    - [LESSON 35](unit6/lesson35): Working with Set
+    - [LESSON 36](unit6/lesson36): Map
+    - [LESSON 37](unit6/lesson37): Working with Map
+    - [LESSON 38](unit6/lesson38): Either
+    - [LESSON 39](unit6/lesson39): Working with Either
+    - [LESSON 40](unit6/lesson40): Error Handling with Try
+    - [LESSON 41](unit6/lesson41): CAPSTONE 6
 
 - **UNIT 7: CONCURRENCY**
-    - LESSON 41: Future					
-    - LESSON 42: Working with Future: map and flatMap				
-    - LESSON 43: Working with Future: for-comprehension				
-    - LESSON 44: Future and Promise
-    - LESSON 45: CAPSTONE 7
+    - LESSON 42: Implicit functions and values
+    - LESSON 43: Future					
+    - LESSON 44: Working with Future: map and flatMap				
+    - LESSON 45: Working with Future: for-comprehension				
+    - LESSON 46: Database queries with quill
+    - LESSON 47: CAPSTONE 7
 
 - **UNIT 8: JSON (DE)SERIALIZATION**
-    - LESSON 46: Traits as composable block of codes	     										
-    - LESSON 47: Lazy values
-    - LESSON 48: By Name Parameters
-    - LESSON 49: Implicit functions and values				
-    - LESSON 50: The IO type						
-    - LESSON 51: JSON (De)serialization with circe				
+    - LESSON 48: JSON (De)serialization with circe
+    - LESSON 49: Lazy values
+    - LESSON 50: By Name Parameters
+    - LESSON 51: The IO type
     - LESSON 52: CAPSTONE 8
