@@ -1,5 +1,4 @@
-import scala.util.{Failure, Success, Try}
-import scala.util.control.NonFatal
+package scala.util
 
 object Try {
 
