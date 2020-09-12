@@ -24,29 +24,32 @@ import scala.concurrent.{ExecutionContext, Future}
 case class Customer(id: Int, name: String)
 case class Product(id: Int, title: String, creationDate: LocalDate)
 
-class ProductQueries(ctx: PostgresAsyncContext[SnakeCase.type])
-                        (implicit ec: ExecutionContext) {
+class ProductQueries(ctx: PostgresAsyncContext[SnakeCase.type]) {
   import ctx._
 
   private val products = quote { query[Product] }
 
-  def create(product: Product): Future[Long] = {
+  def create(product: Product)
+            (implicit ec: ExecutionContext): Future[Long] = {
     val q = quote { products.insert(product) }
     run(q)
   }
 
-  def allByTitle(title: String): Future[List[Product]] = {
+  def allByTitle(title: String)
+                (implicit ec: ExecutionContext): Future[List[Product]] = {
     val q = quote { products.filter(_.title == lift(title)) }
     run(q)
   }
 
-  def updateTitle(id: Int, title: String): Future[Long] = {
+  def updateTitle(id: Int, title: String)
+                 (implicit ec: ExecutionContext): Future[Long] = {
     val q = quote { products.filter(_.id == lift(id))
                     .update(_.title -> lift(title)) }
     run(q)
   }
 
-  def deleteById(id: Int): Future[Long] = {
+  def deleteById(id: Int)
+                (implicit ec: ExecutionContext): Future[Long] = {
     val q = quote {
       products.filter(_.id == lift(id)).delete
     }

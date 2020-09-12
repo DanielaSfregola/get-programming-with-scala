@@ -11,13 +11,13 @@ import scala.concurrent.{ExecutionContext, Future}
 
 case class Customer(id: Int, name: String)
 
-class CustomerQueries(ctx: PostgresAsyncContext[SnakeCase.type])
-                     (implicit ec: ExecutionContext) {
+class CustomerQueries(ctx: PostgresAsyncContext[SnakeCase.type]) {
   import ctx._
 
   private val customers = quote { query[Customer] }
 
-  def customersByName(name: String): Future[List[Customer]] = {
+  def customersByName(name: String)
+                     (implicit ec: ExecutionContext): Future[List[Customer]] = {
     val q = quote { customers.filter(_.name == lift(name)) }
     run(q)
   }
