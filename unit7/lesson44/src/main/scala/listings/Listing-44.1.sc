@@ -1,0 +1,24 @@
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext
+
+case class Availability(id: Int, quantity: Double)
+case class Order(id: Int, customerId: Int,
+                 productId: Int, quantity: Double)
+
+private def getAvailability(productId: Int)
+                           (implicit ec: ExecutionContext): Future[Availability] = ???
+
+private def createOrder(customerId: Int,
+                        productId: Int,
+                        quantity: Double): Order = ???
+
+def placeOrder(customerId: Int,
+               productId: Int,
+               quantity: Double)(implicit ec: ExecutionContext): Future[Order] = {
+  getAvailability(productId).map { availability =>
+    if (quantity <= availability.quantity)
+      createOrder(customerId = customerId, productId = productId, quantity)
+    else throw new IllegalStateException(
+      s"Product $productId unavailable: requested $quantity, available ${availability.quantity}")
+  }
+}
