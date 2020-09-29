@@ -62,21 +62,21 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 5](unit1/lesson5): Conditional Statements and Loops
     - [LESSON 6](unit1/lesson6): Function as the most fundamental block of code
     - [LESSON 7](unit1/lesson7): Classes as a representation of our world
-    - [LESSON 8](unit1/lesson8): CAPSTONE 1
+    - [LESSON 8](unit1/lesson8): CAPSTONE 1 - The Vending Machine
 
 - **UNIT 2: OBJECT-ORIENTED FUNDAMENTALS**
     - [LESSON 9](unit2/lesson9): Import and Create Packages
     - [LESSON 10](unit2/lesson10): Scope your code with Access Modifiers
     - [LESSON 11](unit2/lesson11): Singleton Objects
     - [LESSON 12](unit2/lesson12): Traits as interfaces
-    - [LESSON 13](unit2/lesson13): CAPSTONE 2
+    - [LESSON 13](unit2/lesson13): CAPSTONE 2 - What time is it?
 
 - **UNIT 3: HTTP SERVICE**
     - [LESSON 14](unit3/lesson14): Pattern Matching
     - [LESSON 15](unit3/lesson15): Anonymous Functions
     - [LESSON 16](unit3/lesson16): Partial Functions
     - [LESSON 17](unit3/lesson17): HTTP API with http4s
-    - [LESSON 18](unit3/lesson18): CAPSTONE 3
+    - [LESSON 18](unit3/lesson18): CAPSTONE 3- The Time HTTP Server
 
 - **UNIT 4: IMMUTABLE DATA AND STRUCTURES**
     - [LESSON 19](unit4/lesson19): Case classes to structure our data			
@@ -86,7 +86,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 23](unit4/lesson23): Working with Option: map and flatMap
     - [LESSON 24](unit4/lesson24): Working with Option: for-comprehension
     - [LESSON 25](unit4/lesson25): Tuple and Unapply
-    - [LESSON 26](unit4/lesson26): CAPSTONE 4						
+    - [LESSON 26](unit4/lesson26): CAPSTONE 4	- Rock, Paper, Scissors, Lizard, Spock!					
 
 - **UNIT 5: LIST**
     - [LESSON 27](unit5/lesson27): List							
@@ -95,7 +95,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 30](unit5/lesson30): Working with List: element selection
     - [LESSON 31](unit5/lesson31): Working with List: filtering
     - [LESSON 32](unit5/lesson32): Working with List: sorting and other operations
-    - [LESSON 33](unit5/lesson33): CAPSTONE 5			
+    - [LESSON 33](unit5/lesson33): CAPSTONE 5 – The Movies Dataset
 
 - **UNIT 6: OTHER COLLECTIONS AND ERROR HANDLING**
     - [LESSON 34](unit6/lesson34): Set							
@@ -105,7 +105,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 38](unit6/lesson38): Either
     - [LESSON 39](unit6/lesson39): Working with Either
     - [LESSON 40](unit6/lesson40): Error Handling with Try
-    - [LESSON 41](unit6/lesson41): CAPSTONE 6
+    - [LESSON 41](unit6/lesson41): CAPSTONE 6 – The Library Application
 
 - **UNIT 7: CONCURRENCY**
     - [LESSON 42](unit7/lesson42): Implicit and Type Classes
@@ -113,11 +113,11 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 44](unit7/lesson44): Working with Future: map and flatMap				
     - [LESSON 45](unit7/lesson45): Working with Future: for-comprehension and other operations			
     - [LESSON 46](unit7/lesson46): Database queries with quill
-    - [LESSON 47](unit7/lesson47): CAPSTONE 7
+    - [LESSON 47](unit7/lesson47): CAPSTONE 7 – The Quiz Application: Part 1
 
 - **UNIT 8: JSON (DE)SERIALIZATION**
     - LESSON 48: JSON (De)serialization with circe
     - LESSON 49: Lazy Evaluation
     - LESSON 50: The IO type
     - LESSON 51: Testing
-    - LESSON 52: CAPSTONE 8
+    - LESSON 52: CAPSTONE 8 – The Quiz Application: Part 2
