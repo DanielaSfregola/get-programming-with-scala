@@ -4,7 +4,8 @@ import io.getquill.{PostgresAsyncContext, SnakeCase}
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class GenericDao(ctx: PostgresAsyncContext[SnakeCase.type])(implicit ec: ExecutionContext) {
+class GenericDao(ctx: PostgresAsyncContext[SnakeCase.type])
+                (implicit ec: ExecutionContext) {
   import ctx._
 
   def testConnection(): Future[Boolean] = {

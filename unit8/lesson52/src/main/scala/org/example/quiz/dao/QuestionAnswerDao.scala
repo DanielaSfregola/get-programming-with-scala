@@ -1,6 +1,6 @@
 package org.example.quiz.dao
 
-import io.getquill.{SnakeCase, PostgresAsyncContext}
+import io.getquill.{PostgresAsyncContext, SnakeCase}
 import org.example.quiz.dao.records.{Answer, Question}
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -57,7 +57,6 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
     }
   }
 
-
   def deleteById(id: Long): Future[Boolean] = {
     val q = quote { questions.filter(_.id == lift(id) ).delete }
     run(q).map(_ > 0)
@@ -72,6 +71,7 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
     }
     run(q)
   }
+
 
 
 }
