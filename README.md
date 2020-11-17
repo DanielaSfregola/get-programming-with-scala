@@ -1,7 +1,7 @@
 # Get Programming with Scala
 Code, exercises, and answers for the book [Get Programming with Scala](https://www.manning.com/books/get-programming-with-scala?a_aid=daniela&a_bid=7cd2421c).
 
-Lessons are grouped per unit. Each lesson is a standalone SBT project and
+Lessons are grouped per unit. Each lesson is a standalone sbt project and
 it has the following three packages: `listings`, `quickchecks`, `trythis`.
 
 Have a look at the [Table of Contents](#table-of-contents) for links to all the available lessons.
@@ -9,7 +9,7 @@ Have a look at the [Table of Contents](#table-of-contents) for links to all the 
 ## Installation Requirements
 Make sure the following tools are installed:
  - JDK 8+
- - SBT
+ - sbt
 
 ## Running the Code
 
@@ -19,7 +19,7 @@ They can be interpreted interactively from the REPL by IDEs with dedicated Scala
 such as IntelliJ IDEA and ScalaIDE.
 
 If you a using a text editor or your IDE doesn't support Scala Worksheets,
-start the REPL from SBT:
+start the REPL from sbt:
 ```
 sbt console
 ```
@@ -29,7 +29,7 @@ and evaluate the file as follows:
 > :load /path/to/file.sc
 ```
 
-### Executable SBT Programs
+### Executable sbt Programs
 Some lessons are fully fleshed-out programs (files with extension \*.scala):
 in order to run them, they need to be compiled.
 First, navigate to the folder of the lesson you are interested in.
@@ -39,7 +39,7 @@ Suppose you want to review the code for lesson 8:
 cd unit1/lesson8
 ```
 
-Start SBT:
+Start sbt:
 ```
 sbt
 ```
@@ -55,7 +55,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 - **UNIT 0: HELLO SCALA!**
     - [LESSON 1](unit0/lesson1): Why Scala?
     - [LESSON 2](unit0/lesson2): Scala – The REPL
-    - [LESSON 3](unit0/lesson3): SBT – Scala Build Tool
+    - [LESSON 3](unit0/lesson3): sbt – Scala Build Tool
 
 - **UNIT 1:  THE BASICS**
     - [LESSON 4](unit1/lesson4): Values and Variables
@@ -116,8 +116,8 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 47](unit7/lesson47): CAPSTONE 7 – The Quiz Application: Part 1
 
 - **UNIT 8: JSON (DE)SERIALIZATION**
-    - LESSON 48: JSON (De)serialization with circe
-    - LESSON 49: Lazy Evaluation
-    - LESSON 50: The IO type
-    - LESSON 51: Testing
-    - LESSON 52: CAPSTONE 8 – The Quiz Application: Part 2
+    - [LESSON 48](unit8/lesson48): JSON (De)serialization with circe
+    - [LESSON 49](unit8/lesson49): Lazy Evaluation
+    - [LESSON 50](unit8/lesson50): The IO type
+    - [LESSON 51](unit8/lesson51): Working with the IO type
+    - [LESSON 52](unit8/lesson52): CAPSTONE 8 – The Quiz Application: Part 2
