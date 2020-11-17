@@ -1,0 +1,4481 @@
+"id","question_id","text","is_correct"
+0,0,"True",false
+1,0,"False",true
+2,1,"id Engine",false
+3,1,"Doom Engine",false
+4,1,"Source Engine",false
+5,1,"Quake Engine",true
+6,2,"False",false
+7,2,"True",true
+8,3,"False",false
+9,3,"True",true
+10,4,"Cancer",true
+11,4,"Sagittarius",false
+12,4,"Virgo",false
+13,4,"Libra",false
+14,5,"Thunderball",false
+15,5,"Goldfinger",false
+16,5,"From Russia with Love",false
+17,5,"Dr. No",true
+18,6,"Temple",false
+19,6,"Church",true
+20,6,"Mosque",false
+21,6,"Synagogue",false
+22,7,"Poland",true
+23,7,"Sweden",false
+24,7,"Italy",false
+25,7,"China",false
+26,8,"Washington",false
+27,8,"Urutora",true
+28,8,"Rungata",false
+29,8,"London",false
+30,9,"Subaru",false
+31,9,"Nissan",true
+32,9,"Honda",false
+33,9,"Hyundai",false
+34,10,"Cascading Style Sheet",true
+35,10,"Corrective Style Sheet",false
+36,10,"Counter Strike: Source",false
+37,10,"Computer Style Sheet",false
+38,11,"Egypt",false
+39,11,"Turkey",true
+40,11,"Greece",false
+41,11,"Syria",false
+42,12,"Champ",false
+43,12,"Marcel",true
+44,12,"George",false
+45,12,"Jojo",false
+46,13,"Toyota",true
+47,13,"Kawasaki",false
+48,13,"Yamaha",false
+49,13,"Honda",false
+50,14,"Anti-mass spectrometer",true
+51,14,"Dark fusion reactor",false
+52,14,"Dark fusion resonator",false
+53,14,"Oscillation generator",false
+54,15,"Vitrainium",true
+55,15,"Praseodymium",false
+56,15,"Lutetium",false
+57,15,"Hassium",false
+58,16,"Wish You Were Here",false
+59,16,"The Wall",true
+60,16,"The Dark Side of the Moon",false
+61,16,"Animals",false
+62,17,"Bhudapest",false
+63,17,"Budapast",false
+64,17,"Budapest",true
+65,17,"Boodapest",false
+66,18,"False",true
+67,18,"True",false
+68,19,"Iraq War",false
+69,19,"World War II",true
+70,19,"World War I",false
+71,19,"Vietnam War",false
+72,20,"Milk, Sugar Cane, Egg, and Wheat",false
+73,20,"Milk, Sugar, and Wheat",false
+74,20,"Milk, Sugar, Egg, and Wheat",true
+75,20,"Milk, Bread, Egg, and Wheat",false
+76,21,"Steve Blum",false
+77,21,"Yuri Lowenthal",false
+78,21,"Richard Epcar",false
+79,21,"Will Stamper",true
+80,22,"False",true
+81,22,"True",false
+82,23,"Japanese sea lion",false
+83,23,"Komodo dragon",true
+84,23,"Saudi gazelle",false
+85,23,"Tasmanian tiger",false
+86,24,"Babe Ruth",false
+87,24,"Mason Williams",false
+88,24,"Tino Martinez",false
+89,24,"Joe DiMaggio",true
+90,25,"True",true
+91,25,"False",false
+92,26,"Quantum Entanglement",false
+93,26,"Quantum Programming",false
+94,26,"Super Dense Coding",false
+95,26,"Quantum Teleportation",true
+96,27,"1992",false
+97,27,"1982",true
+98,27,"1972",false
+99,27,"1962",false
+100,28,"350",false
+101,28,"355",false
+102,28,"360",false
+103,28,"346",true
+104,29,"Kibibyte",true
+105,29,"Kelobyte",false
+106,29,"Kilobyte",false
+107,29,"Kylobyte",false
+108,30,"1986",false
+109,30,"1995",true
+110,30,"1989",false
+111,30,"1997",false
+112,31,"Mail Internet Mail Exchange",false
+113,31,"Multipurpose Internet Mail Extensions",true
+114,31,"Multipurpose Interleave Mail Exchange",false
+115,31,"Mail Interleave Method Exchange",false
+116,32,"Armin Arlelt",false
+117,32,"Mikasa Ackermann",false
+118,32,"Reiner Braun",true
+119,32,"Eren Jaeger",false
+120,33,"Demon Days",false
+121,33,"Plastic Beach",true
+122,33,"Humanz",false
+123,33,"The Fall",false
+124,34,"2",false
+125,34,"0",true
+126,34,"1",false
+127,34,"3",false
+128,35,"Magmar",false
+129,35,"Rhydon",false
+130,35,"Jynx",true
+131,35,"Electabuzz",false
+132,36,"Cairo",false
+133,36,"Beijing",false
+134,36,"Moscow",false
+135,36,"Sydney",true
+136,37,"Salton Sea",false
+137,37,"Caspian Sea",false
+138,37,"Aral Sea",false
+139,37,"Dead Sea",true
+140,38,"Snoop Dogg",false
+141,38,"Coolio",true
+142,38,"Dr Dre",false
+143,38,"Ice T",false
+144,39,"Rick &amp; Morty",true
+145,39,"South Park",false
+146,39,"American Dad",false
+147,39,"Family Guy",false
+148,40,"Kirisame Marisa",false
+149,40,"Hakurei Reimu",false
+150,40,"Kochiya Sanae",false
+151,40,"Izayoi Sakuya",true
+152,41,"Intestines",false
+153,41,"Heart",false
+154,41,"Liver",true
+155,41,"Stomach",false
+156,42,"Mausoleum of Maussollos",false
+157,42,"The Pyramids",false
+158,42,"Petra",true
+159,42,"Alhambra",false
+160,43,"Nerdcore",true
+161,43,"Christian",false
+162,43,"Horrorcore",false
+163,43,"Crunk",false
+164,44,"Method Man",false
+165,44,"Masta Killa",true
+166,44,"Inspectah Deck",false
+167,44,"GZA",false
+168,45,"3",false
+169,45,"1",true
+170,45,"2",false
+171,45,"4",false
+172,46,"False",false
+173,46,"True",true
+174,47,"October 21, 1994",false
+175,47,"July 11, 1992",false
+176,47,"March 26, 1995",true
+177,47,"February 14, 1993",false
+178,48,"Diamond &amp; Aquamarina",false
+179,48,"DJ Octavio &amp; Crusty Sean",false
+180,48,"Pearl &amp; Marina",true
+181,48,"Callie &amp; Marie",false
+182,49,"10",true
+183,49,"14",false
+184,49,"16",false
+185,49,"13",false
+186,50,"Batman v Superman: Black of Knight",false
+187,50,"Batman v Superman: Knightfall",false
+188,50,"Batman v Superman: Superapocalypse",false
+189,50,"Batman v Superman: Dawn of Justice",true
+190,51,"Phoenix",true
+191,51,"Montgomery",false
+192,51,"Raleigh",false
+193,51,"Tallahassee",false
+194,52,"Eagle",true
+195,52,"Bogey",false
+196,52,"Birdie",false
+197,52,"Albatross",false
+198,53,"A Tiger",false
+199,53,"A Dragon",false
+200,53,"A Lion",false
+201,53,"A Horse",true
+202,54,"Geddy Lee",false
+203,54,"John Rutsey",false
+204,54,"Alex Lifeson",false
+205,54,"Neil Peart",true
+206,55,"Walter White",true
+207,55,"Jesse Pinkman",false
+208,55,"Saul Goodman",false
+209,55,"Skyler White",false
+210,56,"Markup Language",true
+211,56,"Macro Language",false
+212,56,"Scripting Language",false
+213,56,"Programming Language",false
+214,57,"Talc",true
+215,57,"Gypsum",false
+216,57,"Quartz",false
+217,57,"Diamond",false
+218,58,"Vodka",false
+219,58,"Gin",false
+220,58,"Whisky",false
+221,58,"Rum",true
+222,59,"John Buchan",false
+223,59,"Graham Greene",false
+224,59,"Ian Fleming",true
+225,59,"Joseph Conrad",false
+226,60,"CeeLo Green",false
+227,60,"Pharrell Williams",false
+228,60,"John Legend",false
+229,60,"Aloe Blacc",true
+230,61,"Dubstep",false
+231,61,"Drum and Bass",false
+232,61,"House",false
+233,61,"Trance",true
+234,62,"Illyrians",true
+235,62,"Achaeans",false
+236,62,"Dorians",false
+237,62,"Ionians",false
+238,63,"False",false
+239,63,"True",true
+240,64,"1990",false
+241,64,"1891",false
+242,64,"1991",true
+243,64,"1992",false
+244,65,"True",true
+245,65,"False",false
+246,66,"Canada",true
+247,66,"United States",false
+248,66,"United Kingdom",false
+249,66,"Australia",false
+250,67,"Saudi Arabia",false
+251,67,"United States",false
+252,67,"Germany",false
+253,67,"Russia",true
+254,68,"Sailor Mars",false
+255,68,"Sailor Jupiter",false
+256,68,"Sailor Moon",true
+257,68,"Sailor Venus",false
+258,69,"Fnatic",false
+259,69,"Virtus.pro",false
+260,69,"Team Liquid",false
+261,69,"SK Gaming",true
+262,70,"Lucas",false
+263,70,"Mike",false
+264,70,"Eleven",true
+265,70,"Karen",false
+266,71,"Robbing Trains",true
+267,71,"Identity Fraud",false
+268,71,"Murder for Hire",false
+269,71,"Tax Evasion",false
+270,72,"Thomas Wesley Pentz",false
+271,72,"Joel Zimmerman",true
+272,72,"Sonny Moore",false
+273,72,"Adam Richard Wiles",false
+274,73,"Willow",false
+275,73,"Spark",true
+276,73,"Candela",false
+277,73,"Blanche",false
+278,74,"U.N. Owen Was Her",true
+279,74,"Septette for the Dead Princess",false
+280,74,"Pierrot of the Star-Spangled Banner",false
+281,74,"Flowering Night",false
+282,75,"Ren",false
+283,75,"Ram",false
+284,75,"Rin",true
+285,75,"Rem",false
+286,76,"2006",true
+287,76,"2007",false
+288,76,"2003",false
+289,76,"2004",false
+290,77,"1971",false
+291,77,"1981",false
+292,77,"1986",false
+293,77,"1997",true
+294,78,"Jun Mizutani (Japan)",false
+295,78,"Ma Long (China)",true
+296,78,"Vladimir Samsonov (Belarus)",false
+297,78,"Zhang Jike (China)",false
+298,79,"Uruguay",false
+299,79,"Suriname",true
+300,79,"Chile",false
+301,79,"Brazil",false
+302,80,"Build God, Then We&#039;ll Talk",true
+303,80,"Nails for Breakfast, Tacks for Snacks",false
+304,80,"I Write Sins Not Tragedies",false
+305,80,"Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off",false
+306,81,"Chicago Cubs",false
+307,81,"St. Louis Cardinals",false
+308,81,"Atlanta Braves",true
+309,81,"Cincinnati Reds",false
+310,82,"Kibbled Freaky Cow",false
+311,82,"Kentucky Fried Chicken",true
+312,82,"Kentucky Fresh Cheese",false
+313,82,"Kiwi Food Cut",false
+314,83,"10",false
+315,83,"8",true
+316,83,"6",false
+317,83,"12",false
+318,84,"376",true
+319,84,"346",false
+320,84,"364",false
+321,84,"427",false
+322,85,"Half-Life 2",false
+323,85,"Team Fortress",false
+324,85,"Half-Life",false
+325,85,"Counter-Strike 1.6",true
+326,86,"False",false
+327,86,"True",true
+328,87,"Orvillie",false
+329,87,"Gary",true
+330,87,"Squidette",false
+331,87,"Squidward",false
+332,88,"A rope",false
+333,88,"A window",false
+334,88,"A flag",true
+335,88,"A type of food",false
+336,89,"Sends out an advertisement for someone to move in.",true
+337,89,"Teleports a random person to the location.",false
+338,89,"Teleports somebody from somewhere on the planet it is placed.",false
+339,89,"Materializes a new being at it&#039;s location.",false
+340,90,"Termina",true
+341,90,"Gysahl",false
+342,90,"Hyrule",false
+343,90,"Besaid",false
+344,91,"France",false
+345,91,"Belgium",true
+346,91,"USA",false
+347,91,"Netherlands",false
+348,92,"Louis XIII",false
+349,92,"Louis XVI",false
+350,92,"Louis XIV",true
+351,92,"Louis XV",false
+352,93,"Prospit",false
+353,93,"Derse",true
+354,93,"Skaia",false
+355,93,"The Medium",false
+356,94,"Croatia",false
+357,94,"Serbia",true
+358,94,"Macedonia",false
+359,94,"Albania",false
+360,95,"Horse",false
+361,95,"Bull",true
+362,95,"Ox",false
+363,95,"Pig",false
+364,96,"Erwin Rommel",true
+365,96,"Wilhelm Keitel",false
+366,96,"Gerd von Rundstadt",false
+367,96,"Heinz Guderian ",false
+368,97,"The Lex Diamond Story",false
+369,97,"The Wild",false
+370,97,"Shaolin vs Wu-Tang",false
+371,97,"Only Built 4 Cuban Linx",true
+372,98,"2013",false
+373,98,"2018",true
+374,98,"2017",false
+375,98,"2011",false
+376,99,"Swiss Air",true
+377,99,"TWA",false
+378,99,"Air France",false
+379,99,"British Airways",false
+380,100,"True",false
+381,100,"False",true
+382,101,"Cellphone",false
+383,101,"Key",true
+384,101,"Sword",false
+385,101,"Pen",false
+386,102,"True",false
+387,102,"False",true
+388,103,"Homo Neanderthalensis",false
+389,103,"Homo Sapiens",true
+390,103,"Homo Erectus",false
+391,103,"Homo Ergaster",false
+392,104,"True",true
+393,104,"False",false
+394,105,"Jared Leto",true
+395,105,"Matthew Bellamy",false
+396,105,"Mike Shinoda",false
+397,105,"Gerard Way",false
+398,106,"Antofagasta",false
+399,106,"Copiap&oacute;",false
+400,106,"Santiago",true
+401,106,"Valpara&iacute;so",false
+402,107,"Chaldean Neo-Aramaic",false
+403,107,"Lishana Deni",true
+404,107,"Lishan Didan",false
+405,107,"Hulaul&aacute;",false
+406,108,"Serbia",true
+407,108,"Montenegro",false
+408,108,"Bosnia and Herzegovina",false
+409,108,"Croatia",false
+410,109,"Verstappen on Fire (Germany)",false
+411,109,"Schumacher&#039;s Ban (Britain)",false
+412,109,"Death of Ayrton Senna (San Marino)",true
+413,109,"The Showdown (Australia)",false
+414,110,"Florida",false
+415,110,"New York",false
+416,110,"California",true
+417,110,"Texas",false
+418,111,"Lake Victoria",true
+419,111,"Lake Turkana",false
+420,111,"Lake Tanganyika",false
+421,111,"Lake Malawi",false
+422,112,"True",false
+423,112,"False",true
+424,113,"Gallia",false
+425,113,"Hispania ",true
+426,113,"Asia",false
+427,113,"Italia",false
+428,114,"Pendleton Ward",true
+429,114,"Ben Bocquelet",false
+430,114,"Rebecca Sugar",false
+431,114,"J. G. Quintel",false
+432,115,"Knife Attack",false
+433,115,"House Fire",false
+434,115,"Gunshot",false
+435,115,"Drug Overdose",true
+436,116,"1776",true
+437,116,"1774",false
+438,116,"1777",false
+439,116,"1775",false
+440,117,"True",false
+441,117,"False",true
+442,118,"Game &amp; Watch",false
+443,118,"Mattel Auto Race",true
+444,118,"Game Boy",false
+445,118,"Microvision",false
+446,119,"Grand National Assembly Building",false
+447,119,"Palace of the Nation",false
+448,119,"Parliament Building",false
+449,119,"The White House",true
+450,120,"True",false
+451,120,"False",true
+452,121,"Wimbledon",false
+453,121,"Australian Open",false
+454,121,"French Open",false
+455,121,"US Open",true
+456,122,"Commodore 64",false
+457,122,"TRS-80",true
+458,122,"ZX Spectrum",false
+459,122,"Apple 3",false
+460,123,"Radiators",false
+461,123,"Pistons",true
+462,123,"Leaf Springs",false
+463,123,"ABS",false
+464,124,"Twilight Zone Tower of Terror",true
+465,124,"The Haunted Mansion",false
+466,124,"Peter Pan&#039;s Flight",false
+467,124,"Pirates of the Caribbean",false
+468,125,"Lady Lukara of the Great Hall",false
+469,125,"Dahar Master Kor",false
+470,125,"Kahless the Unforgettable",true
+471,125,"Molor the Unforgiving",false
+472,126,"Chief Keef",false
+473,126,"Johannes Brahms",false
+474,126,"Wolfgang Amadeus Mozart",false
+475,126,"Ludvig Van Beethoven",true
+476,127,"I came, I saw, I conquered",true
+477,127,"See no evil, hear no evil, speak no evil",false
+478,127,"Past, present, and future",false
+479,127,"Life, liberty, and happiness",false
+480,128,"False",false
+481,128,"True",true
+482,129,"Billy Corgan",false
+483,129,"Dave Navarro",true
+484,129,"Tom Morello ",false
+485,129,"Ed O&#039;Brien",false
+486,130,"False",true
+487,130,"True",false
+488,131,"True",false
+489,131,"False",true
+490,132,"Praetorian",false
+491,132,"Xenomorph",false
+492,132,"Yautja",true
+493,132,"Phocrex",false
+494,133,"Production I.G",true
+495,133,"Shaft",false
+496,133,"Trigger",false
+497,133,"Kyoto Animation",false
+498,134,"Arby&#039;s",true
+499,134,"McDonald&#039;s",false
+500,134,"Burger King",false
+501,134,"Wendy&#039;s",false
+502,135,"Sleeping with your eyes open",false
+503,135,"Swimming in freezing water",false
+504,135,"Finding shapes in clouds",true
+505,135,"Breaking glass with your voice",false
+506,136,"True",true
+507,136,"False",false
+508,137,"Portuguese Man-of-War",true
+509,137,"Irukandji",false
+510,137,"Sea Nettle",false
+511,137,"Sea Wasp",false
+512,138,"Max",false
+513,138,"Rocky",false
+514,138,"Lucky",false
+515,138,"Bandit",true
+516,139,"Honest Hearts ",true
+517,139,"Old World Blues",false
+518,139,"Lonesome Road",false
+519,139,"Dead Money",false
+520,140,"Flax",false
+521,140,"Hemp",false
+522,140,"Silk",false
+523,140,"Straw",true
+524,141,"Luffy",true
+525,141,"Smoker",false
+526,141,"Shanks",false
+527,141,"Zoro",false
+528,142,"D-Day",true
+529,142,"Atomic bombings of Hiroshima and Nagasaki",false
+530,142,"Attack on Pearl Harbor",false
+531,142,"The Liberation of Paris",false
+532,143,"Every Villain Is Limes",false
+533,143,"Every Villain Is Lemonade",false
+534,143,"Every Villain Is Lemons",true
+535,143,"Each Villain Is Lemonade",false
+536,144,"Margaret",false
+537,144,"Kate",false
+538,144,"Jenny",false
+539,144,"Candy",true
+540,145,"Shepard Tone",true
+541,145,"McGurck Effect",false
+542,145,"Glissandro Illusion",false
+543,145,"Fransen Effect",false
+544,146,"Peace of Westphalia",true
+545,146,"Treaty of Paris",false
+546,146,"Treaty of Versailles",false
+547,146,"Peace of Prague",false
+548,147,"The Elephant",false
+549,147,"The Butcher",false
+550,147,"Vlad",false
+551,147,"The Dentist",true
+552,148,"Aristaeus",true
+553,148,"Autonoe",false
+554,148,"Cephisso",false
+555,148,"Carme",false
+556,149,"Janet Jackson",false
+557,149,"Levi Stubbs",true
+558,149,"Joan Jett",false
+559,149,"Freddie Mercury",false
+560,150,"Minotaur",false
+561,150,"Skeleton",true
+562,150,"Werewolf",false
+563,150,"Vampire",false
+564,151,"Ashen Flask",false
+565,151,"Estus Flask",true
+566,151,"Health Potion",false
+567,151,"Orange Juice",false
+568,152,"True",true
+569,152,"False",false
+570,153,"June 17, 2001",false
+571,153,"September 29, 2003",false
+572,153,"January 14, 2005",false
+573,153,"May 20, 2003",true
+574,154,"False",false
+575,154,"True",true
+576,155,"2",false
+577,155,"3",false
+578,155,"5",false
+579,155,"0",true
+580,156,"Czar Nicholas II",false
+581,156,"Henry VIII",false
+582,156,"Marie Antoinette",true
+583,156,"Elizabeth I",false
+584,157,"Germany",false
+585,157,"The United States of America",true
+586,157,"Japan",false
+587,157,"United Kingdom",false
+588,158,"A potato",true
+589,158,"An apple",false
+590,158,"A tomato",false
+591,158,"A lemon",false
+592,159,"Cathinone",false
+593,159,"Glaucine",false
+594,159,"Ephedrine",false
+595,159,"Nicotine",true
+596,160,"False",true
+597,160,"True",false
+598,161,"Monopoly",true
+599,161,"Coppit",false
+600,161,"Pay Day",false
+601,161,"Cluedo",false
+602,162,"Pakistan",false
+603,162,"India",false
+604,162,"Egypt",false
+605,162,"Philippines",true
+606,163,"Crossbow",false
+607,163,"Slingshot",false
+608,163,"Spear",false
+609,163,"Boomerang ",true
+610,164,"Time And Resting Dimensions In Space",false
+611,164,"Toilet Aid Rope Dog Is Soup",false
+612,164,"Time And Relative Dimensions In Style",false
+613,164,"Time And Relative Dimensions In Space",true
+614,165,"Fiber Wire",false
+615,165,"Katana",false
+616,165,"Crowbar",true
+617,165,"Sledgehammer",false
+618,166,"RiDGiD STUDiOS",true
+619,166,"Billy Familia",false
+620,166,"VeganGainz",false
+621,166,"Dan Bell",false
+622,167,"True",false
+623,167,"False",true
+624,168,"Omega",false
+625,168,"Delta",false
+626,168,"Alpha",false
+627,168,"Sigma",true
+628,169,"5&prime; 9&Prime;",false
+629,169,"5&prime; 5&Prime;",false
+630,169,"5&prime; 7&Prime;",true
+631,169,"5&prime; 4&Prime;",false
+632,170,"DING Ning (China)",true
+633,170,"Ai FUKUHARA (Japan)",false
+634,170,"LI Xiaoxia (China)",false
+635,170,"Song KIM (North Korea)",false
+636,171,"Argentina",false
+637,171,"Chile",true
+638,171,"Brazil",false
+639,171,"Colombia",false
+640,172,"James Watt",true
+641,172,"Albert Einstein",false
+642,172,"Nikola Tesla",false
+643,172,"Alessandro Volta",false
+644,173,"GLaDOS",true
+645,173,"Atlas / P-Body",false
+646,173,"Wheatley",false
+647,173,"Cave Johnson",false
+648,174,"2014",false
+649,174,"2011",false
+650,174,"2013",false
+651,174,"2012",true
+652,175,"Humans",false
+653,175,"Newts",true
+654,175,"Sharks",false
+655,175,"Squids",false
+656,176,"1997",false
+657,176,"1992",false
+658,176,"1995",true
+659,176,"1989",false
+660,177,"Danyka Nadeau",false
+661,177,"Laura Brehm",true
+662,177,"Veela",false
+663,177,"Anna Yvette ",false
+664,178,"Michelin",false
+665,178,"Pirelli",false
+666,178,"Goodyear",true
+667,178,"Bridgestone",false
+668,179,"True",false
+669,179,"False",true
+670,180,"Tithi",false
+671,180,"New Delhi",true
+672,180,"Montreal",false
+673,180,"Bejing",false
+674,181,"Give Me A Dew",false
+675,181,"Do The Dew",false
+676,181,"Get&#039; that barefoot feelin&#039; drinkin&#039; Mountain Dew",false
+677,181,"Yahoo! Mountain Dew... It&#039;ll tickle your innards!",true
+678,182,"Call of Duty: Black Ops",false
+679,182,"Call of Duty: Modern Warfare 2",false
+680,182,"Call of Duty: World at War",true
+681,182,"Call of Duty: Black Ops III",false
+682,183,"Mini",true
+683,183,"Missile",false
+684,183,"Magic",false
+685,183,"Smash",false
+686,184,"Blazer",false
+687,184,"Another One",false
+688,184,"Princess",false
+689,184,"Worst One",true
+690,185,"The World",false
+691,185,"Made in Heaven",false
+692,185,"20th Century Boy",true
+693,185,"Star Platinum",false
+694,186,"Soviet Union",true
+695,186,"Japan",false
+696,186,"Italy",false
+697,186,"Germany",false
+698,187,"2003",false
+699,187,"2010",false
+700,187,"2001",false
+701,187,"2009",true
+702,188,"Maribor",false
+703,188,"Velenje",false
+704,188,"Ljubljana",true
+705,188,"Trbovlje",false
+706,189,"Eobard Thawne",false
+707,189,"Wally West",true
+708,189,"Jay Garrick",false
+709,189,"Johnny Quick",false
+710,190,"xebec",false
+711,190,"Kyoto Animation",false
+712,190,"Production I.G",false
+713,190,"Gonzo",true
+714,191,"Brave New World",true
+715,191,"Dance of Death",false
+716,191,"A Matter of Life and Death",false
+717,191,"Somewhere in Time",false
+718,192,"Missouri",false
+719,192,"Amazon",false
+720,192,"Nile",true
+721,192,"Yangtze",false
+722,193,"The Connells",true
+723,193,"R.E.M.",false
+724,193,"The Bangles",false
+725,193,"The Ocean Blue",false
+726,194,"12",true
+727,194,"10",false
+728,194,"14",false
+729,194,"16",false
+730,195," Panzer IV",false
+731,195,"Renault FT",true
+732,195,"M4 Sherman",false
+733,195,"Cromwell ",false
+734,196,"Miles Edgeworth",false
+735,196,"Mike Meekins",false
+736,196,"Lana Skye",false
+737,196,"Damon Gant",true
+738,197,"False",false
+739,197,"True",true
+740,198,"Kobe Bryant",false
+741,198,"Kareem Abdul-Jabbar",false
+742,198,"Kevin Garnett",false
+743,198,"Robert Parish",true
+744,199,"Jaller",false
+745,199,"Tahu",false
+746,199,"Vakama",false
+747,199,"Takua",true
+748,200,"Cursed to roll a boulder up a hill for eternity.",true
+749,200,"Standing in a lake filled with water he could not drink.",false
+750,200,"To fell a tree that regenerated after every axe swing.",false
+751,200,"Tied to a boulder for eternity, being pecked by birds.",false
+752,201,"True",false
+753,201,"False",true
+754,202,"October 29, 2003",true
+755,202,"December 1, 2003",false
+756,202,"November 14, 2002",false
+757,202,"July 18, 2004",false
+758,203,"Invasion of Poland (1939)",true
+759,203,"Invasion of Russia (1942)",false
+760,203,"Battle of Britain (1940)",false
+761,203,"Invasion of Normandy (1944)",false
+762,204,"&#039;While&#039; loops",false
+763,204,"&#039;If&#039; Statements",false
+764,204,"&#039;For&#039; loops",true
+765,204,"&#039;Do-while&#039; loops",false
+766,205,"Todd &amp; Mira",false
+767,205,"Jason &amp; Sarah",false
+768,205,"Thomas &amp; Martha",true
+769,205,"Joey &amp; Jackie",false
+770,206,"False",false
+771,206,"True",true
+772,207,"True",true
+773,207,"False",false
+774,208,"Joel Zimmerman",false
+775,208,"Terry Cavanagh",false
+776,208,"Magnus P&aring;lsson",true
+777,208,"Danny Baranowsky",false
+778,209,"Yarrow",false
+779,209,"Hydrangea",false
+780,209,"Lily of the Valley",true
+781,209,"Harebell",false
+782,210,"Sulfuric acid",true
+783,210,"Potassium chloride",false
+784,210,"Sodium chloride",false
+785,210,"Hydrochloric acid",false
+786,211,"16",false
+787,211,"13",false
+788,211,"18",true
+789,211,"15",false
+790,212,"Tron",false
+791,212,"Fantasia",false
+792,212,"The Black Cauldron",true
+793,212,"Toy Story",false
+794,213,"2009",false
+795,213,"2007",false
+796,213,"2011",true
+797,213,"2014",false
+798,214,"Segseu",false
+799,214,"Jeongsin",false
+800,214,"Simjang",true
+801,214,"Aejeong",false
+802,215,"Shia LeBouf",false
+803,215,"Gene Wilder",true
+804,215,"Peter Ostrum",false
+805,215,"Johnny Depp",false
+806,216,"True",true
+807,216,"False",false
+808,217,"Fly",false
+809,217,"Cut",false
+810,217,"Strength",false
+811,217,"Flash",true
+812,218,"Bentley",false
+813,218,"Opel",true
+814,218,"Bugatti",false
+815,218,"Porsche",false
+816,219,"Dicketson",false
+817,219,"Dixon",true
+818,219,"Grimes",false
+819,219,"Dickinson",false
+820,220,"Felis",false
+821,220,"Felidae",true
+822,220,"Cat",false
+823,220,"Felinae",false
+824,221,"Leaf-Spangled Banner",false
+825,221,"March of the Puck Drop",false
+826,221,"O Canada",true
+827,221,"O Red Maple",false
+828,222,"3",false
+829,222,"1",true
+830,222,"5",false
+831,222,"2",false
+832,223,"Graphics Processing Unit",false
+833,223,"Keyboard",false
+834,223,"Central Processing Unit",true
+835,223,"Motherboard",false
+836,224,"24",false
+837,224,"16",false
+838,224,"6",false
+839,224,"11",true
+840,225,"Ronald Wayne",false
+841,225,"Steve Wozniak",false
+842,225,"Steve Jobs",false
+843,225,"Jonathan Ive",true
+844,226,"False",false
+845,226,"True",true
+846,227,"Hong Kong",false
+847,227,"Toronto",false
+848,227,"Amsterdam",true
+849,227,"Rio de Janero",false
+850,228,"2000",true
+851,228,"2012",false
+852,228,"2008",false
+853,228,"1988",false
+854,229,"Puma",false
+855,229,"Leopard",false
+856,229,"Cheetah",true
+857,229,"Tiger",false
+858,230,"Operation Barbarossa",false
+859,230,"Operation Sunflower",false
+860,230,"Operation Typhoon",true
+861,230,"Case Blue",false
+862,231,"False",true
+863,231,"True",false
+864,232,"John Cleese",false
+865,232,"Terry Jones",true
+866,232,"Eric Idle",false
+867,232,"Graham Chapman",false
+868,233,"Tom Sheldon",false
+869,233,"Mario Frigo",false
+870,233,"Marcus Holloway",false
+871,233,"Rico Rodriguez",true
+872,234,"True",true
+873,234,"False",false
+874,235,"Contra",false
+875,235,"Dance Dance Revolution",false
+876,235,"Castlevania",false
+877,235,"Gradius",true
+878,236,"Pidgey",false
+879,236,"Pikachu",false
+880,236,"Bulbasaur",false
+881,236,"Clefairy",true
+882,237,"Metalcraft",true
+883,237,"Living Weapon",false
+884,237,"Affinity",false
+885,237,"Imprint",false
+886,238,"Li Shang",false
+887,238,"Shan Yu",true
+888,238,"Fa Zhou",false
+889,238,"Chien-Po",false
+890,239,"Shelby Miller",false
+891,239,"Jose Fernandez",true
+892,239,"Matt Harvey",false
+893,239,"Jacob deGrom",false
+894,240,"John Hobbes",false
+895,240,"Thomas Hobbes",true
+896,240,"David Hobbes",false
+897,240,"Nathaniel Hobbes",false
+898,241,"Ember Shot",false
+899,241,"Lava Axe",true
+900,241,"Stone-Throwing Devils",false
+901,241,"Throwing Knife",false
+902,242,"Nymph",false
+903,242,"Harpies",true
+904,242,"Lilith",false
+905,242,"Mermaids",false
+906,243,"30&#039;s",false
+907,243,"40&#039;s",false
+908,243,"50&#039;s",false
+909,243,"60&#039;s",true
+910,244,"Can&#039;t Help Falling in Love",true
+911,244,"In the Ghetto",false
+912,244,"Jailhouse Rock",false
+913,244,"Wooden Heart",false
+914,245,"Rihanna",false
+915,245,"Lady Gaga",false
+916,245,"Justin Bieber",false
+917,245,"Elton John",true
+918,246,"Russia and China",false
+919,246,"India and Pakistan",false
+920,246,"Canada and the United States",true
+921,246,"Chile and Argentina",false
+922,247,"Berlioz",false
+923,247,"Brahms",false
+924,247,"Mozart",false
+925,247,"Verdi",true
+926,248,"The Wild",false
+927,248,"Shaolin vs Wu-Tang",false
+928,248,"Only Built 4 Cuban Linx",true
+929,248,"The Lex Diamond Story",false
+930,249,"TT Type 1, Mark 3 (TARDIS)",false
+931,249,"TT Type 40, Mark 3 (TARDIS)",true
+932,249,"TT Type 40, Mark 5 (TARDIS)",false
+933,249,"TT Type 1, Mark 5 (TARDIS)",false
+934,250,"False",true
+935,250,"True",false
+936,251,"Michael Emerson",true
+937,251,"Taraji P. Henson",false
+938,251,"Jim Caviezel",false
+939,251,"Kevin Chapman",false
+940,252,"Pirates of the Caribbean ",false
+941,252,"Spy Kids",false
+942,252,"Harry Potter",true
+943,252,"Ted",false
+944,253,"Green",false
+945,253,"Brown",true
+946,253,"Blue",false
+947,253,"Yellow",false
+948,254,"Lets get this party started!",false
+949,254,"I am suffering, please help me.",false
+950,254,"I pray that my life ends soon.",false
+951,254,"I am in great pain, please help me.",true
+952,255,"Jacques",true
+953,255,"Jaques",false
+954,255,"Jak",false
+955,255,"John",false
+956,256,"Bashbug",false
+957,256,"Stagefright",false
+958,256,"Heartbleed",false
+959,256,"Shellshock",true
+960,257,"50",false
+961,257,"26",false
+962,257,"74",false
+963,257,"100",true
+964,258,"False",false
+965,258,"True",true
+966,259,"Dr. No",true
+967,259,"From Russia with Love",false
+968,259,"Goldfinger",false
+969,259,"Thunderball",false
+970,260,"Albus James Lunae Otto Dumbledore",false
+971,260,"Albus Valum Jetta Mobius Dumbledore",false
+972,260,"Albus Valencium Horatio Kul Dumbledore",false
+973,260,"Albus Percival Wulfric Brian Dumbledore",true
+974,261,"8",false
+975,261,"9",true
+976,261,"10",false
+977,261,"7",false
+978,262,"Prince of Wales Theatre",false
+979,262,"CN Tower",true
+980,262,"Allan Gardens",false
+981,262,"Union Station",false
+982,263,"Scud",true
+983,263,"Buster",false
+984,263,"Whiskers",false
+985,263,"Mr. Jones",false
+986,264,"True",true
+987,264,"False",false
+988,265,"True",true
+989,265,"False",false
+990,266,"True",true
+991,266,"False",false
+992,267,"Valkyrie",true
+993,267,"Molten Core",false
+994,267,"Earthshatter",false
+995,267,"Rocket Barrage",false
+996,268,"False",false
+997,268,"True",true
+998,269,"2011",false
+999,269,"2008",false
+1000,269,"2013",false
+1001,269,"2012",true
+1002,270,"Sonny Moore",false
+1003,270,"Adam Richard Wiles",false
+1004,270,"Joel Zimmerman",true
+1005,270,"Thomas Wesley Pentz",false
+1006,271,"Electronic Arts",false
+1007,271,"Activision",false
+1008,271,"Harmonix",true
+1009,271,"Konami",false
+1010,272,"April 23rd, 1564",true
+1011,272,"September 29th, 1699",false
+1012,272,"July 4th, 1409",false
+1013,272,"December 1st, 1750",false
+1014,273,"12",true
+1015,273,"36",false
+1016,273,"18",false
+1017,273,"6",false
+1018,274,"2003",false
+1019,274,"2007",false
+1020,274,"2006",true
+1021,274,"2004",false
+1022,275,"PixelTail Games",false
+1023,275,"Rare",false
+1024,275,"Insomniac Games",true
+1025,275,"Bethesda",false
+1026,276,"Las Venturas",false
+1027,276,"San Andreas",true
+1028,276,"San Fierro",false
+1029,276,"Vice City",false
+1030,277,"1971",false
+1031,277,"1997",true
+1032,277,"1981",false
+1033,277,"1986",false
+1034,278,"False",true
+1035,278,"True",false
+1036,279,"Cat",false
+1037,279,"Felis",false
+1038,279,"Felinae",false
+1039,279,"Felidae",true
+1040,280,"2001",false
+1041,280,"1999",false
+1042,280,"2006",false
+1043,280,"2003",true
+1044,281,"James Dougherty",true
+1045,281,"Joe Dimaggio",false
+1046,281,"Arthur Miller",false
+1047,281,"Kirk Douglas",false
+1048,282,"2002",false
+1049,282,"2003",false
+1050,282,"2006",true
+1051,282,"2007",false
+1052,283,"Because Diddy Kong forced him.",false
+1053,283,"He wants to punish brutes.",false
+1054,283,"He&#039;s the big kahuna.",true
+1055,283,"To find out where all the bananas are.",false
+1056,284,"King K. Rool",false
+1057,284,"Diddy Kong",false
+1058,284,"Kiddy Kong",false
+1059,284,"Eddie the Mean Old Yeti",true
+1060,285,"2012",true
+1061,285,"2010",false
+1062,285,"2015",false
+1063,285,"1967",false
+1064,286,"Ummagumma",false
+1065,286,"The Piper at the Gates of Dawn",true
+1066,286,"Atom Heart Mother",false
+1067,286,"More",false
+1068,287,"Tom Sheldon",false
+1069,287,"Marcus Holloway",false
+1070,287,"Mario Frigo",false
+1071,287,"Rico Rodriguez",true
+1072,288,"Camp Forest Green",false
+1073,288,"Packanack",false
+1074,288,"Camp Crystal Lake",true
+1075,288,"Higgins Haven",false
+1076,289,"Master Yen Sid",true
+1077,289,"Julius",false
+1078,289,"Kurt Zisa",false
+1079,289,"Sephiroth",false
+1080,290,"Hell Pigs",false
+1081,290,"Walkers",true
+1082,290,"Creepers",false
+1083,290,"Maggots",false
+1084,291,"Brazzaville",true
+1085,291,"Paris",false
+1086,291,"Algiers",false
+1087,291,"Tunis",false
+1088,292,"Sagittarius",false
+1089,292,"Aries",false
+1090,292,"Libra",true
+1091,292,"Capricorn",false
+1092,293,"New Mexico",true
+1093,293,"Arizona",false
+1094,293,"Nevada",false
+1095,293,"Wyoming",false
+1096,294,"The Magby Line",false
+1097,294,"The Elekid Line",false
+1098,294,"The Porygon Line",true
+1099,294,"The Pikachu Line",false
+1100,295,"Mortal Kombat: Armageddon",false
+1101,295,"Timesplitters: Future Perfect",true
+1102,295,"Marvel Vs. Capcom 2",false
+1103,295,"Dragon Ball Z: Budokai Tenkaichi 3",false
+1104,296,"Crimson Skies",false
+1105,296,"Deus Ex",false
+1106,296,"Jet Set Radio",false
+1107,296,"Ace Combat",true
+1108,297,"Piano",false
+1109,297,"Sax",false
+1110,297,"Bass",false
+1111,297,"Drums",true
+1112,298,"Euclid",false
+1113,298,"Homer",false
+1114,298,"Archimedes",true
+1115,298,"Eratosthenes",false
+1116,299,"Decrease in blood iron",false
+1117,299,"Increase in blood glucose",false
+1118,299,"Decrease in blood potassium",false
+1119,299,"Increase in blood sodium",true
+1120,300,"2.72",true
+1121,300,"1.41",false
+1122,300,"3.14",false
+1123,300,"1.62",false
+1124,301,"Dennis Quaid",false
+1125,301,"Brian Thompson",false
+1126,301,"Pete Postlethwaite",false
+1127,301,"Sean Connery",true
+1128,302,"John F. Kennedy",false
+1129,302,"Franklin Roosevelt",false
+1130,302,"Ronald Reagan",false
+1131,302,"Andrew Jackson",true
+1132,303,"Bull&rsquo;s-eye",false
+1133,303,"The Artful Dodger",true
+1134,303,"Fagin",false
+1135,303,"Mr. Fang",false
+1136,304,"Spacewar!",false
+1137,304,"Tennis for Two",true
+1138,304,"Pong",false
+1139,304,"Space Travel",false
+1140,305,"Pharrell Williams",false
+1141,305,"John Legend",false
+1142,305,"CeeLo Green",false
+1143,305,"Aloe Blacc",true
+1144,306,"Bentley",false
+1145,306,"Auto Union",false
+1146,306,"Alfa Romeo",true
+1147,306,"Mercedes Benz",false
+1148,307,"Bosnia and Herzegovina",false
+1149,307,"Croatia",false
+1150,307,"Montenegro",false
+1151,307,"Serbia",true
+1152,308,"False",false
+1153,308,"True",true
+1154,309,"8",false
+1155,309,"14",false
+1156,309,"6",false
+1157,309,"7",true
+1158,310,"August 19",true
+1159,310,"December 26",false
+1160,310,"August 21",false
+1161,310,"December 24",false
+1162,311,"Malta",false
+1163,311,"Monaco",true
+1164,311,"Liechenstein",false
+1165,311,"Bahrain",false
+1166,312,"Chapeau",true
+1167,312," Casque",false
+1168,312," &Eacute;charpe",false
+1169,312,"Bonnet",false
+1170,313,"True",false
+1171,313,"False",true
+1172,314,"Power Supply",false
+1173,314,"Video Card",true
+1174,314,"Processor",false
+1175,314,"Hard Drive",false
+1176,315,"4",false
+1177,315,"8",false
+1178,315,"10",true
+1179,315,"12",false
+1180,316,"Iacta alea est!",false
+1181,316,"Et tu, Brute? ",true
+1182,316,"Vidi, vini, vici.",false
+1183,316,"Aegri somnia vana.",false
+1184,317,"1337",false
+1185,317,"1432",false
+1186,317,"No code",false
+1187,317,"1111",true
+1188,318,"Electronic Arts",false
+1189,318,"Harmonix",true
+1190,318,"Activision",false
+1191,318,"Konami",false
+1192,319,"United Kingdom",true
+1193,319,"Italy",false
+1194,319,"Germany",false
+1195,319,"France",false
+1196,320,"P!nk",true
+1197,320,"Adam lambert",false
+1198,320,"Koven",false
+1199,320,"Mitis",false
+1200,321,"Bentley",false
+1201,321,"Opel",true
+1202,321,"Bugatti",false
+1203,321,"Porsche",false
+1204,322,"Mitsuteri Yokoyama",false
+1205,322,"Yoshihiro Tatsumi",false
+1206,322,"Osamu Tezuka",true
+1207,322,"Takao Saito",false
+1208,323,"Disney World",false
+1209,323,"Whistler, British Columbia",false
+1210,323,"Yosemite National Park",false
+1211,323,"Niagara Falls",true
+1212,324,"False",false
+1213,324,"True",true
+1214,325,"Reed Richards",false
+1215,325,"Henry Pym",true
+1216,325,"Tony Stark",false
+1217,325,"Amadeus Cho",false
+1218,326,"True",true
+1219,326,"False",false
+1220,327,"False",true
+1221,327,"True",false
+1222,328,"Roadhog",false
+1223,328,"McCree",true
+1224,328,"Soldier 76",false
+1225,328,"Junkrat",false
+1226,329,"Red Crow",true
+1227,329,"Skull Rain",false
+1228,329,"Velvet Shell",false
+1229,329,"Dust Line",false
+1230,330,"1435",false
+1231,330,"1454",false
+1232,330,"1453",true
+1233,330,"1440",false
+1234,331,"False",false
+1235,331,"True",true
+1236,332,"Pagani",false
+1237,332,"Ferrari",false
+1238,332,"Lamborghini",true
+1239,332,"Bugatti",false
+1240,333,"True",true
+1241,333,"False",false
+1242,334,"Quad Ectoplasmic Driver",false
+1243,334,"Quality Edward Device",false
+1244,334,"Question Every Dog",false
+1245,334,"Quantum Entanglement Device",true
+1246,335,"Sledgehammer Games",false
+1247,335,"Treyarch",true
+1248,335,"Naughty Dog",false
+1249,335,"Infinity Ward",false
+1250,336,"Alderaan",false
+1251,336,"Tatooine",false
+1252,336,"Stewjon",true
+1253,336,"Naboo",false
+1254,337,"False",false
+1255,337,"True",true
+1256,338,"&quot;A Fistful of Dollars&quot;, &quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;",true
+1257,338,"&quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;, &quot;A Fistful of Dollars&quot;",false
+1258,338,"&quot;The Good, the Bad, and the Ugly&quot;, &quot;For A Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;",false
+1259,338,"&quot;For a Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;, &quot;The Good, the Bad, and the Ugly&quot;",false
+1260,339,"Kate McKinnon",false
+1261,339,"Mikey Day",false
+1262,339,"Sasheer Zamata",false
+1263,339,"Tina Fey",true
+1264,340,"Europa Universalis",true
+1265,340,"Power in Europe",false
+1266,340,"Europe and the Universe",false
+1267,340,"Europa!",false
+1268,341,"Georgia",true
+1269,341,"Germany",false
+1270,341,"Russia",false
+1271,341,"Poland",false
+1272,342,"To make getting home runs harder.",false
+1273,342,"To provide extra seating.",false
+1274,342,"To prevent viewing games from outside the park.",true
+1275,342,"To display advertisements.",false
+1276,343,"American Football",true
+1277,343,"Horse-Racing",false
+1278,343,"Archery",false
+1279,343,"Wrestling",false
+1280,344,"Franklin Roosevelt",true
+1281,344,"George Washington",false
+1282,344,"Abraham Lincoln",false
+1283,344,"Theodore Roosevelt",false
+1284,345,"Dead Money",false
+1285,345,"Old World Blues",false
+1286,345,"Honest Hearts ",true
+1287,345,"Lonesome Road",false
+1288,346,"Dunning-Kruger effect",true
+1289,346,"Meyers-Briggs effect",false
+1290,346,"Freud-Hall effect",false
+1291,346,"M&uuml;ller-Lyer effect",false
+1292,347,"Tin",false
+1293,347,"Antimony",true
+1294,347,"Bromine",false
+1295,347,"Rubidium",false
+1296,348,"DD-445",true
+1297,348,"DD-444",false
+1298,348,"DD-446",false
+1299,348,"DD-992",false
+1300,349,"Gawin",false
+1301,349,"Malady",true
+1302,349,"Exter",false
+1303,349,"Meister Siva",false
+1304,350,"Wai Lin",false
+1305,350,"Vanessa Kensington",true
+1306,350,"Pam Bouvier",false
+1307,350,"Mary Goodnight",false
+1308,351,"Five",false
+1309,351,"Eight",false
+1310,351,"Six",true
+1311,351,"Seven",false
+1312,352,"The Poseidon  ",false
+1313,352,"The Atlantis",false
+1314,352,"The Neptune",false
+1315,352,"The Nautilus",true
+1316,353,"25,000",false
+1317,353,"15,000",false
+1318,353,"20,000",true
+1319,353,"10,000",false
+1320,354,"Mortal Kombat",true
+1321,354,"Duke Nukem",false
+1322,354,"Resident Evil",false
+1323,354,"Doom",false
+1324,355,"True",false
+1325,355,"False",true
+1326,356,"Chaser",false
+1327,356,"Keeper",false
+1328,356,"Beater",false
+1329,356,"Seeker",true
+1330,357,"59",false
+1331,357,"25",false
+1332,357,"50",true
+1333,357,"60",false
+1334,358,"False",false
+1335,358,"True",true
+1336,359,"Lesotho",true
+1337,359,"Zimbabwe",false
+1338,359,"Botswana",false
+1339,359,"Swaziland",false
+1340,360,"Arkham Origins",false
+1341,360,"Arkham Knight",false
+1342,360,"Arkham City",false
+1343,360,"Arkham Asylum",true
+1344,361,"Enki",false
+1345,361,"Enkimdu",false
+1346,361,"Enlil",false
+1347,361,"Enkidu",true
+1348,362,"$4750",true
+1349,362,"$5000",false
+1350,362,"$4650",false
+1351,362,"$4500",false
+1352,363,"True",true
+1353,363,"False",false
+1354,364,"Niger",false
+1355,364,"Mali",true
+1356,364,"Burkina Faso",false
+1357,364,"Senegal",false
+1358,365,"Pani puri",false
+1359,365,"Tandoori",true
+1360,365,"Tiki masala",false
+1361,365,"Biryani",false
+1362,366,"T-Virus",false
+1363,366,"Green Flu",true
+1364,366,"Yellow Fever",false
+1365,366,"Raspberry Sniffles",false
+1366,367,"Spaceman From Pluto",true
+1367,367,"The Time Travelers",false
+1368,367,"Hill Valley Time Travelers",false
+1369,367,"The Lucky Man",false
+1370,368,"True",true
+1371,368,"False",false
+1372,369,"Vulcan",false
+1373,369,"Mars",false
+1374,369,"Janus",true
+1375,369,"Juno",false
+1376,370,"Louis",false
+1377,370,"Zoey",false
+1378,370,"Nick",true
+1379,370,"Bill",false
+1380,371,"Purple",false
+1381,371,"Blue",false
+1382,371,"Red",false
+1383,371,"Green",true
+1384,372,"Final Fantasy III",true
+1385,372,"Final Fantasy II",false
+1386,372,"Final Fantasy VI",false
+1387,372,"Final Fantasy V",false
+1388,373,"1999",false
+1389,373,"2000",false
+1390,373,"2001",false
+1391,373,"1998",true
+1392,374,"1,960 ft",false
+1393,374,"1,225 ft",false
+1394,374,"1,776 ft",true
+1395,374,"1,888 ft",false
+1396,375,"MP9",false
+1397,375,"M4A4",true
+1398,375,"M4A1",false
+1399,375,"AWP",false
+1400,376,"Isaac Kleiner",true
+1401,376,"Gordon Freeman",false
+1402,376,"G-Man",false
+1403,376,"Alyx Vance",false
+1404,377,"Niagara Falls",true
+1405,377,"Disney World",false
+1406,377,"Whistler, British Columbia",false
+1407,377,"Yosemite National Park",false
+1408,378,"Down Syndrome",false
+1409,378,"Turner&#039;s Syndrome",false
+1410,378,"Jacob&#039;s Syndrome",true
+1411,378,"Klinefelter&#039;s Syndrome",false
+1412,379,"+44",true
+1413,379,"Blink-182",false
+1414,379,"Box Car Racer",false
+1415,379,"Angels &amp; Airwaves",false
+1416,380,"The Island",false
+1417,380,"Unthinkable",false
+1418,380,"American Pie",false
+1419,380,"Fight Club",true
+1420,381,"Pauline Bennett",false
+1421,381,"Helen Wood",true
+1422,381,"Christopher Hall",false
+1423,381,"Pavandeep &quot;Pav&quot; Paul",false
+1424,382,"Left 4 Dead 2",false
+1425,382,"Dota 2",false
+1426,382,"Portal 2",true
+1427,382,"Half-Life 3",false
+1428,383,"Daryl Dixon",false
+1429,383,"Rick Grimes",false
+1430,383,"Negan",false
+1431,383,"The Governor",true
+1432,384,"John O&#039;Groats",true
+1433,384,"Kearvaig",false
+1434,384,"Talmine",false
+1435,384,"Brawl",false
+1436,385,"Ohm",true
+1437,385,"Mho",false
+1438,385,"Joule",false
+1439,385,"Tesla",false
+1440,386,"Phil Lord",false
+1441,386,"Chris Miller",false
+1442,386,"Seth Rogan",false
+1443,386,"Edgar Wright",true
+1444,387,"1998",false
+1445,387,"2000",false
+1446,387,"1995",false
+1447,387,"1994",true
+1448,388,"Pinkie Pie",false
+1449,388,"Rarity",false
+1450,388,"Applejack",true
+1451,388,"Twilight Sparkle",false
+1452,389,"2011",false
+1453,389,"2013",true
+1454,389,"2014",false
+1455,389,"2009",false
+1456,390,"Resisting",false
+1457,390,"Intercepting",true
+1458,390,"Shielding",false
+1459,390,"Blocking",false
+1460,391,"Gustatory Perception",true
+1461,391,"Somatosensation",false
+1462,391,"Auditory Perception",false
+1463,391,"Olfaction",false
+1464,392,"Portuguese Man-of-War",true
+1465,392,"Sea Wasp",false
+1466,392,"Sea Nettle",false
+1467,392,"Irukandji",false
+1468,393,"True",false
+1469,393,"False",true
+1470,394,"Ohm",false
+1471,394,"Hertz",false
+1472,394,"Volt",true
+1473,394,"Pascal",false
+1474,395,"SG553",false
+1475,395,"USP-S",false
+1476,395,"R8 Revolver",false
+1477,395,"XM1014",true
+1478,396,"Justice",false
+1479,396,"Swampy",true
+1480,396,"Crocky",false
+1481,396,"Cranky",false
+1482,397,"Mariner 4",true
+1483,397,"Apollo 11",false
+1484,397,"SMART-1",false
+1485,397,"Luna 2",false
+1486,398,"Tetripiece",false
+1487,398,"Tetratile",false
+1488,398,"Tetromino",true
+1489,398,"Tetris",false
+1490,399,"7.9 Billion Years",false
+1491,399,"16.2 Billion Years",false
+1492,399,"13.8 Billion Years",true
+1493,399,"4.5 Billion Years",false
+1494,400,"Harry Potter",true
+1495,400,"Pirates of the Caribbean ",false
+1496,400,"Ted",false
+1497,400,"Spy Kids",false
+1498,401,"Sudbury, Ontario",true
+1499,401,"Calgary, Alberta",false
+1500,401,"Victoria, British Columbia",false
+1501,401,"Halifax, Nova Scotia ",false
+1502,402,"500",false
+1503,402,"512",false
+1504,402,"1024",false
+1505,402,"1000",true
+1506,403,"Magical Mystery Tour",false
+1507,403,"The Wall",true
+1508,403,"Abbey Road",false
+1509,403,"Revolver",false
+1510,404,"False",true
+1511,404,"True",false
+1512,405,"Panau",true
+1513,405,"Palau",false
+1514,405,"Macau",false
+1515,405,"Davao",false
+1516,406,"False",false
+1517,406,"True",true
+1518,407,"Single",false
+1519,407,"Subscriber",true
+1520,407,"Solid",false
+1521,407,"Secure",false
+1522,408,"Texan Capitalist Radio",false
+1523,408,"True Conservative Radio",true
+1524,408,"United Capitalists",false
+1525,408,"True Republican Radio",false
+1526,409,"Looking up and down",true
+1527,409,"Highly-detailed textures",false
+1528,409,"Increased room sizes",false
+1529,409,"Unlimited weapons",false
+1530,410,"Cyprus",true
+1531,410,"Malta",false
+1532,410,"Greece",false
+1533,410,"Portugal",false
+1534,411,"False",true
+1535,411,"True",false
+1536,412,"True",false
+1537,412,"False",true
+1538,413,"True",true
+1539,413,"False",false
+1540,414,"True",true
+1541,414,"False",false
+1542,415,"Chile",true
+1543,415,"Brazil",false
+1544,415,"Peru",false
+1545,415,"Argentina",false
+1546,416,"1999",false
+1547,416,"1998",false
+1548,416,"1996",false
+1549,416,"1997",true
+1550,417,"12",true
+1551,417,"21",false
+1552,417,"19",false
+1553,417,"25",false
+1554,418,"True",true
+1555,418,"False",false
+1556,419,"Chiron",false
+1557,419,"Huayra",false
+1558,419,"918",false
+1559,419,"Aventador",true
+1560,420,"The Institute",false
+1561,420,"The Minutemen",false
+1562,420,"The Brotherhood of Steel",false
+1563,420,"The Enclave",true
+1564,421,"False",false
+1565,421,"True",true
+1566,422,"Capcom",false
+1567,422,"Blizzard Entertainment",false
+1568,422,"Interplay Entertainment ",true
+1569,422,"Nintendo",false
+1570,423,"1986",false
+1571,423,"1985",false
+1572,423,"1983",false
+1573,423,"1984",true
+1574,424,"Visual novel",true
+1575,424,"Anime",false
+1576,424,"Light novel",false
+1577,424,"Manga",false
+1578,425,"True",false
+1579,425,"False",true
+1580,426,"Print",true
+1581,426,"Look",false
+1582,426,"Digest",false
+1583,426,"Read",false
+1584,427,"Sarah Kerrigan",true
+1585,427,"Princess Peach",false
+1586,427,"Zoey",false
+1587,427,"Cortana",false
+1588,428,"5 years",false
+1589,428,"7 years",false
+1590,428,"6 years",true
+1591,428,"4 years",false
+1592,429,"Here Comes Santa Claus",false
+1593,429,"Rudolph the Red-Nosed Reindeer",false
+1594,429,"White Christmas",true
+1595,429,"Frosty the Snowman",false
+1596,430,"GEnie",false
+1597,430,"Quantum Link",true
+1598,430,"Prodigy",false
+1599,430,"CompuServe",false
+1600,431,"They&#039;re co-workers",false
+1601,431,"They&#039;re friends",false
+1602,431,"They&#039;re half-siblings",true
+1603,431,"They&#039;re both attorneys",false
+1604,432,"Generator 4",false
+1605,432,"Generator 5",true
+1606,432,"Excavation Site",false
+1607,432,"Generator 3",false
+1608,433,"Operation Typhoon",true
+1609,433,"Operation Sunflower",false
+1610,433,"Case Blue",false
+1611,433,"Operation Barbarossa",false
+1612,434,"False",false
+1613,434,"True",true
+1614,435,"Bertolt Hoover",true
+1615,435,"Reiner",false
+1616,435,"Eren",false
+1617,435,"Sasha",false
+1618,436,"All of these songs",true
+1619,436,"All Along the Watchtower",false
+1620,436,"House of the Rising Sun",false
+1621,436,"Sgt. Pepper&#039;s Lonely Hearts Club Band",false
+1622,437,"1",false
+1623,437,"0",true
+1624,437,"2",false
+1625,437,"3",false
+1626,438,"Don&#039;t Drink The Water",false
+1627,438,"Pantala Naga Pampa",true
+1628,438,"Rapunzel",false
+1629,438,"Stay (Wasting Time)",false
+1630,439,"The Dark Side of the Moon",false
+1631,439,"Wish You Were Here",false
+1632,439,"Animals",false
+1633,439,"Moving Pictures",true
+1634,440,"Sue Nicholls",false
+1635,440,"Violet Carson",false
+1636,440,"Amanda Barrie",true
+1637,440,"Jean Alexander",false
+1638,441,"Michael de Santa",false
+1639,441,"Franklin Clinton",false
+1640,441,"Trevor Phillips",false
+1641,441,"Tommy Vercetti",true
+1642,442,"Mario Lemieux ",false
+1643,442,"Gordie Howe",false
+1644,442,"Sidney Crosby",false
+1645,442,"Wayne Gretzky",true
+1646,443,"Kanye West",false
+1647,443,"Tove Lo",false
+1648,443,"Charli XCX",false
+1649,443,"Lorde",true
+1650,444,"Root Ball",false
+1651,444,"Male Flower",false
+1652,444,"Female Flower",true
+1653,444,"Leaves",false
+1654,445,"Part 5: Golden Wind",false
+1655,445,"Part 3: Stardust Crusaders",false
+1656,445,"Part 6: Stone Ocean",false
+1657,445,"Part 7: Steel Ball Run",true
+1658,446,"The Seattle Seahawks &amp; The Denver Broncos",false
+1659,446,"The New York Giants &amp; The New England Patriots",true
+1660,446,"The Philadelphia Eagles &amp; The New England Patriots",false
+1661,446,"The Green Bay Packers &amp; The Pittsburgh Steelers",false
+1662,447,"Ad hominem",true
+1663,447,"Argumentum ad populum",false
+1664,447,"Tu quoque",false
+1665,447,"Post hoc ergo propter hoc",false
+1666,448,"South Sudan",false
+1667,448,"Montenegro",false
+1668,448,"Tuvalu",false
+1669,448,"Niue",true
+1670,449,"3, 9, 11, 12, 15, 17,",false
+1671,449,"55730",false
+1672,449,"4, 8, 15, 16, 23, 42",false
+1673,449,"11037",true
+1674,450,"Monster Hunter",false
+1675,450,"The Legend of Zelda",false
+1676,450,"Final Fantasy ",false
+1677,450,"Souls ",true
+1678,451,"Nuts",true
+1679,451,"Fruit",false
+1680,451,"Seaweed",false
+1681,451,"Nothing",false
+1682,452,"Elton John",false
+1683,452,"Michael Jackson",false
+1684,452,"The Beatles",true
+1685,452,"Elvis Presley",false
+1686,453,"Johnny Depp",true
+1687,453," Clint Eastwood",false
+1688,453,"Ben Stiller",false
+1689,453,"Leonardo DiCaprio",false
+1690,454,"178",false
+1691,454,"201",false
+1692,454,"195",true
+1693,454,"153",false
+1694,455,"Bandung",false
+1695,455,"Jakarta",true
+1696,455,"Medan",false
+1697,455,"Palembang",false
+1698,456,"Chocolate syrup",true
+1699,456,"Ketchup",false
+1700,456,"Maple syrup",false
+1701,456,"Red food coloring",false
+1702,457,"False",true
+1703,457,"True",false
+1704,458,"July 19, 2009",false
+1705,458,"February 14, 2005",true
+1706,458,"September 12, 2005",false
+1707,458,"May 22, 2004",false
+1708,459,"Sweden",false
+1709,459,"China",false
+1710,459,"Poland",true
+1711,459,"Italy",false
+1712,460,"Esharhaddon",false
+1713,460,"Ashur-nasir-pal II",false
+1714,460,"Shalmaneser V",false
+1715,460,"Shamshi-Adad III",true
+1716,461,".gif",false
+1717,461,".png",false
+1718,461,".svg",true
+1719,461,".jpeg",false
+1720,462,"1702",false
+1721,462,"1402",false
+1722,462,"1602",false
+1723,462,"1502",true
+1724,463,"True",false
+1725,463,"False",true
+1726,464,"Bill",false
+1727,464,"Nick",true
+1728,464,"Louis",false
+1729,464,"Zoey",false
+1730,465,"Glass",true
+1731,465,"Diamonds",false
+1732,465,"Mirrors",false
+1733,465,"Purity",false
+1734,466,"Ame &amp; Hana",false
+1735,466,"Chuck &amp; Anna",false
+1736,466,"Ame &amp; Yuki",true
+1737,466,"Hana &amp; Yuki",false
+1738,467,"German Chocolate",false
+1739,467,"Devil&#039;s Food",false
+1740,467,"Molten Chocolate",false
+1741,467,"Black Forest",true
+1742,468,"London",false
+1743,468,"Paris",false
+1744,468,"Bellevue",false
+1745,468,"Las Vegas",true
+1746,469,"Red Crow",true
+1747,469,"Velvet Shell",false
+1748,469,"Dust Line",false
+1749,469,"Skull Rain",false
+1750,470,"Albert Putin",false
+1751,470,"The Polish President",true
+1752,470,"Bang-Ding Ow",false
+1753,470,"Pope John Paul II",false
+1754,471,"Elder Tale",true
+1755,471,"Yggdrasil",false
+1756,471,"Sword Art Online",false
+1757,471,"Tower Unite",false
+1758,472,"Kaltag, Nikki, and Star",true
+1759,472,"Nuk, Yak, and Sumac",false
+1760,472,"Jenna, Sylvie, and Dixie",false
+1761,472,"Dusty, Kirby, and Ralph",false
+1762,473,"Deer",false
+1763,473,"Leaf",true
+1764,473,"Roots",false
+1765,473,"Tree",false
+1766,474,"Martin Holmes",false
+1767,474,"Herbie Hancock Holmes",false
+1768,474,"Mederi Holmes",false
+1769,474,"Mycroft Holmes",true
+1770,475,"400",false
+1771,475,"200",false
+1772,475,"300",true
+1773,475,"100",false
+1774,476,"Half Wolf / Half Bear",false
+1775,476,"Half Tiger /  Half Human",false
+1776,476,"A Human",false
+1777,476,"Half Human / Half Bear",true
+1778,477,"Bank of Charlotte",false
+1779,477,"Bank of Italy",true
+1780,477,"Bank of Pennsylvania",false
+1781,477,"Bank of Long Island",false
+1782,478,"Rei Hino",false
+1783,478,"Usagi Tsukino",false
+1784,478,"Makoto Kino",true
+1785,478,"Minako Aino",false
+1786,479,"Dennis Miller",false
+1787,479,"Matthew Perry",false
+1788,479,"George Clooney",true
+1789,479,"Pierce Brosnan",false
+1790,480,"Laura Roslin",true
+1791,480,"Harry Stills",false
+1792,480,"Tricia Helfer",false
+1793,480,"William Adama",false
+1794,481,"False",false
+1795,481,"True",true
+1796,482,"Born to be Wild",false
+1797,482,"Eye Of The Tiger",false
+1798,482,"Ruby Ring",false
+1799,482,"I Don&#039;t Want to Miss a Thing",true
+1800,483,"Blue",false
+1801,483,"Pink",false
+1802,483,"Red",true
+1803,483,"Green",false
+1804,484,"iAmBatman",false
+1805,484,"JonDoe297",true
+1806,484,"BWayne13",false
+1807,484,"BW1129",false
+1808,485,"Pamela",true
+1809,485,"Mary",false
+1810,485,"Angeline",false
+1811,485,"Christine",false
+1812,486,"Vodka",false
+1813,486,"Anti-rad",false
+1814,486,"Medkit",false
+1815,486,"Radioprotectant",true
+1816,487,"False",true
+1817,487,"True",false
+1818,488,"London, England",false
+1819,488,"Barcelona, Spain",false
+1820,488,"Berlin, Germany",false
+1821,488,"Rome, Italy",true
+1822,489,"Tunis",false
+1823,489,"Paris",false
+1824,489,"Brazzaville",true
+1825,489,"Algiers",false
+1826,490,"R.E.M.",true
+1827,490,"U2",false
+1828,490,"The Rolling Stones",false
+1829,490,"Coldplay",false
+1830,491,"Alexander Kerensky",false
+1831,491,"Robert Owen",false
+1832,491,"Friedrich Engels",true
+1833,491,"Paul Lafargue",false
+1834,492,"Grand Theft Auto Vice City",false
+1835,492,"Grand Theft Auto III",true
+1836,492,"Grand Theft Auto",false
+1837,492,"Grand Theft Auto II",false
+1838,493,"Abigail ",false
+1839,493,"Elliott",false
+1840,493,"Haley",true
+1841,493,"Lewis",false
+1842,494,"Somalia",false
+1843,494,"Guyana",true
+1844,494,"Liberia",false
+1845,494,"Senegal",false
+1846,495,"True",true
+1847,495,"False",false
+1848,496,"Half-life and Counter Strike",false
+1849,496,"Half-life and Portal",true
+1850,496,"Half-life and Left 4 Dead",false
+1851,496,"Portal and Left 4 Dead",false
+1852,497,"True",false
+1853,497,"False",true
+1854,498,"Kevin Spacey",false
+1855,498,"Steve Buscemi",true
+1856,498,"Gabriel Byrne",false
+1857,498,"Benicio Del Toro",false
+1858,499,"MC.princess",false
+1859,499,"Kidnotsquid123",false
+1860,499,"I&lt;30ffTh3H00k",false
+1861,499,"DJ_Hyperfresh",true
+1862,500,"Mercedes",false
+1863,500,"Ferrari",false
+1864,500,"Jordan",true
+1865,500,"Benetton",false
+1866,501,"Ontario",false
+1867,501,"Quebec",true
+1868,501,"Alberta",false
+1869,501,"Nova Scotia",false
+1870,502,"False",false
+1871,502,"True",true
+1872,503,"True",false
+1873,503,"False",true
+1874,504,"The Weeknd",false
+1875,504,"Ellie Goulding",false
+1876,504,"Selena Gomez",false
+1877,504,"Justin Bieber",true
+1878,505,"Manhattan",false
+1879,505,"Screwdriver",false
+1880,505,"Rusty Nail",true
+1881,505,"Sex on the Beach",false
+1882,506,"From Here to Eternity",false
+1883,506,"Anchors Aweigh",false
+1884,506,"High Society",false
+1885,506,"Guys and Dolls",true
+1886,507,"20",false
+1887,507,"32",true
+1888,507,"16",false
+1889,507,"36",false
+1890,508,"David Hockney",false
+1891,508,"Andy Warhol",true
+1892,508,"Peter Blake",false
+1893,508,"Roy Lichtenstein",false
+1894,509,"Oregon, Idaho, Nevada, Utah",false
+1895,509,"Utah, Colorado, Arizona, New Mexico",true
+1896,509,"Kansas, Oklahoma, Arkansas, Louisiana",false
+1897,509,"South Dakota, Minnesota, Nebraska, Iowa",false
+1898,510,"The Beatles",false
+1899,510,"Foreigner",false
+1900,510,"Def Leppard",true
+1901,510,"Lynyrd Skynyrd",false
+1902,511,"C++",false
+1903,511,"Java",false
+1904,511,"C#",true
+1905,511,"Objective-C",false
+1906,512,"True",false
+1907,512,"False",true
+1908,513,"1000  km/h",true
+1909,513,"500 km/h",false
+1910,513,"100 km/h",false
+1911,513,"320 km/h",false
+1912,514,"Burgundy",false
+1913,514,"Blonde",true
+1914,514,"Brunette",false
+1915,514,"Black",false
+1916,515,"United Kingdom",false
+1917,515,"Belgium",false
+1918,515,"Switzerland",true
+1919,515,"France",false
+1920,516,"Germany",false
+1921,516,"Saudi Arabia",false
+1922,516,"Russia",true
+1923,516,"United States",false
+1924,517,"Uganda",false
+1925,517,"Bolivia",false
+1926,517,"Qatar",true
+1927,517,"Vietnam",false
+1928,518,"1998",false
+1929,518,"1997",true
+1930,518,"1999",false
+1931,518,"1996",false
+1932,519,"False",false
+1933,519,"True",true
+1934,520,"Cthulu",false
+1935,520,"Spike",false
+1936,520,"Hydra",true
+1937,520,"Tremor",false
+1938,521,"53,596",false
+1939,521,"53,593",false
+1940,521,"53,595",false
+1941,521,"53,594",true
+1942,522,"George Washington",false
+1943,522,"Benjamin Franklin",true
+1944,522,"Abraham Lincoln",false
+1945,522,"Thomas Jefferson",false
+1946,523,"December 31th, 2016",false
+1947,523,"November 29th, 2016",true
+1948,523,"November 30th, 2016",false
+1949,523,"October 25th, 2016",false
+1950,524,"2",false
+1951,524,"4",true
+1952,524,"1",false
+1953,524,"3",false
+1954,525,"2013",false
+1955,525,"2012",false
+1956,525,"2014",false
+1957,525,"2011",true
+1958,526,"Extreme Dungeons &amp; Dragons",true
+1959,526,"Advanced Dungeons &amp; Dragons",false
+1960,526,"Dungeons &amp; Dragons 3.5th edition",false
+1961,526,"Advanced Dungeons &amp; Dragons 2nd edition",false
+1962,527,"Language Control Design",false
+1963,527,"Liquid Crystal Display",true
+1964,527,"Long Continuous Design",false
+1965,527,"Last Common Difference",false
+1966,528,"Nvidia",false
+1967,528,"AMD",false
+1968,528,"Ageia",false
+1969,528,"NovodeX",true
+1970,529,"Solid Snake",true
+1971,529,"Meta Knight",false
+1972,529,"R.O.B.",false
+1973,529,"Pit",false
+1974,530,"Mount Logan",true
+1975,530,"Mont Tremblant",false
+1976,530,"Whistler Mountain",false
+1977,530,"Blue Mountain",false
+1978,531,"Donald Trump",true
+1979,531,"Bill Clinton",false
+1980,531,"George Bush",false
+1981,531,"Barack Obama",false
+1982,532,"2017",true
+1983,532,"2020",false
+1984,532,"2019",false
+1985,532,"2018",false
+1986,533,"True",false
+1987,533,"False",true
+1988,534,"David Cameron",false
+1989,534,"Theresa May",true
+1990,534,"Boris Johnson",false
+1991,534,"Tony Blair",false
+1992,535,"Predator",false
+1993,535,"V-R11",false
+1994,535,"Longinus",false
+1995,535,"Awful Lawton",true
+1996,536,"Haruna Sairenji",false
+1997,536,"Mea Kurosaki",false
+1998,536,"Yami (Golden Darkness)",false
+1999,536,"Momo Deviluke",true
+2000,537,"Your Song",false
+2001,537,"I Guess That&#039;s Why They Call It The Blues",false
+2002,537,"Candles in the Wind",true
+2003,537,"Island Girl",false
+2004,538,"Boss Gator",false
+2005,538,"Grape Ape",true
+2006,538,"Wally Gator",false
+2007,538,"Yogi Bear",false
+2008,539,"Kirby",false
+2009,539,"Zelda",false
+2010,539,"Donkey Kong",true
+2011,539,"Mario",false
+2012,540,"Will",false
+2013,540,"John",false
+2014,540,"Dave",true
+2015,540,"Carl",false
+2016,541,"Glasgow",false
+2017,541,"Dundee",false
+2018,541,"London",false
+2019,541,"Edinburgh",true
+2020,542,"Tajikistan",false
+2021,542,"Belarus",false
+2022,542,"Romania",true
+2023,542,"Turkmenistan",false
+2024,543,"Qatar",false
+2025,543,"Kuwait",false
+2026,543,"Lebanon",true
+2027,543,"Jordan",false
+2028,544,"Formaldehyde",false
+2029,544,"Ethanol",false
+2030,544,"Urea",true
+2031,544,"Propane",false
+2032,545,"20-sided die",false
+2033,545,"10-sided die",true
+2034,545,"8-sided die",false
+2035,545,"12-sided die",false
+2036,546,"The Sky Scraper",false
+2037,546,"Otherworld",false
+2038,546,"New Lumos",true
+2039,546,"Peculia",false
+2040,547,"Gawin",false
+2041,547,"Exter",false
+2042,547,"Malady",true
+2043,547,"Meister Siva",false
+2044,548,"Ken Burns",false
+2045,548,"Miranda Keyes",false
+2046,548,"Ralph McQuarrie",false
+2047,548,"Ben Burtt",true
+2048,549,"Poniko",false
+2049,549,"Masada",false
+2050,549,"Uboa",false
+2051,549,"Madotsuki",true
+2052,550,"Toy Story",false
+2053,550,"Aladdin",true
+2054,550,"The Hunchback of Notre Dame",false
+2055,550,"James and the Giant Peach",false
+2056,551,"True",false
+2057,551,"False",true
+2058,552,"July 2, 1776",false
+2059,552,"May 4, 1776",false
+2060,552,"June 4, 1776",false
+2061,552,"July 4, 1776",true
+2062,553,"T. Yoshisaur Munchakoopas",true
+2063,553,"T. Yoshisotop Munchakoopas",false
+2064,553,"Yoshi",false
+2065,553,"Yossy",false
+2066,554,"The Da Vinci Code",false
+2067,554,"Harry Potter and the Philosopher&#039;s Stone",false
+2068,554,"The Lord of the Rings",true
+2069,554,"The Little Prince",false
+2070,555,"Quake Engine",true
+2071,555,"Doom Engine",false
+2072,555,"id Engine",false
+2073,555,"Source Engine",false
+2074,556,"Japan",false
+2075,556,"France",false
+2076,556,"Germany",true
+2077,556,"China",false
+2078,557,"Jimmy Carter",false
+2079,557,"Richard Nixon",false
+2080,557,"Bill Clinton",false
+2081,557,"Ronald Reagan",true
+2082,558,"Going",false
+2083,558,"Geronimo",false
+2084,558,"Ghost",false
+2085,558,"Government",true
+2086,559,"Junk",false
+2087,559,"Hurry Up, We&#039;re Dreaming",true
+2088,559,"Saturdays = Youth",false
+2089,559,"Before the Dawn Heals Us",false
+2090,560,"United States",true
+2091,560,"Norway",false
+2092,560,"Australia",false
+2093,560,"Chile",false
+2094,561,"The Nonary Game: Sigma&#039;s Last Life",false
+2095,561,"Zero Escape Zero Time Dilemma ",true
+2096,561,"Nine Hours, Nine Persons, Nine Doors ",false
+2097,561,"Zero Escape Virtue&#039;s Last Reward",false
+2098,562,"Panda",false
+2099,562,"Gorilla",true
+2100,562,"Tiger",false
+2101,562,"Crocodile",false
+2102,563,"Potimarron",true
+2103,563,"Guinea Squash",false
+2104,563,"Melongene",false
+2105,563,"Brinjal",false
+2106,564,"LIRIK",false
+2107,564,"Sodapoppin",false
+2108,564,"The8BitDrummer",false
+2109,564,"Vinesauce",true
+2110,565,"True",true
+2111,565,"False",false
+2112,566,"Semiquaver",false
+2113,566,"Semihemidemisemiquaver",false
+2114,566,"Hemidemisemiquaver",true
+2115,566,"Demisemiquaver",false
+2116,567,"Hylotl",false
+2117,567,"Avian",false
+2118,567,"Human",false
+2119,567,"Novakid",true
+2120,568,"The Amazing World of Gumball",false
+2121,568,"Steven Universe",true
+2122,568,"Adventure Time",false
+2123,568,"Regular Show",false
+2124,569,"Harrison Ford",true
+2125,569,"Andy Kaufman",false
+2126,569,"Arnold Schwarzenegger",false
+2127,569,"Michael J. Fox",false
+2128,570,"The wake",false
+2129,570,"The coma",true
+2130,570,"The ablative",false
+2131,570,"The backwash",false
+2132,571,"Lamarr",true
+2133,571,"Drett",false
+2134,571,"Jumperr",false
+2135,571,"Jerry",false
+2136,572,"Macedonia",false
+2137,572,"Croatia",false
+2138,572,"Albania",true
+2139,572,"Serbia",false
+2140,573,"May 15th, 2058",false
+2141,573,"December 14th, 2069",false
+2142,573,"October 23rd, 2077",true
+2143,573,"November 5th, 2076",false
+2144,574,"True",false
+2145,574,"False",true
+2146,575,"False",false
+2147,575,"True",true
+2148,576,"50",false
+2149,576,"40",true
+2150,576,"30",false
+2151,576,"20",false
+2152,577,"1360",false
+2153,577,"716",false
+2154,577,"1155",false
+2155,577,"685",true
+2156,578,"11",false
+2157,578,"9",true
+2158,578,"13",false
+2159,578,"5",false
+2160,579,"Fairness",false
+2161,579,"The End",true
+2162,579,"Perfection",false
+2163,579,"Sandbox",false
+2164,580,"True",true
+2165,580,"False",false
+2166,581,"Yosemite",false
+2167,581,"Yellowstone",true
+2168,581,"Sequoia ",false
+2169,581,"Rocky Mountain",false
+2170,582,"0.1 Microsievert",true
+2171,582,"0.7 Microsievert",false
+2172,582,"0.3 Microsievert",false
+2173,582,"0.5 Microsievert",false
+2174,583,"Ethel",false
+2175,583,"Margret",false
+2176,583,"Debbi",false
+2177,583,"Joani",true
+2178,584,"5",true
+2179,584,"2",false
+2180,584,"7",false
+2181,584,"10",false
+2182,585,"Tateyuki Shigaraki",false
+2183,585,"Manfred Von Karma",false
+2184,585,"Gregory Edgeworth",false
+2185,585,"Bansai Ichiyanagi",true
+2186,586,"Donald Draper",false
+2187,586,"John Ashbury",false
+2188,586,"Michael &quot;Mikey&quot; Wilhelm",false
+2189,586,"Richard &quot;Dick&quot; Whitman",true
+2190,587,"Asia",false
+2191,587,"Hawaii",false
+2192,587,"South America",true
+2193,587,"Europe",false
+2194,588,"William Shatner",false
+2195,588,"James Doohan",false
+2196,588,"Leonard Nimoy",true
+2197,588,"George Takei",false
+2198,589,"Theodore Roosevelt",false
+2199,589,"Franklin Roosevelt",true
+2200,589,"Abraham Lincoln",false
+2201,589,"George Washington",false
+2202,590,"40&#039;s",false
+2203,590,"50&#039;s",false
+2204,590,"30&#039;s",false
+2205,590,"60&#039;s",true
+2206,591,"False",false
+2207,591,"True",true
+2208,592,"Magrat Garlick",false
+2209,592,"Nanny Ogg",false
+2210,592,"Winny Hathersham",true
+2211,592,"Granny Weatherwax",false
+2212,593,"Monkeybone",false
+2213,593,"Mrs. Winterbourne",false
+2214,593,"Titanic",true
+2215,593,"Encino Man",false
+2216,594,"The inability to concentrate on anything",false
+2217,594,"The inability to stand up",false
+2218,594,"The inability to make decisions",true
+2219,594,"A feverish desire to rip one&#039;s clothes off",false
+2220,595,"235 BC",false
+2221,595,"210 AD",false
+2222,595,"242 AD",false
+2223,595,"235 AD",true
+2224,596,"1845",false
+2225,596,"1838",false
+2226,596,"1844",false
+2227,596,"1836",true
+2228,597,"1996",true
+2229,597,"2009",false
+2230,597,"1985",false
+2231,597,"1999",false
+2232,598,"Brazil",false
+2233,598,"Australia",true
+2234,598,"Canada",false
+2235,598,"India",false
+2236,599,"Daniel Ricciardo",true
+2237,599,"Sebastian Vettel",false
+2238,599,"Lewis Hamilton",false
+2239,599,"Kimi Raikkonen",false
+2240,600,"September 9, 2007",false
+2241,600,"October 31, 2005",true
+2242,600,"November 21, 2006",false
+2243,600,"December 18, 2004",false
+2244,601,"True",true
+2245,601,"False",false
+2246,602,"1000",false
+2247,602,"50",false
+2248,602,"100",false
+2249,602,"500",true
+2250,603,"Barbados",true
+2251,603,"Seychelles",false
+2252,603,"Fiji",false
+2253,603,"Maldives",false
+2254,604,"Labyrinth",false
+2255,604,"Howard the Duck",false
+2256,604,"Flash Gordon",false
+2257,604,"Highlander",true
+2258,605,"Whale",false
+2259,605,"Seahorse",true
+2260,605,"Octopus",false
+2261,605,"Dolphin",false
+2262,606,"Space Invaders",false
+2263,606,"Gauntlet",false
+2264,606,"Pac-Man",true
+2265,606,"Street Fighter",false
+2266,607,"Planet Wisp",false
+2267,607,"Sky Sanctuary",false
+2268,607,"Mushroom Hill",true
+2269,607,"City Escape",false
+2270,608,"4",false
+2271,608,"9",false
+2272,608,"12",false
+2273,608,"7",true
+2274,609,"48",false
+2275,609,"9",true
+2276,609,"3",false
+2277,609,"6",false
+2278,610,"French",false
+2279,610,"Japanese",false
+2280,610,"Portuguese",true
+2281,610,"Spanish",false
+2282,611,"September 2, 1962",false
+2283,611,"September 11, 1941",true
+2284,611,"January 15, 1943",false
+2285,611,"June 15, 1947",false
+2286,612,"1",false
+2287,612,"3",false
+2288,612,"4",false
+2289,612,"2",true
+2290,613,".tu",false
+2291,613,".tt",false
+2292,613,".tl",false
+2293,613,".tv",true
+2294,614,"14",true
+2295,614,"11",false
+2296,614,"13",false
+2297,614,"16",false
+2298,615,"1998",false
+2299,615,"1999",false
+2300,615,"1997",true
+2301,615,"1996",false
+2302,616,"Munich",true
+2303,616,"Dortmund",false
+2304,616,"Hamburg",false
+2305,616,"Berlin",false
+2306,617,"Blood",false
+2307,617,"Eyes",true
+2308,617,"Stomach",false
+2309,617,"Throat",false
+2310,618,"Nathan &amp; Drake",false
+2311,618,"Dig &amp; Dug",false
+2312,618,"Sam &amp; Fisher",false
+2313,618,"Gordon &amp; Freeman",true
+2314,619,"Daniel Defoe",false
+2315,619,"Robert Harley",false
+2316,619,"John Churchill",false
+2317,619,"John Blunt",true
+2318,620,"Big Man with a Gun",false
+2319,620,"A Warm Place",false
+2320,620,"Closer",false
+2321,620,"Hurt",true
+2322,621,"Victor Branco",true
+2323,621,"Milo Rego",false
+2324,621,"Armando Becker",false
+2325,621,"&Aacute;lvaro Neves",false
+2326,622,"Isaac Clarke",true
+2327,622,"Master Chief",false
+2328,622,"Commander Shepard",false
+2329,622,"Gordon Freeman",false
+2330,623,"Milk, Bread, Egg, and Wheat",false
+2331,623,"Milk, Sugar Cane, Egg, and Wheat",false
+2332,623,"Milk, Sugar, and Wheat",false
+2333,623,"Milk, Sugar, Egg, and Wheat",true
+2334,624,"Sigma",true
+2335,624,"Alpha",false
+2336,624,"Omega",false
+2337,624,"Delta",false
+2338,625,"Randall Flagg",false
+2339,625,"Jay Gatsby",false
+2340,625,"Holden Caulfield",true
+2341,625,"Fletcher Christian",false
+2342,626,"&quot;No. I am your father.&quot;",true
+2343,626,"&quot;Luke, I am your father.&quot;",false
+2344,626,"&quot;You&#039;re wrong. I am your father.&quot;",false
+2345,626,"&quot;The truth is that I am your father.&quot;",false
+2346,627,"40",false
+2347,627,"35",true
+2348,627,"45",false
+2349,627,"30",false
+2350,628,"Bedrock",false
+2351,628,"Obsidian",false
+2352,628,"Barrier",true
+2353,628,"Block of Diamond",false
+2354,629,"December 8, 1941",true
+2355,629,"June 22, 1941",false
+2356,629,"June 6, 1944",false
+2357,629,"September 1, 1939",false
+2358,630,"Paul C&eacute;zanne",false
+2359,630,"Georges Seurat",true
+2360,630,"Henri Rousseau",false
+2361,630,"Vincent Van Gogh",false
+2362,631,"FTL",false
+2363,631,"Hotline Miami",false
+2364,631,"Super Meat Boy",false
+2365,631,"Fez",true
+2366,632,"Ape-Nesia",false
+2367,632,"It&#039;s a Wonderful Life",true
+2368,632,"To The Moon Baboon",false
+2369,632,"Message In A Bottle Show",false
+2370,633,"Undertale",false
+2371,633,"Homestuck: [S] Wake",false
+2372,633,"Mother: Cognitive Dissonance",false
+2373,633,"Radiation&#039;s Earthbound Halloween Hack",true
+2374,634,"Lamentation",false
+2375,634,"The Eviscerator  ",false
+2376,634,"The Grim Reaper",false
+2377,634,"The Reaper",true
+2378,635,"Joe Weller",false
+2379,635,"Alfie Deyes",false
+2380,635,"Joe Sugg",true
+2381,635,"Zoe Sugg",false
+2382,636,"Petelgeuse Romanee-Conti",false
+2383,636,"Ley Batenkaitos",true
+2384,636,"Roy Alphard",false
+2385,636,"Louis Arneb",false
+2386,637,"Macchiato",false
+2387,637,"Mocha Latte",true
+2388,637,"Decaf",false
+2389,637,"Frappuccino",false
+2390,638,"San Jose",false
+2391,638,"Sacramento",false
+2392,638,"Los Angeles",false
+2393,638,"San Francisco",true
+2394,639,"Mr. Spittle",true
+2395,639,"Mr. Spitling",false
+2396,639,"Mr. Moe",false
+2397,639,"Mr. Boreman",false
+2398,640,"True",true
+2399,640,"False",false
+2400,641,"Albert Einstein",false
+2401,641,"Niels Bohr",false
+2402,641,"Sir Isaac Newton",true
+2403,641,"Enrico Fermi",false
+2404,642,"Rapunzel",false
+2405,642,"Don&#039;t Drink The Water",false
+2406,642,"Stay (Wasting Time)",false
+2407,642,"Pantala Naga Pampa",true
+2408,643,"Jonathan Freeman",false
+2409,643,"Robin Williams",false
+2410,643,"Pauly Shore",false
+2411,643,"Gilbert Gottfried",true
+2412,644,"Evander Holyfield",false
+2413,644,"Roy Jones Jr.",false
+2414,644,"Mike Tyson",true
+2415,644,"Lennox Lewis",false
+2416,645,"Jailhouse Rock",false
+2417,645,"In the Ghetto",false
+2418,645,"Wooden Heart",false
+2419,645,"Can&#039;t Help Falling in Love",true
+2420,646,"The Milky Way Galaxy",true
+2421,646,"The Mars Galaxy",false
+2422,646,"The Galaxy Note",false
+2423,646,"The Black Hole",false
+2424,647,"Peter Sagal",false
+2425,647,"Ben Shapiro",true
+2426,647,"Ira Glass",false
+2427,647,"Terry Gross",false
+2428,648,"The Xen Attack",false
+2429,648,"The Resonance Cascade",true
+2430,648,"World War 3",false
+2431,648,"The Black Mesa Nuke",false
+2432,649,"Uraraka",true
+2433,649,"Asui ",false
+2434,649,"Deku",false
+2435,649,"Bakugo",false
+2436,650,"10 years in prison and a fine of $50,000",true
+2437,650,"15 years in prison and a fine of $10,000",false
+2438,650,"Nothing",false
+2439,650,"Fine of $5,000",false
+2440,651,"Wii Sports",false
+2441,651,"Minecraft",false
+2442,651,"Tetris",true
+2443,651,"Super Mario Bros",false
+2444,652,"HTC",true
+2445,652,"Razer",false
+2446,652,"Google",false
+2447,652,"Oculus",false
+2448,653,"Multi Pass",false
+2449,653,"Micro Point",false
+2450,653,"Music Player",false
+2451,653,"Moving Picture",true
+2452,654,"Three",false
+2453,654,"Two",false
+2454,654,"Four",true
+2455,654,"One",false
+2456,655,"Badminton",true
+2457,655,"Cricket",false
+2458,655,"Table Tennis",false
+2459,655,"Rugby",false
+2460,656,"Shin Splints",true
+2461,656,"Carpal Tunnel",false
+2462,656,"Tennis Elbow",false
+2463,656,"Housemaid&#039;s Knee",false
+2464,657,"Boeing 747-8",true
+2465,657,"Airbus A350-1000",false
+2466,657,"Boeing 787-10",false
+2467,657,"Airbus A330-200",false
+2468,658,"Pi (&Pi;)",false
+2469,658,"Sigma (&Sigma;)",false
+2470,658,"Nu (&Nu;)",false
+2471,658,"Omicron (&Omicron;)",true
+2472,659,"True",true
+2473,659,"False",false
+2474,660,"0",false
+2475,660,"2",false
+2476,660,"4",false
+2477,660,"6",true
+2478,661,"False",true
+2479,661,"True",false
+2480,662,"Cub",false
+2481,662,"Chick",false
+2482,662,"Kid",false
+2483,662,"Pup",true
+2484,663,"Dark fusion reactor",false
+2485,663,"Dark fusion resonator",false
+2486,663,"Anti-mass spectrometer",true
+2487,663,"Oscillation generator",false
+2488,664,"260",false
+2489,664,"50",false
+2490,664,"415",false
+2491,664,"435",true
+2492,665,"Cave Johnson",false
+2493,665,"Saxton Hale",false
+2494,665,"Wallace Breem",false
+2495,665,"Zepheniah Mann",true
+2496,666,"Panasonic",false
+2497,666,"LG",false
+2498,666,"Fujitsu",false
+2499,666,"Sony",true
+2500,667,"Closer",false
+2501,667,"A Warm Place",false
+2502,667,"Hurt",true
+2503,667,"Big Man with a Gun",false
+2504,668,"False",false
+2505,668,"True",true
+2506,669,"Vietnam War",false
+2507,669,"World War I",false
+2508,669,"Iraq War",false
+2509,669,"World War II",true
+2510,670,"Spark",false
+2511,670,"Candela",false
+2512,670,"Leif",true
+2513,670,"Blanche",false
+2514,671,"GZA",false
+2515,671,"Ol&#039; Dirty Bastard",false
+2516,671,"Method Man",false
+2517,671,"Dr.Dre",true
+2518,672,"Anno 1404",false
+2519,672," Anno 1701",false
+2520,672,"Anno 2205",false
+2521,672,"Anno 2070",true
+2522,673,"False",false
+2523,673,"True",true
+2524,674,"Franklin Pierce",true
+2525,674,"Andrew Johnson",false
+2526,674,"James Polk",false
+2527,674,"Abraham Lincoln",false
+2528,675,"Baseball",false
+2529,675,"Football",false
+2530,675,"Basketball",false
+2531,675,"American Football",true
+2532,676,"Infiniminer",false
+2533,676,"Minecraft: Order of the Stone",false
+2534,676,"Cave Game",true
+2535,676,"Dig And Build",false
+2536,677,"False",true
+2537,677,"True",false
+2538,678,"The Gage Weapon Pack #1",true
+2539,678,"The Overkill Pack",false
+2540,678,"The Gage Historical Pack",false
+2541,678,"The Gage Chivalry Pack",false
+2542,679,"1901",true
+2543,679,"1899",false
+2544,679,"1911",false
+2545,679,"1910",false
+2546,680,"Diddy Kong",false
+2547,680,"Eddie the Mean Old Yeti",true
+2548,680,"Kiddy Kong",false
+2549,680,"King K. Rool",false
+2550,681,"Tiger",false
+2551,681,"Cheetah",true
+2552,681,"Puma",false
+2553,681,"Leopard",false
+2554,682,"Double Tap Root Beer",true
+2555,682,"Mule Kick",false
+2556,682,"Juggernog",false
+2557,682,"Who&#039;s Who",false
+2558,683,"Origins",false
+2559,683,"Buried",false
+2560,683,"Mob Of The Dead",true
+2561,683,"Moon",false
+2562,684,"Hallowed Relic",false
+2563,684,"Imperial Arm",false
+2564,684,"Blessed Artifact",false
+2565,684,"Sacred Gear",true
+2566,685,"Sigourney Weaver",true
+2567,685,"Melissa Beckett",false
+2568,685,"Jessica Chastain",false
+2569,685,"Alyssa Monroe ",false
+2570,686,"Tess",false
+2571,686,"Ellie",false
+2572,686,"Sarah",true
+2573,686,"Marlene",false
+2574,687,"Papuans",false
+2575,687,"Māori",true
+2576,687,"Aborigines",false
+2577,687,"Polynesians",false
+2578,688,"The Starry Night",true
+2579,688,"The Sower with Setting Sun",false
+2580,688,"Wheatfields with Crows",false
+2581,688,"The Church at Auvers",false
+2582,689,"Birds",false
+2583,689,"Dogs",true
+2584,689,"Flying",false
+2585,689,"Germs",false
+2586,690,"True",true
+2587,690,"False",false
+2588,691,"Custom",false
+2589,691,"House",true
+2590,691,"Extra",false
+2591,691,"Change",false
+2592,692,"Flashing Images",false
+2593,692,"Gun Usage",true
+2594,692,"Jynx",false
+2595,692,"Strong Violence",false
+2596,693,"Green",true
+2597,693,"Blue",false
+2598,693,"Red",false
+2599,693,"Yellow",false
+2600,694,"Houses of the Holy",false
+2601,694,"Led Zeppelin IV",true
+2602,694,"Led Zeppelin III",false
+2603,694,"Physical Graffiti",false
+2604,695,"Duke of Cambridge",false
+2605,695,"Manager of the Crown Estate",false
+2606,695,"Her Majesty&#039;s Loyal Opposition",false
+2607,695,"First Lord of the Treasury",true
+2608,696,"Microbiology",false
+2609,696,"Anatomy",false
+2610,696,"Biochemistry",false
+2611,696,"Histology",true
+2612,697,"Increase in blood glucose",false
+2613,697,"Decrease in blood potassium",false
+2614,697,"Decrease in blood iron",false
+2615,697,"Increase in blood sodium",true
+2616,698,"Cow liver transplant",false
+2617,698,"Pig blood transfusion",false
+2618,698,"Turkey breast implants",false
+2619,698,"Goat testicles transplant",true
+2620,699,"Philadelphia, Pennsylvania",false
+2621,699,"San Francisco, California",true
+2622,699,"Phoenix, Arizona",false
+2623,699,"San Antonio, Texas",false
+2624,700,"George Eliot",false
+2625,700,"George Lucas",false
+2626,700,"George R. R. Martin",true
+2627,700,"George Orwell",false
+2628,701,"MG 42",false
+2629,701,"RPK",false
+2630,701,"AK-47",true
+2631,701,"M16",false
+2632,702,"1256.6 Inches",false
+2633,702,"3141.5 Inches",false
+2634,702,"314.15 Inches",true
+2635,702,"380.1215 Inches",false
+2636,703,"Liver",false
+2637,703,"Pancreas",true
+2638,703,"Kidney",false
+2639,703,"Brain",false
+2640,704,"True",false
+2641,704,"False",true
+2642,705,"Day of Defeat",false
+2643,705,"Alien Swarm",false
+2644,705,"Ricochet",true
+2645,705,"Counter-Strike",false
+2646,706,"Full Metal Jacket",false
+2647,706,"Apocalypse Now",true
+2648,706,"Platoon",false
+2649,706,"The Deer Hunter",false
+2650,707,"Portugal, Iceland, Ireland, Greece, Serbia",false
+2651,707,"Portugal, Ireland, Italy, Greece, Spain",true
+2652,707,"Poland, Iceland, Italy, Greece, Serbia",false
+2653,707,"Poland, Iceland, Italy, Greenland, Spain",false
+2654,708,"Boeing 787-10",false
+2655,708,"Airbus A330-200",false
+2656,708,"Airbus A350-1000",false
+2657,708,"Boeing 747-8",true
+2658,709,"Palau",false
+2659,709,"Fiji",false
+2660,709,"Tonga",true
+2661,709,"Kiribati",false
+2662,710,"Ron Jeremy",true
+2663,710,"Hulk Hogan",false
+2664,710,"Sasha Grey",false
+2665,710,"Burt Reynolds",false
+2666,711,"False",true
+2667,711,"True",false
+2668,712,"Italy",false
+2669,712,"France",false
+2670,712,"United Kingdom",false
+2671,712,"Switzerland",true
+2672,713,"The Red Baron",true
+2673,713,"The Blue Serpent ",false
+2674,713,"The Germany Gunner",false
+2675,713,"The High Flying Ace",false
+2676,714,"Dragon Balls",false
+2677,714,"Jewel Shards",true
+2678,714,"Rave Stones",false
+2679,714,"Sacred Stones",false
+2680,715,"Jon Jafari",true
+2681,715,"Shawn Chatfield",false
+2682,715,"Derrick Acosta",false
+2683,715,"Rocco Botte",false
+2684,716,"Marius Pontmercy",false
+2685,716,"Javert",false
+2686,716,"Jean Valjean",true
+2687,716,"Jean Claude Van Damme",false
+2688,717,"Baluchistan, Pakistan",false
+2689,717,"Wallachia, Romania",false
+2690,717,"Tasmania, Australia",true
+2691,717,"Oregon, United States",false
+2692,718,"Pewdiepie",false
+2693,718,"Markiplier",false
+2694,718,"JonTron",true
+2695,718,"Tobuscus",false
+2696,719,"Bassoon",false
+2697,719,"Tuba",true
+2698,719,"Contrabass",false
+2699,719,"Trombone",false
+2700,720,"False",false
+2701,720,"True",true
+2702,721,"Heat Sink",true
+2703,721,"CPU Vent",false
+2704,721,"Temperature Decipator",false
+2705,721,"Heat Vent",false
+2706,722,"Wingford",false
+2707,722,"Tailspin",false
+2708,722,"Duckburg",true
+2709,722,"Duckwing",false
+2710,723,"Illmatic",true
+2711,723,"The Low End Theory",false
+2712,723,"The Chronic",false
+2713,723,"Enter The Wu-Tang (36 Chambers)",false
+2714,724,"The Mayans",true
+2715,724,"The Incas",false
+2716,724,"The Navajos",false
+2717,724,"The Aztecs",false
+2718,725,"False",false
+2719,725,"True",true
+2720,726,"Tail",true
+2721,726,"Head",false
+2722,726,"Feet",false
+2723,726,"Teeth",false
+2724,727,"Blue Mountain",false
+2725,727,"Mont Tremblant",false
+2726,727,"Whistler Mountain",false
+2727,727,"Mount Logan",true
+2728,728,"Bon Iver, Bon Iver",false
+2729,728,"For Emma, Forever Ago",false
+2730,728,"22, A Million",true
+2731,728,"Blood Bank EP",false
+2732,729,"June 6, 1944",false
+2733,729,"December 8, 1941",true
+2734,729,"September 1, 1939",false
+2735,729,"June 22, 1941",false
+2736,730,"False",false
+2737,730,"True",true
+2738,731,"Steven and James",false
+2739,731,"Bob and May",false
+2740,731,"Erik and Julie",false
+2741,731,"Sadie and Lars",true
+2742,732,"2010",false
+2743,732,"2011",false
+2744,732,"2012",true
+2745,732,"2013",false
+2746,733,"Haley Joel Osment",true
+2747,733,"Jesse McCartney",false
+2748,733,"Kōki Uchiyama",false
+2749,733,"Miyu Irino",false
+2750,734,"Chuck Schumer",false
+2751,734,"Roy Blunt",false
+2752,734,"Strom Thurmond",true
+2753,734,"John Barrasso",false
+2754,735,"Brian Eno",false
+2755,735,"Sigur R&oacute;s",false
+2756,735,"Wolfgang Amadeus Mozart",false
+2757,735,"Steve Reich",true
+2758,736,"Biology Synthetics Technologies",false
+2759,736,"International Genetic Technologies",false
+2760,736,"Masrani Global Corporation ",true
+2761,736,"International Genetics Incorporated",false
+2762,737,"Cat",true
+2763,737,"Bat",false
+2764,737,"Dog",false
+2765,737,"Butterfly",false
+2766,738,"SearchPro",false
+2767,738,"Netscape Navigator",false
+2768,738,"CatMassage",false
+2769,738,"BackRub",true
+2770,739,"R&aacute;pido",false
+2771,739,"El Ni&ntilde;o",true
+2772,739,"&Aacute;gil",false
+2773,739,"La Ni&ntilde;a",false
+2774,740,"Martin Van Buren",false
+2775,740,"Thomas Jefferson",true
+2776,740,"Ulysses Grant",false
+2777,740,"John Quincy Adams",false
+2778,741,"Raphael",false
+2779,741,"Leonardo",false
+2780,741,"Donatello",false
+2781,741,"Michelangelo",true
+2782,742,"Red",false
+2783,742,"Green",true
+2784,742,"Blue",false
+2785,742,"Yellow",false
+2786,743,"False",true
+2787,743,"True",false
+2788,744,"Final Fantasy XIII-2",false
+2789,744,"Final Fantasy V",false
+2790,744,"Final Fantasy X-2",true
+2791,744,"Final Fantasy IX",false
+2792,745,"Barcelona FC",false
+2793,745,"Paris Saints-Germain",false
+2794,745,"Sunderland FC",true
+2795,745,"Manchester United",false
+2796,746,"Lin-Manuel Miranda",false
+2797,746,"Wayne Brady",false
+2798,746,"Javier Mu&ntilde;oz",false
+2799,746,"Daveed Diggs",true
+2800,747,"22",true
+2801,747,"21",false
+2802,747,"24",false
+2803,747,"23",false
+2804,748,"Bakugo",false
+2805,748,"Uraraka",true
+2806,748,"Asui ",false
+2807,748,"Deku",false
+2808,749,"Mark Zuckerberg",false
+2809,749,"Peter Thiel",true
+2810,749,"Marc Benioff",false
+2811,749,"Jack Dorsey",false
+2812,750,"Dan Marino",true
+2813,750,"Joe Montana",false
+2814,750,"Tom Brady",false
+2815,750,"John Elway",false
+2816,751,"Chicago",true
+2817,751,"All That Jazz",false
+2818,751,"Cabaret",false
+2819,751,"Dreamgirls",false
+2820,752,"Eddie Vedder",true
+2821,752,"Stone Gossard",false
+2822,752,"Ozzy Osbourne",false
+2823,752,"Kurt Cobain",false
+2824,753,"LsL Mongrel",false
+2825,753,"Fender Stratocaster",false
+2826,753,"Gretsch Falcon",false
+2827,753,"Les Paul Standard",true
+2828,754,"Mac McAnally",false
+2829,754,"John McVie",true
+2830,754,"David Tennant",false
+2831,754,"Christine McVie",false
+2832,755,"Flash Gordon",false
+2833,755,"Howard the Duck",false
+2834,755,"Highlander",true
+2835,755,"Labyrinth",false
+2836,756,"Trevor",false
+2837,756,"Tyrone",false
+2838,756,"Travis",false
+2839,756,"Tiberius",true
+2840,757,"False",true
+2841,757,"True",false
+2842,758,"Belarus",false
+2843,758,"Ukraine",true
+2844,758,"Latvia",false
+2845,758,"Lithuania",false
+2846,759,"True",false
+2847,759,"False",true
+2848,760,"True",true
+2849,760,"False",false
+2850,761,"Bradley Strider",false
+2851,761,"Burial",true
+2852,761,"Caustic Window",false
+2853,761,"GAK",false
+2854,762,"4",false
+2855,762,"6",true
+2856,762,"0",false
+2857,762,"2",false
+2858,763,"HSBC",false
+2859,763,"Standard Chartered",false
+2860,763,"OCBC",true
+2861,763,"Bank of China",false
+2862,764,"Pepperoni Pizza",false
+2863,764,"Casserole",true
+2864,764,"Chicken Soup",false
+2865,764,"Sub Sandwich",false
+2866,765,"They weren&#039;t satisfied with the result",false
+2867,765,"The story was not good enough",false
+2868,765,"Way too many bugs to be fixed",false
+2869,765,"The source code got leaked",true
+2870,766,"Luan",false
+2871,766,"Lincoln",false
+2872,766,"Leni",true
+2873,766,"Luna",false
+2874,767,"True",false
+2875,767,"False",true
+2876,768,"Dark Souls",false
+2877,768,"Serious Sam: The Second Encounter",false
+2878,768,"Half Life 2",true
+2879,768,"Team Fortress 2",false
+2880,769,"Atlantic City, New Jersey",true
+2881,769,"Charleston, South Carolina",false
+2882,769,"Duluth, Minnesota",false
+2883,769,"Las Vegas, Nevada",false
+2884,770,"Loki",false
+2885,770,"Tyr",false
+2886,770,"Jens",true
+2887,770,"Snotra",false
+2888,771,"Ai FUKUHARA (Japan)",false
+2889,771,"DING Ning (China)",true
+2890,771,"Song KIM (North Korea)",false
+2891,771,"LI Xiaoxia (China)",false
+2892,772,"Mobile Suit Gundam",false
+2893,772,"Neon Genesis Evangelion",false
+2894,772,"The Super Dimension Fortress Macross",true
+2895,772,"Armored Trooper VOTOMS",false
+2896,773,"Mountain Dew",false
+2897,773,"Coca-Cola",false
+2898,773,"Dr. Pepper",true
+2899,773,"Sprite",false
+2900,774,"Suomi",true
+2901,774,"Magyarorsz&aacute;g",false
+2902,774,"Eesti",false
+2903,774,"Sverige",false
+2904,775,"Mr. Resetti",false
+2905,775,"Tom Nook",true
+2906,775,"K.K. Slider",false
+2907,775,"Gracie",false
+2908,776,"Rockhead Slate",false
+2909,776,"The Great Gazoo",false
+2910,776,"Barney Rubble",false
+2911,776,"Lord Rockingham IX",true
+2912,777,"True",true
+2913,777,"False",false
+2914,778,"Estelle Bright",false
+2915,778,"Adol Christin ",true
+2916,778,"Character doesn&#039;t have a name",false
+2917,778,"Roger Wilco",false
+2918,779,"Intel 8088",false
+2919,779,"Zilog Z80",false
+2920,779,"Motorola 68000",true
+2921,779,"Yamaha YM2612",false
+2922,780,"Adventure",false
+2923,780,"Promise",false
+2924,780,"Freedom",true
+2925,780,"Friendship",false
+2926,781,"By unlocking every nozzle F.L.U.D.D can use",false
+2927,781,"By clearing every episode involving a &quot;Secret&quot;",false
+2928,781,"By obtaining 70 Shines",false
+2929,781,"By clearing every 7th episode",true
+2930,782,"Julius",true
+2931,782,"Donald Jr.",false
+2932,782,"Ivanka",false
+2933,782,"Eric",false
+2934,783,"Sheep&#039;s Heart, Liver and Lungs",true
+2935,783,"Sheep&#039;s Heart, Kidneys and Lungs",false
+2936,783,"Whole Sheep",false
+2937,783,"Sheep&#039;s Liver, Kidneys and Eyes",false
+2938,784,"Arm",false
+2939,784,"Head",false
+2940,784,"Butt",true
+2941,784,"Torso",false
+2942,785,"Taurus",false
+2943,785,"Libra",true
+2944,785,"Capricorn",false
+2945,785,"Gemini",false
+2946,786,"Chimichanga",true
+2947,786,"Enchilada",false
+2948,786,"Burrito",false
+2949,786,"Taquito",false
+2950,787,"Ceylon",true
+2951,787,"Badulla",false
+2952,787,"Colombo",false
+2953,787,"Myanmar",false
+2954,788,"Porsche",true
+2955,788,"Audi",false
+2956,788,"Chevrolet",false
+2957,788,"Toyota",false
+2958,789,"Māori",true
+2959,789,"Aborigines",false
+2960,789,"Polynesians",false
+2961,789,"Papuans",false
+2962,790,"True",true
+2963,790,"False",false
+2964,791,"Starry Night",false
+2965,791,"Caf&eacute; Terrace at Night",false
+2966,791,"The Ninth Wave",true
+2967,791,"Bedroom In Arles",false
+2968,792,"Humanz",true
+2969,792,"The Fall",false
+2970,792,"Demon Days",false
+2971,792,"Plastic Beach",false
+2972,793,"Final Fantasy IX",false
+2973,793,"Final Fantasy X-2",true
+2974,793,"Final Fantasy XIII-2",false
+2975,793,"Final Fantasy V",false
+2976,794,"Nazca Plate",false
+2977,794,"North American Plate",false
+2978,794,"Atlantic Plate",true
+2979,794,"Eurasian Plate",false
+2980,795,"1-6",false
+2981,795,"2-6",false
+2982,795,"1-5",false
+2983,795,"1-7",true
+2984,796,"Shin Yamamoto",false
+2985,796,"Hirohiko Araki",false
+2986,796,"	Hiro Mashima",true
+2987,796,"Keiichi Hikami",false
+2988,797,"Second Balkan War",false
+2989,797,"Crimean War",false
+2990,797,"World War I",true
+2991,797,"Serbian Revolution",false
+2992,798,"88 mph",true
+2993,798,"70 mph",false
+2994,798,"100 mph",false
+2995,798,"77 mph",false
+2996,799,"10",false
+2997,799,"6",false
+2998,799,"7",true
+2999,799,"9",false
+3000,800,"Italy",true
+3001,800,"Romania",false
+3002,800,"Russia",false
+3003,800,"Germany",false
+3004,801,"Google",false
+3005,801,"Yahoo",false
+3006,801,"Microsoft",true
+3007,801,"Apple",false
+3008,802,"Harry Potter",true
+3009,802,"Ted",false
+3010,802,"Spy Kids",false
+3011,802,"Pirates of the Caribbean ",false
+3012,803,"Unreal Tournament 3",false
+3013,803,"Unreal Tournament 2004",true
+3014,803,"Postal",false
+3015,803,"Deus Ex: Invisible War",false
+3016,804,"Brian Thompson",false
+3017,804,"Dennis Quaid",false
+3018,804,"Sean Connery",true
+3019,804,"Pete Postlethwaite",false
+3020,805,"Doom",false
+3021,805,"Spasim",true
+3022,805,"Quake",false
+3023,805,"Wolfenstein",false
+3024,806,"Mac McAnally",false
+3025,806,"John McVie",true
+3026,806,"Christine McVie",false
+3027,806,"David Tennant",false
+3028,807,"Bilius",true
+3029,807,"Dominic",false
+3030,807,"Arthur",false
+3031,807,"John",false
+3032,808,"Roy Lichtenstein",false
+3033,808,"Andy Warhol",true
+3034,808,"Peter Blake",false
+3035,808,"David Hockney",false
+3036,809,"January 14, 2005",false
+3037,809,"June 17, 2001",false
+3038,809,"May 20, 2003",true
+3039,809,"September 29, 2003",false
+3040,810,"Frodo",false
+3041,810,"Bilbo Baggins",false
+3042,810,"Gandalf the Grey",false
+3043,810,"Bard",true
+3044,811,"5",false
+3045,811,"0",true
+3046,811,"2",false
+3047,811,"3",false
+3048,812,"Battle of Pollentia",false
+3049,812,"Battle of Adrianople",true
+3050,812,"Battle of Constantinople",false
+3051,812,"Battle of Thessalonica",false
+3052,813,"1%",false
+3053,813,"&lt;1%",false
+3054,813,"3%",false
+3055,813,"5%",true
+3056,814,"True Fighter",false
+3057,814,"True Survivor",true
+3058,814,"Real Warrior",false
+3059,814,"Real Kung-Fury",false
+3060,815,"Harebell",false
+3061,815,"Lily of the Valley",true
+3062,815,"Hydrangea",false
+3063,815,"Yarrow",false
+3064,816,"False",false
+3065,816,"True",true
+3066,817,"June 15, 1947",false
+3067,817,"January 15, 1943",false
+3068,817,"September 2, 1962",false
+3069,817,"September 11, 1941",true
+3070,818,"Washington D.C.",false
+3071,818,"Yukon",false
+3072,818,"Olympia",true
+3073,818,"Seattle",false
+3074,819,"Senegal",false
+3075,819,"Niger",false
+3076,819,"Burkina Faso",false
+3077,819,"Mali",true
+3078,820,"Pidgey",false
+3079,820,"Charmander",false
+3080,820,"Pikachu",false
+3081,820,"Caterpie",true
+3082,821,"Risotto Nero",false
+3083,821,"JoJo Kikasu",true
+3084,821,"George Joestar",false
+3085,821,"Jean-Pierre Polnareff",false
+3086,822,"Iacta alea est!",false
+3087,822,"Aegri somnia vana.",false
+3088,822,"Vidi, vini, vici.",false
+3089,822,"Et tu, Brute? ",true
+3090,823,"Naruto",true
+3091,823,"Kakashi",false
+3092,823,"Ten Ten",false
+3093,823,"Sasuke",false
+3094,824,"Vagrant Story",false
+3095,824,"Final Fantasy VIII",false
+3096,824,"Parasite Eve",true
+3097,824,"Front Mission",false
+3098,825,"The Evil Dead",false
+3099,825,"Alien",false
+3100,825,"Saw",false
+3101,825,"The Thing",true
+3102,826,"True",true
+3103,826,"False",false
+3104,827,"Daredevil",true
+3105,827,"Hulk",false
+3106,827,"Thor",false
+3107,827,"Wolverine",false
+3108,828,"Maximillian Acorn",false
+3109,828,"Frederick Acorn",false
+3110,828,"Alexis Acorn",false
+3111,828,"Elias Acorn",true
+3112,829,"Dick Tingeler",false
+3113,829,"Willi Wakker",true
+3114,829,"Rod Tapper",false
+3115,829,"Helmut Schmacker",false
+3116,830,"Shaft",false
+3117,830,"Madhouse",false
+3118,830,"Bones",true
+3119,830,"A-1 Pictures",false
+3120,831,"Zoey",false
+3121,831,"Louis",false
+3122,831,"Bill",true
+3123,831,"Francis",false
+3124,832,"Hero Factory",false
+3125,832,"Star Wars",false
+3126,832,"Bionicle",true
+3127,832,"Ben 10 Alien Force",false
+3128,833,"2006",true
+3129,833,"2003",false
+3130,833,"2002",false
+3131,833,"2007",false
+3132,834,"Steven Moffatt",true
+3133,834,"Toby Whithouse",false
+3134,834,"Russell T Davies",false
+3135,834,"Phil Ford",false
+3136,835,"False",true
+3137,835,"True",false
+3138,836,"An illusion ",false
+3139,836,"A simulation",false
+3140,836,"A hologram ",true
+3141,836,"Corrupting",false
+3142,837,"87 Million",false
+3143,837,"87 Gazillion ",false
+3144,837,"87 Trillion",false
+3145,837,"87 Bazillion ",true
+3146,838,"Mr. Bean Goes to Town",false
+3147,838,"The Trouble with Mr. Bean",false
+3148,838,"Mr. Bean in Room 426",true
+3149,838,"Back to School Mr. Bean",false
+3150,839,"Wisconsin Badgers",false
+3151,839,"Ohio State Buckeyes",true
+3152,839,"Alabama Crimson Tide",false
+3153,839,"Clemson Tigers",false
+3154,840,"Axles",false
+3155,840,"Bearings",true
+3156,840,"Gears",false
+3157,840,"Belts",false
+3158,841,"January 28",false
+3159,841,"June 28",false
+3160,841,"April 28",false
+3161,841,"July 28",true
+3162,842,"Nocturna",false
+3163,842,"Octavian (Bard)",false
+3164,842,"Uncle Eli",true
+3165,842,"Cadence",false
+3166,843,"Peacehead",false
+3167,843,"Vectorkid",false
+3168,843,"Raster",true
+3169,843,"Bitmap",false
+3170,844,"Astatine",true
+3171,844,"Antimony",false
+3172,844,"Selenium",false
+3173,844,"Molybdenum",false
+3174,845,"Sunderland FC",true
+3175,845,"Barcelona FC",false
+3176,845,"Manchester United",false
+3177,845,"Paris Saints-Germain",false
+3178,846,"Closure of the heart valves",true
+3179,846,"Relaxation of the heart chambers",false
+3180,846,"Blood exiting the heart",false
+3181,846,"Cntraction of the heart chambers",false
+3182,847,"Dr. Heckyll and Mr. Jive",false
+3183,847,"Basket Case",true
+3184,847,"Who Can It Be Now?",false
+3185,847,"Be Good Johnny",false
+3186,848,"The Black Mesa Nuke",false
+3187,848,"The Resonance Cascade",true
+3188,848,"World War 3",false
+3189,848,"The Xen Attack",false
+3190,849,"Black Arrow",false
+3191,849,"Voron",false
+3192,849,"The Engineers",false
+3193,849,"Third Echelon",true
+3194,850,"Michael Keaton",true
+3195,850,"Val Kilmer",false
+3196,850,"George Clooney",false
+3197,850,"Adam West",false
+3198,851,"Doris Day",false
+3199,851,"Judy Garland",true
+3200,851,"Marilyn Monroe",false
+3201,851,"Julie Andrews",false
+3202,852,"William and Elizabeth",false
+3203,852,"John and Mary",true
+3204,852,"George and Anne",false
+3205,852,"Joseph and Catherine",false
+3206,853,"AWP",false
+3207,853,"R8 Revolver",false
+3208,853,"M4A1",false
+3209,853,"Scar-20/G3SG1",true
+3210,854,"Spy",false
+3211,854,"Healer",true
+3212,854,"Demoman",false
+3213,854,"Pyro",false
+3214,855,"Bombur",false
+3215,855,"Dwalin",false
+3216,855,"Gloin",true
+3217,855,"Thorin Oakenshield",false
+3218,856,"Rankine",false
+3219,856,"Celsius",false
+3220,856,"Fahrenheit",false
+3221,856,"Kelvin",true
+3222,857,"Odense",false
+3223,857,"Copenhagen",true
+3224,857,"Aalborg",false
+3225,857,"Aarhus",false
+3226,858,"False",true
+3227,858,"True",false
+3228,859,"House",false
+3229,859,"Dubstep",false
+3230,859,"Drum and Bass",false
+3231,859,"Trance",true
+3232,860,"Ford",true
+3233,860,"Chrysler",false
+3234,860,"Fiat",false
+3235,860,"General Motors",false
+3236,861,"Spanish",true
+3237,861,"Portuguese",false
+3238,861,"Creole",false
+3239,861,"English",false
+3240,862,"11",false
+3241,862,"16",false
+3242,862,"14",true
+3243,862,"13",false
+3244,863,"The Demon",false
+3245,863,"The Dragon Slayer",false
+3246,863,"The Dragon",false
+3247,863,"The Salamander",true
+3248,864,"True",true
+3249,864,"False",false
+3250,865,"Childhood friends",false
+3251,865,"Brothers &amp; cousins",true
+3252,865,"Former classmates",false
+3253,865,"Fraternity house members",false
+3254,866,"Pack Leader",false
+3255,866,"Blade",false
+3256,866,"Bio-Bomb",false
+3257,866,"Tendrils",true
+3258,867,"The Condemned of Altona",false
+3259,867,"No Exit",true
+3260,867,"The Devil and the Good Lord",false
+3261,867,"The Flies",false
+3262,868,"Easteros",false
+3263,868,"Essos",true
+3264,868,"Westereast",false
+3265,868,"Esuntos",false
+3266,869,"October 19th, 1891",false
+3267,869,"March 4th, 1887",false
+3268,869,"September 23rd, 1889",true
+3269,869,"December 27th, 1894",false
+3270,870,"Java",false
+3271,870,"C++",false
+3272,870,"Python",true
+3273,870,"C#",false
+3274,871,"False",false
+3275,871,"True",true
+3276,872,"Mercy",true
+3277,872,"Ana",false
+3278,872,"Sonic",false
+3279,872,"Reaper",false
+3280,873,"Down Syndrome",false
+3281,873,"Turner&#039;s Syndrome",false
+3282,873,"Klinefelter&#039;s Syndrome",false
+3283,873,"Jacob&#039;s Syndrome",true
+3284,874,"Las Vegas, Nevada",false
+3285,874,"Orlando, Florida",false
+3286,874,"New York, New York",true
+3287,874,"Chicago, Illinois",false
+3288,875,"American Football",true
+3289,875,"Baseball",false
+3290,875,"Football",false
+3291,875,"Basketball",false
+3292,876,"40",true
+3293,876,"20",false
+3294,876,"30",false
+3295,876,"50",false
+3296,877,"Zombie",false
+3297,877,"Cow",false
+3298,877,"Chicken",false
+3299,877,"Pig",true
+3300,878,"True",true
+3301,878,"False",false
+3302,879,"Skull Rain",false
+3303,879,"Red Crow",true
+3304,879,"Velvet Shell",false
+3305,879,"Dust Line",false
+3306,880,"Mz. Ruby",false
+3307,880,"Clockwerk",false
+3308,880,"Dimitri Lousteau",true
+3309,880,"Muggshot",false
+3310,881,"Independent",false
+3311,881,"Republican",true
+3312,881,"Whig",false
+3313,881,"Democrat",false
+3314,882,"False",false
+3315,882,"True",true
+3316,883,"Max Ammo",true
+3317,883,"Death Machine",false
+3318,883,"Monkey Bombs",false
+3319,883,"A Pack-A-Punched gun",false
+3320,884,"True",false
+3321,884,"False",true
+3322,885,"What So Not",false
+3323,885,"Jack &Uuml;",false
+3324,885,"Dog Blood",true
+3325,885,"Noisia",false
+3326,886,"Uwe Rosenburg",false
+3327,886,"Bruno Cathala",false
+3328,886,"Reiner Knizia",true
+3329,886,"Allison Kline",false
+3330,887,"Will",false
+3331,887,"Carl",false
+3332,887,"John",false
+3333,887,"Dave",true
+3334,888,"Blackwing Lair",false
+3335,888,"Temple of Ahn&#039;Qiraj",false
+3336,888,"Karazhan",true
+3337,888,"Zul&#039;Aman",false
+3338,889,"Aphie",true
+3339,889,"Flik",false
+3340,889,"Hopper",false
+3341,889,"Dot",false
+3342,890,"1957",true
+3343,890,"1959",false
+3344,890,"1955",false
+3345,890,"1953",false
+3346,891,"Badulla",false
+3347,891,"Colombo",false
+3348,891,"Ceylon",true
+3349,891,"Myanmar",false
+3350,892,"False",true
+3351,892,"True",false
+3352,893,"Dorothy",false
+3353,893,"Hermione",false
+3354,893,"Sabrina",true
+3355,893,"Dahlia",false
+3356,894,"Sidney Crosby",false
+3357,894,"Wayne Gretzky",true
+3358,894,"Mario Lemieux ",false
+3359,894,"Gordie Howe",false
+3360,895,"True",true
+3361,895,"False",false
+3362,896,"1836",true
+3363,896,"1845",false
+3364,896,"1844",false
+3365,896,"1838",false
+3366,897,"Valor Form",false
+3367,897,"Anti Form",false
+3368,897,"Wisdom Form",false
+3369,897,"Limit Form",true
+3370,898,"Kairi",false
+3371,898,"Mickey",false
+3372,898,"Riku",false
+3373,898,"Roxas",true
+3374,899,"Roblox",false
+3375,899,"Unturned",false
+3376,899,"Grand Theft Auto V",false
+3377,899,"Minecraft",true
+3378,900,"Tibia",false
+3379,900,"Humerus",false
+3380,900,"Femur",true
+3381,900,"Cranium",false
+3382,901,"Hamlet",false
+3383,901,"Romeo &amp; Juliet",true
+3384,901,"Macbeth",false
+3385,901,"Othello",false
+3386,902,"1",false
+3387,902,"3",false
+3388,902,"7",false
+3389,902,"6",true
+3390,903,"Guerrilla Warfare",false
+3391,903,"Elite Crew",false
+3392,903,"Midwest Militia",true
+3393,903,"Phoenix Connection",false
+3394,904,"False",false
+3395,904,"True",true
+3396,905,"Frankfurt",false
+3397,905,"Wien",false
+3398,905,"Bern",true
+3399,905,"Z&uuml;rich",false
+3400,906,"Gale",true
+3401,906,"Parker",false
+3402,906,"Day",false
+3403,906,"Perkins",false
+3404,907,"False",true
+3405,907,"True",false
+3406,908,"5",false
+3407,908,"12",false
+3408,908,"7",true
+3409,908,"10",false
+3410,909,"9",false
+3411,909,"7",false
+3412,909,"6",false
+3413,909,"8",true
+3414,910,"1279",true
+3415,910,"1009",false
+3416,910,"1069",false
+3417,910,"2203",false
+3418,911,"True",true
+3419,911,"False",false
+3420,912,"In the Caribbean Sea",false
+3421,912,"South Pacific Ocean, far off Chile",false
+3422,912,"North Pacific Ocean, between Japan and the USA",false
+3423,912,"North Atlantic Ocean, between Florida and Puerto Rico",true
+3424,913,"A potato",true
+3425,913,"An apple",false
+3426,913,"A lemon",false
+3427,913,"A tomato",false
+3428,914,"2008",false
+3429,914,"2003",true
+3430,914,"2005",false
+3431,914,"2007",false
+3432,915,"FOXENGINE",false
+3433,915,"FOXKILL",false
+3434,915,"FOXDIE",true
+3435,915,"FOXALIVE",false
+3436,916,"Republic of Taipei ",false
+3437,916,"Chinese Taiwan",false
+3438,916,"Republic of Taiwan",false
+3439,916,"Chinese Taipei",true
+3440,917,"8",false
+3441,917,"6",false
+3442,917,"4",true
+3443,917,"2",false
+3444,918,"Mario&#039;s Game Gallery",true
+3445,918,"Dr. Mario 64",false
+3446,918,"Super Mario 64",false
+3447,918,"Mario Tennis",false
+3448,919,"True",false
+3449,919,"False",true
+3450,920,"264 BCE",false
+3451,920,"42 BCE",false
+3452,920,"107 BCE",true
+3453,920,"102 CE",false
+3454,921,"John Steinbeck ",true
+3455,921,"Harper Lee",false
+3456,921,"George Orwell",false
+3457,921,"Mark Twain ",false
+3458,922,"True",false
+3459,922,"False",true
+3460,923,"Toriel",false
+3461,923,"Sans",false
+3462,923,"Papyrus",false
+3463,923,"Flowey",true
+3464,924,"Napole&atilde;o do Boaparte",false
+3465,924,"Naapolion van Bonijpaart",false
+3466,924,"Napoleona de Buenoparte",false
+3467,924,"Napoleone di Buonaparte",true
+3468,925,"True",true
+3469,925,"False",false
+3470,926,"True",false
+3471,926,"False",true
+3472,927,"15 Degree",true
+3473,927,"45 Degree",false
+3474,927,"90 Degree",false
+3475,927,"30 Degree",false
+3476,928,"JoJo&#039;s Bizarre Adventure",false
+3477,928,"Detective Conan",false
+3478,928,"Golgo 13",true
+3479,928,"One Piece",false
+3480,929,"True",true
+3481,929,"False",false
+3482,930,"Triangle",false
+3483,930,"Noise",false
+3484,930,"DMC",true
+3485,930,"Square",false
+3486,931,"10",false
+3487,931,"103",true
+3488,931,"59",false
+3489,931,"79",false
+3490,932,"True",true
+3491,932,"False",false
+3492,933,"Big Sean",false
+3493,933,"Kendrick Lamar",false
+3494,933,"J. Cole",true
+3495,933,"Drake",false
+3496,934,"RAID 10",false
+3497,934,"RAID 1",true
+3498,934,"RAID 5",false
+3499,934,"RAID 0",false
+3500,935,"New London",false
+3501,935,"New Amsterdam",true
+3502,935,"New Paris",false
+3503,935,"New Rome",false
+3504,936,"Standing on his head",false
+3505,936,"Jumping over an office chair",true
+3506,936,"Typing on a keyboard during a handstand",false
+3507,936,"Jumping backwards over a desk",false
+3508,937,"Mikasa Ackermann",false
+3509,937,"Eren Jaeger",false
+3510,937,"Armin Arlelt",false
+3511,937,"Reiner Braun",true
+3512,938,"True",true
+3513,938,"False",false
+3514,939,"Gregg Turkington",true
+3515,939,"Todd Glass",false
+3516,939,"Nathan Fielder",false
+3517,939,"Tim Heidecker",false
+3518,940,"False",true
+3519,940,"True",false
+3520,941,"Sachs",false
+3521,941,"Alucard",false
+3522,941,"Bloodstar",true
+3523,941,"Dracuul",false
+3524,942,"False",true
+3525,942,"True",false
+3526,943,"Hoatzin",true
+3527,943,"Cassowary",false
+3528,943,"Secretary bird",false
+3529,943,"Cormorant",false
+3530,944,"North American Plate",false
+3531,944,"Nazca Plate",false
+3532,944,"Eurasian Plate",false
+3533,944,"Atlantic Plate",true
+3534,945,"Pietro Maximoff",false
+3535,945,"Charles Xavier",false
+3536,945,"Max Eisenhardt",true
+3537,945,"Johann Schmidt",false
+3538,946,"Brian and Pierre",false
+3539,946,"Justin and Pierre",true
+3540,946,"Brian and Justin",false
+3541,946,"John and Louis",false
+3542,947,"Bullying",true
+3543,947,"Criminal Record",false
+3544,947,"Racism",false
+3545,947,"Nomination for Worst Actor",false
+3546,948,"Dacia",false
+3547,948,"Buggy",false
+3548,948,"Motorcycle",true
+3549,948,"PG-117",false
+3550,949,"False",false
+3551,949,"True",true
+3552,950,"Sonic The Hedgehog",false
+3553,950,"Super Mario 64",false
+3554,950,"Rad Mobile",true
+3555,950,"Mega Man",false
+3556,951,"Putney",true
+3557,951,"Battersea",false
+3558,951,"Vauxhall ",false
+3559,951,"Hammersmith",false
+3560,952,"Honey",false
+3561,952,"Caramel",false
+3562,952,"Candy",false
+3563,952,"Sugar",true
+3564,953,"True",false
+3565,953,"False",true
+3566,954,"Nate Mendel",false
+3567,954,"Dave Grohl",true
+3568,954,"Chris Shiflett",false
+3569,954,"Taylor Hawkins",false
+3570,955,"Manhattan",false
+3571,955,"Rusty Nail",true
+3572,955,"Screwdriver",false
+3573,955,"Sex on the Beach",false
+3574,956,"Street Fighter",false
+3575,956,"Pac-Man",true
+3576,956,"Space Invaders",false
+3577,956,"Gauntlet",false
+3578,957,"Hydrogen",false
+3579,957,"Helium",true
+3580,957,"Nitrogen",false
+3581,957,"Neon",false
+3582,958,"Squigly",false
+3583,958,"Beowulf",true
+3584,958,"Cerebella",false
+3585,958,"Big Band",false
+3586,959,"2004",false
+3587,959,"1987",false
+3588,959,"2001",false
+3589,959,"1998",true
+3590,960,"All Dogs Go To Heaven",true
+3591,960,"Titan A.E.",false
+3592,960,"Anastasia",false
+3593,960,"The Land Before Time",false
+3594,961,"Human",false
+3595,961,"Novakid",true
+3596,961,"Hylotl",false
+3597,961,"Avian",false
+3598,962,"False",false
+3599,962,"True",true
+3600,963,"False",false
+3601,963,"True",true
+3602,964,"Baluchistan, Pakistan",false
+3603,964,"Oregon, United States",false
+3604,964,"Tasmania, Australia",true
+3605,964,"Wallachia, Romania",false
+3606,965,"Skull King",false
+3607,965,"Skeleton King",true
+3608,965,"Hell King",false
+3609,965,"Reaper King",false
+3610,966,"Blanche",false
+3611,966,"Candela",false
+3612,966,"Spark",false
+3613,966,"Leif",true
+3614,967,"False",true
+3615,967,"True",false
+3616,968,"Skeleton",true
+3617,968,"Plant",false
+3618,968,"Horror",false
+3619,968,"Frog",false
+3620,969,"San Fierro",false
+3621,969,"San Andreas",true
+3622,969,"Las Venturas",false
+3623,969,"Vice City",false
+3624,970,"Ignis",true
+3625,970,"Terra",false
+3626,970,"Ventus",false
+3627,970,"Aqua",false
+3628,971,"Malva",true
+3629,971,"Siebold",false
+3630,971,"Drasna",false
+3631,971,"Wikstrom",false
+3632,972,"Montreal Impact",false
+3633,972,"Toronto FC",false
+3634,972,"Seattle Sounders",true
+3635,972,"Colorado Rapids",false
+3636,973,"The Battles of Chancellorsville",false
+3637,973,"The Battle of Gettysburg",false
+3638,973,"The Siege of Vicksburg",false
+3639,973,"The Battle of Antietam",true
+3640,974,"Doin&#039; It Right",false
+3641,974,"Get Lucky",true
+3642,974,"The Game of Love",false
+3643,974,"Instant Crush",false
+3644,975,"Brendan Gleeson",false
+3645,975,"Kiefer Sutherland",false
+3646,975,"Robbie Coltrane",false
+3647,975,"Liam Neeson",true
+3648,976,"False",false
+3649,976,"True",true
+3650,977,"Glindor",false
+3651,977,"Zaros",false
+3652,977,"Azeroth",false
+3653,977,"Gielinor",true
+3654,978,"San Francisco, California",false
+3655,978,"Seattle, Washington",false
+3656,978,"Austin, Texas",false
+3657,978,"Bellevue, Washington",true
+3658,979,"Robotics; Notes",false
+3659,979,"Occultic; Nine",true
+3660,979,"Chaos; Child",false
+3661,979,"Steins; Gate",false
+3662,980,"Mors Oil",false
+3663,980,"Alpacookie",false
+3664,980,"Parmesansho Fruit",false
+3665,980,"Poison Potato",true
+3666,981,"False",false
+3667,981,"True",true
+3668,982,"The Elder Scrolls IV: Oblivion",true
+3669,982,"The Elder Scrolls Online",false
+3670,982,"The Elder Scrolls V: Skyrim",false
+3671,982,"The Elder Scrolls III: Morrowind ",false
+3672,983,"Ring of Steel",false
+3673,983,"Semper Fi",true
+3674,983,"Eviction",false
+3675,983,"Vendetta",false
+3676,984,"My Life as a Teenage Wizard",false
+3677,984,"The Cinder Spires",false
+3678,984,"A Hat in Time",false
+3679,984,"The Dresden Files",true
+3680,985,"False",false
+3681,985,"True",true
+3682,986,"Viktor Tsoi",true
+3683,986,"Vladimir Vysotsky",false
+3684,986,"Jimi Hendrix",false
+3685,986,"Brian Jones",false
+3686,987,"7",true
+3687,987,"8",false
+3688,987,"5",false
+3689,987,"12",false
+3690,988,"Lightning Dragon",true
+3691,988,"Beast of Burden",false
+3692,988,"Dirtcowl Wurm",false
+3693,988,"Revenant",false
+3694,989,"Mr. Spitling",false
+3695,989,"Mr. Boreman",false
+3696,989,"Mr. Moe",false
+3697,989,"Mr. Spittle",true
+3698,990,"Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",false
+3699,990,"Alfonso Cuar&oacute;n",false
+3700,990,"Guillermo Del Toro",true
+3701,990," Alejandro Jodorowsky",false
+3702,991,"Mikhail Gorbachev",false
+3703,991,"Joseph Stalin",false
+3704,991,"Vladimir Putin",false
+3705,991,"Vladimir Lenin",true
+3706,992,"Peanuts",false
+3707,992,"Walnuts",false
+3708,992,"Pistachios",false
+3709,992,"Almonds",true
+3710,993,"24th of September",false
+3711,993,"23rd of September",false
+3712,993,"21st of September",true
+3713,993,"26th of September",false
+3714,994,"British Museum",false
+3715,994,"Tate",false
+3716,994,"Natural History Museum",true
+3717,994,"Science Museum",false
+3718,995,"Milwaukee",false
+3719,995,"Green Bay",false
+3720,995,"Madison",true
+3721,995,"Wisconsin Dells",false
+3722,996,"Red, yellow and green",false
+3723,996,"Red, black and green",false
+3724,996,"Red, black and yellow",true
+3725,996,"Red, purple and blue",false
+3726,997,"Werner Heisenberg",true
+3727,997,"Max Planck",false
+3728,997,"Albert Einstein",false
+3729,997,"John von Neumann",false
+3730,998,"Yasser Arafat",false
+3731,998,"Werner Heisenberg",false
+3732,998,"Malala Yousafzai",true
+3733,998,"Lawrence Bragg",false
+3734,999,"Monika",false
+3735,999,"Sayori",false
+3736,999,"Nico",true
+3737,999,"Natsuki",false
+3738,1000,"Marvel&#039;s Daredevil",false
+3739,1000,"The Walking Dead",false
+3740,1000,"Boardwalk Empire",false
+3741,1000,"Dexter",true
+3742,1001,"Role Playing Game (RPG)",false
+3743,1001,"Multiplayer Online Battle Arena (MOBA)",true
+3744,1001,"Real Time Strategy (RTS)",false
+3745,1001,"First Person Shooter (FPS)",false
+3746,1002,"Milwaukee Brewers",false
+3747,1002,"Boston Red Sox",true
+3748,1002,"New York Mets",false
+3749,1002,"Baltimore Orioles",false
+3750,1003,"Teardrop",true
+3751,1003,"Protection",false
+3752,1003,"Black Milk",false
+3753,1003,"Angel",false
+3754,1004,"Razer",false
+3755,1004,"Oculus",false
+3756,1004,"HTC",true
+3757,1004,"Google",false
+3758,1005,"Josh Homme",false
+3759,1005,"Robin Finck",false
+3760,1005,"Marilyn Manson",false
+3761,1005,"Trent Reznor",true
+3762,1006,"Alaska",true
+3763,1006,"Washington",false
+3764,1006,"California",false
+3765,1006,"Texas",false
+3766,1007,"False",false
+3767,1007,"True",true
+3768,1008,"Tiger H1",false
+3769,1008,"M4 Sherman",false
+3770,1008,"Tog II",true
+3771,1008,"T-34",false
+3772,1009,"2001",false
+3773,1009,"1999",false
+3774,1009,"2000",true
+3775,1009,"1998",false
+3776,1010,"Jerald",false
+3777,1010,"Jason",false
+3778,1010,"John",true
+3779,1010,"Jeff",false
+3780,1011,"True",true
+3781,1011,"False",false
+3782,1012,"Meat Beat Mania",false
+3783,1012,"Guitar Hero Live",false
+3784,1012,"Dance Dance Revolution",false
+3785,1012,"Rock Band",true
+3786,1013,"Danger Mouse",false
+3787,1013,"CeeLo Green",false
+3788,1013,"Dan the Automater",true
+3789,1013,"Lamarr Kendrick",false
+3790,1014,"Team Mystic",false
+3791,1014,"Team Rocket",true
+3792,1014,"Team Valor",false
+3793,1014,"Team Instinct",false
+3794,1015,"Liquid Snake",false
+3795,1015,"Naked Snake",true
+3796,1015,"Solid Snake",false
+3797,1015,"Venom Snake",false
+3798,1016,"6",true
+3799,1016,"0",false
+3800,1016,"4",false
+3801,1016,"2",false
+3802,1017,"False",false
+3803,1017,"True",true
+3804,1018,"Interphase",true
+3805,1018,"Prophase",false
+3806,1018,"Telophase",false
+3807,1018,"Stasis",false
+3808,1019,"True",true
+3809,1019,"False",false
+3810,1020,"False",true
+3811,1020,"True",false
+3812,1021,"True",true
+3813,1021,"False",false
+3814,1022,"Sarah Kerrigan",true
+3815,1022,"Cortana",false
+3816,1022,"Princess Peach",false
+3817,1022,"Zoey",false
+3818,1023,"Principal Simeon",false
+3819,1023,"Principal Small",false
+3820,1023,"Principal Brown",true
+3821,1023,"Principal Brawn",false
+3822,1024,"2007",true
+3823,1024,"2004",false
+3824,1024,"2006",false
+3825,1024,"2005",false
+3826,1025,"Tree",false
+3827,1025,"Deer",false
+3828,1025,"Leaf",true
+3829,1025,"Roots",false
+3830,1026,"Germany",true
+3831,1026,"China",false
+3832,1026,"USA",false
+3833,1026,"Russia",false
+3834,1027,"Game Maker",true
+3835,1027,"Stencyl",false
+3836,1027,"Construct",false
+3837,1027,"Torque 2D",false
+3838,1028,"Stalingrad",false
+3839,1028,"Crimea",false
+3840,1028,"Voronezh",false
+3841,1028,"Caucasus",true
+3842,1029,"Ed O&#039;Brien",false
+3843,1029,"Dave Navarro",true
+3844,1029,"Tom Morello ",false
+3845,1029,"Billy Corgan",false
+3846,1030,"Pack",false
+3847,1030,"Murder",true
+3848,1030,"Gaggle",false
+3849,1030,"Herd",false
+3850,1031,"Ruby Ring",false
+3851,1031,"I Don&#039;t Want to Miss a Thing",true
+3852,1031,"Born to be Wild",false
+3853,1031,"Eye Of The Tiger",false
+3854,1032,"Mike Tyson",false
+3855,1032,"Sylvester Stallone",false
+3856,1032,"Arnold Schwarzenegger",false
+3857,1032,"Muhammad Ali",true
+3858,1033,"Sky High Zone ",false
+3859,1033,"Stardust Speedway Zone",false
+3860,1033,"Clockwork Zone",false
+3861,1033,"Genocide City Zone",true
+3862,1034,"King Crimson - 21st Century Schizoid Man",false
+3863,1034,"Dragonforce - Through The Fire &amp; The Flames",false
+3864,1034,"Lynyrd Skynyrd - Free Bird",false
+3865,1034,"Dream Theater - Pull Me Under",true
+3866,1035,"Coldplay",false
+3867,1035,"The Rolling Stones",false
+3868,1035,"R.E.M.",true
+3869,1035,"U2",false
+3870,1036,"Cylinder",true
+3871,1036,"Pyramid",false
+3872,1036,"Sphere",false
+3873,1036,"Cube",false
+3874,1037,"Land of Departure",false
+3875,1037,"Destiny Islands",true
+3876,1037,"Disney Town",false
+3877,1037,"Agrabah",false
+3878,1038,"Melanie Brown",false
+3879,1038,"Emma Bunton",false
+3880,1038,"Geri Halliwell",true
+3881,1038,"Victoria Beckham",false
+3882,1039,"Wales",false
+3883,1039,"The Midlands",false
+3884,1039,"Cornwall",true
+3885,1039,"Surrey",false
+3886,1040,"Hamlet",false
+3887,1040,"A Modern Twain Story",false
+3888,1040,"Wealthy Boy and the Schmuck",false
+3889,1040,"The Prince and the Pauper",true
+3890,1041,"IZOT 1030",false
+3891,1041,"IMKO-1",true
+3892,1041,"Pravetz 82",false
+3893,1041,"Pravetz 8D",false
+3894,1042,"GZA",true
+3895,1042,"Ol&#039; Dirty Bastard",false
+3896,1042,"Raekwon the Chef",false
+3897,1042,"Ghostface Killah",false
+3898,1043,"Nitrogen",false
+3899,1043,"Ammonia",false
+3900,1043,"Oxygen",false
+3901,1043,"Carbon dioxide",true
+3902,1044,"Spirited Away",false
+3903,1044,"Princess Mononoke",false
+3904,1044,"Wolf Children",true
+3905,1044,"Kiki&#039;s Delivery Service",false
+3906,1045,"Oxycodone",false
+3907,1045,"Marijuana",false
+3908,1045,"Heroin",true
+3909,1045,"Cocaine",false
+3910,1046,"Christoph Waltz",false
+3911,1046,"Harvey Keitel",false
+3912,1046,"John Travolta",true
+3913,1046,"Samuel L. Jackson",false
+3914,1047,"Surveyor to the City of London",true
+3915,1047,"Member of Parliament",false
+3916,1047,"Professor of Mathematics",false
+3917,1047,"Warden of the Royal Mint",false
+3918,1048,"M4A4",false
+3919,1048,"CZ-75 AUTO",false
+3920,1048,"AK-74",false
+3921,1048,"AK-47",true
+3922,1049,"2018",true
+3923,1049,"2013",false
+3924,1049,"2011",false
+3925,1049,"2017",false
+3926,1050,"A Day at the Races",false
+3927,1050,"Duck Soup",true
+3928,1050,"A Night at the Opera",false
+3929,1050,"Monkey Business",false
+3930,1051,"The Tornados",true
+3931,1051,"The Ventures",false
+3932,1051,"The Spotnicks",false
+3933,1051,"The Tremeloes",false
+3934,1052,"Genesis",true
+3935,1052,"Leviticus",false
+3936,1052,"Numbers",false
+3937,1052,"Exodus",false
+3938,1053,"True",false
+3939,1053,"False",true
+3940,1054,"Stan Lee",false
+3941,1054,"Robert Crumb",false
+3942,1054,"Robert Kirkman",true
+3943,1054,"Malcolm Wheeler-Nicholson",false
+3944,1055,"Flash Gordon",false
+3945,1055,"Labyrinth",false
+3946,1055,"Howard the Duck",false
+3947,1055,"Highlander",true
+3948,1056,"Breeze",false
+3949,1056,"Hurricane",false
+3950,1056,"Storm",false
+3951,1056,"Gale",true
+3952,1057,"Green",true
+3953,1057,"Brown",false
+3954,1057,"Blue",false
+3955,1057,"Yellow",false
+3956,1058,"False",true
+3957,1058,"True",false
+3958,1059,"True",true
+3959,1059,"False",false
+3960,1060,"Savannah",false
+3961,1060,"Atlanta",true
+3962,1060,"Marietta",false
+3963,1060,"Augusta",false
+3964,1061,"Being For The Benefit Of Mr. Kite!",true
+3965,1061,"The Continuing Story of Bungalow Bill",false
+3966,1061,"Why Don&#039;t We Do It in the Road?",false
+3967,1061,"Everybody&#039;s Got Something to Hide Except Me and My Monkey",false
+3968,1062,"Kuala Lumpur",false
+3969,1062,"Singapore",false
+3970,1062,"Tokyo",false
+3971,1062,"Beijing",true
+3972,1063,"Francis Scott Key",false
+3973,1063,"Lin-Manuel Miranda",true
+3974,1063,"Steven Sondheim",false
+3975,1063,"John Phillips Sousa",false
+3976,1064,"0",false
+3977,1064,"6",true
+3978,1064,"4",false
+3979,1064,"2",false
+3980,1065,"True",false
+3981,1065,"False",true
+3982,1066,"Alexandros Mograine",true
+3983,1066,"Arthas Menethil",false
+3984,1066,"Uther the Lightbringer",false
+3985,1066,"Tirion Fordring",false
+3986,1067,"Saxton Hale",false
+3987,1067,"Zepheniah Mann",true
+3988,1067,"Cave Johnson",false
+3989,1067,"Wallace Breem",false
+3990,1068,"Pigeons",false
+3991,1068,"Foxes",true
+3992,1068,"Bears",false
+3993,1068,"Alligators",false
+3994,1069,"Toyota",false
+3995,1069,"Ferrari",false
+3996,1069,"Porsche",true
+3997,1069,"Audi",false
+3998,1070,"England",false
+3999,1070,"Spain",true
+4000,1070,"France",false
+4001,1070,"Portugal",false
+4002,1071,"Shish Kabob",false
+4003,1071,"Lasagna",false
+4004,1071,"Pie",true
+4005,1071,"Hamburger",false
+4006,1072,"1 Month",true
+4007,1072,"1 Week",false
+4008,1072,"2 Months",false
+4009,1072,"3 Weeks",false
+4010,1073,"The overall size",false
+4011,1073,"The mode of reproduction",false
+4012,1073,"The presence or absence of a nucleus",true
+4013,1073,"The presence or absence of certain organelles",false
+4014,1074,"Decapitation",false
+4015,1074,"Firing squad",false
+4016,1074,"Crucifixion ",false
+4017,1074,"Poison",true
+4018,1075,"False",false
+4019,1075,"True",true
+4020,1076,"Barcelona",false
+4021,1076,"Sevilla",false
+4022,1076,"Madrid",true
+4023,1076,"Toledo",false
+4024,1077,"Linkin Park",false
+4025,1077,"Sum 41",false
+4026,1077,"Smash Mouth",true
+4027,1077,"Bowling for Soup",false
+4028,1078,"True",false
+4029,1078,"False",true
+4030,1079,"Buckingham Palace",false
+4031,1079,"St James&#039;s Palace",false
+4032,1079,"Hampton Court",true
+4033,1079,"Coughton Court",false
+4034,1080,"2011",false
+4035,1080,"2009",false
+4036,1080,"2016",true
+4037,1080,"2013",false
+4038,1081,"Barcelona",false
+4039,1081,"Liverpool",false
+4040,1081,"Manchester United",true
+4041,1081,"Bayern Munich",false
+4042,1082,"The Flaming Lips",false
+4043,1082,"Nickelback",false
+4044,1082,"Coldplay",false
+4045,1082,"Foo Fighters",true
+4046,1083,"Peregrine Falcon",true
+4047,1083,"Cheetah",false
+4048,1083,"Golden Eagle",false
+4049,1083,"Horsefly",false
+4050,1084,"Elvis",false
+4051,1084,"Bob Dylan",true
+4052,1084,"Adele",false
+4053,1084,"Billy Joel",false
+4054,1085,"Charles",false
+4055,1085,"Lee",false
+4056,1085,"Walter",false
+4057,1085,"Ed",true
+4058,1086,"Shadow of the Colossus",false
+4059,1086,"Beyond Good &amp; Evil",false
+4060,1086,"Folklore",true
+4061,1086,"ICO",false
+4062,1087,"True",true
+4063,1087,"False",false
+4064,1088,"Strom Thurmond",false
+4065,1088,"Robert Byrd",true
+4066,1088,"Joe Biden",false
+4067,1088,"Daniel Inouye",false
+4068,1089,"Surrey",false
+4069,1089,"Hampshire",true
+4070,1089,"Buckinghamshire",false
+4071,1089,"Oxfordshire",false
+4072,1090,"Aborigines",false
+4073,1090,"Papuans",false
+4074,1090,"Māori",true
+4075,1090,"Polynesians",false
+4076,1091,"Hoxton",false
+4077,1091,"Chains",false
+4078,1091,"Wolf",false
+4079,1091,"Dallas",true
+4080,1092,"Finders Keepers",false
+4081,1092,"Nick Arcade",false
+4082,1092,"Double Dare",true
+4083,1092,"Nickelodeon Guts",false
+4084,1093,"Franklin Clinton",false
+4085,1093,"Michael de Santa",false
+4086,1093,"Tommy Vercetti",true
+4087,1093,"Trevor Phillips",false
+4088,1094,"1909",false
+4089,1094,"1904",true
+4090,1094,"1999",false
+4091,1094,"2008",false
+4092,1095,"True",true
+4093,1095,"False",false
+4094,1096,"Cali",false
+4095,1096,"Bogot&aacute;",false
+4096,1096,"Medell&iacute;n",true
+4097,1096,"Quito",false
+4098,1097,"1987",false
+4099,1097,"1990",false
+4100,1097,"2000",false
+4101,1097,"1991",true
+4102,1098,"Buddy &amp; Bobby",false
+4103,1098,"Jingle &amp; Jangle",true
+4104,1098,"Holly &amp; Jolly",false
+4105,1098,"Snowflake &amp; Icicle",false
+4106,1099,"3rd",true
+4107,1099,"8th",false
+4108,1099,"5th",false
+4109,1099,"1st",false
+4110,1100,"Elbow",true
+4111,1100,"Sholder",false
+4112,1100,"Knee",false
+4113,1100,"Ankle",false
+4114,1101,"Eight",false
+4115,1101,"Six",false
+4116,1101,"Five",true
+4117,1101,"Four",false
+4118,1102,"Jean",true
+4119,1102,"Emma",false
+4120,1102,"Jane",false
+4121,1102,"Jo",false
+4122,1103,"Single",false
+4123,1103,"Secure",false
+4124,1103,"Subscriber",true
+4125,1103,"Solid",false
+4126,1104,"5",false
+4127,1104,"3",true
+4128,1104,"13",false
+4129,1104,"2",false
+4130,1105,"Dragon",false
+4131,1105,"Silant",false
+4132,1105,"BYD",true
+4133,1105,"GAZ",false
+4134,1106,"True",false
+4135,1106,"False",true
+4136,1107,"False",true
+4137,1107,"True",false
+4138,1108,"Moon Walk River",false
+4139,1108,"Electric Town",true
+4140,1108,"Otaku Central ",false
+4141,1108,"Big Eyes",false
+4142,1109,"1997",false
+4143,1109,"2004",false
+4144,1109,"1999",false
+4145,1109,"1998",true
+4146,1110,"1999",false
+4147,1110,"1995",true
+4148,1110,"2001",false
+4149,1110,"1997",false
+4150,1111,"12",true
+4151,1111,"25",false
+4152,1111,"21",false
+4153,1111,"19",false
+4154,1112,"July 2nd, 1916",false
+4155,1112,"July 1st, 1916",true
+4156,1112,"August 1st, 1916",false
+4157,1112,"June 30th, 1916",false
+4158,1113,"True",true
+4159,1113,"False",false
+4160,1114,"Jane Austen",false
+4161,1114,"Emily Bront&euml;",false
+4162,1114,"Charlotte Bront&euml;",true
+4163,1114,"Louisa May Alcott",false
+4164,1115,"Jupiter and Saturn",false
+4165,1115,"Mercury and Venus",false
+4166,1115,"Earth and Mars",false
+4167,1115,"Mars and Jupiter",true
+4168,1116,"The Evil Dead",false
+4169,1116,"Saw",false
+4170,1116,"Alien",false
+4171,1116,"The Thing",true
+4172,1117,"False",false
+4173,1117,"True",true
+4174,1118,"Jerry Siegel",false
+4175,1118,"Alan Moore",true
+4176,1118,"Bill Finger",false
+4177,1118,"Frank Miller",false
+4178,1119,"Kouya Aotsuki",false
+4179,1119,"Soutarou Touno",false
+4180,1119,"Shin Kuroi",true
+4181,1119,"Torahiko Ooshima",false
+4182,1120,"True",false
+4183,1120,"False",true
+4184,1121,"P&oacute;land",false
+4185,1121,"Polszka",false
+4186,1121,"Pupcia",false
+4187,1121,"Polska",true
+4188,1122,"Graphics Processing Unit",false
+4189,1122,"Central Processing Unit",true
+4190,1122,"Keyboard",false
+4191,1122,"Motherboard",false
+4192,1123,"11",true
+4193,1123,"6",false
+4194,1123,"24",false
+4195,1123,"16",false
+4196,1124,"Soldier 76",false
+4197,1124,"Junkrat",false
+4198,1124,"McCree",true
+4199,1124,"Roadhog",false
+4200,1125,"Kirby Super Star",false
+4201,1125,"Kirby&#039;s Dream Land",false
+4202,1125,"Kirby&#039;s Adventure",true
+4203,1125,"Kirby&#039;s Dream Land 2",false
+4204,1126,"355",false
+4205,1126,"346",true
+4206,1126,"350",false
+4207,1126,"360",false
+4208,1127,"1996",true
+4209,1127,"2014",false
+4210,1127,"2010",false
+4211,1127,"2003",false
+4212,1128,"Spookit",true
+4213,1128,"Petricub",false
+4214,1128,"Pyromantle",false
+4215,1128,"Trictus",false
+4216,1129,"New London",false
+4217,1129,"New Paris",false
+4218,1129,"New Rome",false
+4219,1129,"New Amsterdam",true
+4220,1130,"Greek and Roman",true
+4221,1130,"Roman and Spanish",false
+4222,1130,"Greek, Roman and Norse",false
+4223,1130,"Greek and Chinese",false
+4224,1131,"Dawngate",true
+4225,1131,"Heroes of Newerth",false
+4226,1131,"League of Legends",false
+4227,1131,"Strife",false
+4228,1132,"Leonid Brezhnev",false
+4229,1132,"Boris Yeltsin",false
+4230,1132,"Nikita Khrushchev",true
+4231,1132,"Mikhail Gorbachev",false
+4232,1133,"Spider",true
+4233,1133,"Crocodile",false
+4234,1133,"Monkey",false
+4235,1133,"Wild dog",false
+4236,1134,"iAmBatman",false
+4237,1134,"BW1129",false
+4238,1134,"BWayne13",false
+4239,1134,"JonDoe297",true
+4240,1135,"A Matter of Life and Death",false
+4241,1135,"Dance of Death",false
+4242,1135,"Brave New World",true
+4243,1135,"Somewhere in Time",false
+4244,1136,"Rhydon",false
+4245,1136,"Magmar",false
+4246,1136,"Jynx",true
+4247,1136,"Electabuzz",false
+4248,1137,"Portuguese Man-of-War",true
+4249,1137,"Irukandji",false
+4250,1137,"Sea Wasp",false
+4251,1137,"Sea Nettle",false
+4252,1138,"Infected Mushroom",false
+4253,1138,"The Prodigy",true
+4254,1138,"The Crystal Method",false
+4255,1138,"The Chemical Brothers",false
+4256,1139,"Wolf",false
+4257,1139,"Hoxton",false
+4258,1139,"Chains",false
+4259,1139,"Dallas",true
+4260,1140,"Showjumping",false
+4261,1140,"Swimming",false
+4262,1140,"Gymnastics",false
+4263,1140,"Skiing",true
+4264,1141,"Tom Jones",false
+4265,1141,"John Barry",false
+4266,1141,"Sheena Easton",false
+4267,1141,"Shirley Basey",true
+4268,1142,"Renault FT",true
+4269,1142,"Cromwell ",false
+4270,1142,"M4 Sherman",false
+4271,1142," Panzer IV",false
+4272,1143,"Leicester City",true
+4273,1143,"Stoke City",false
+4274,1143,"Watford",false
+4275,1143,"Tottenham Hotspur",false
+4276,1144,"1.58 x  10^18",false
+4277,1144,"1.58 x 10^24",false
+4278,1144,"1.58 x 10^20",true
+4279,1144,"1.58 x 10^22",false
+4280,1145,"World War 1",false
+4281,1145,"Vietnam War",true
+4282,1145,"World War 2",false
+4283,1145,"Cold War",false
+4284,1146,"13",true
+4285,1146,"6",false
+4286,1146,"10",false
+4287,1146,"18",false
+4288,1147,"1-5",false
+4289,1147,"1-7",true
+4290,1147,"1-6",false
+4291,1147,"2-6",false
+4292,1148,"Seifer",false
+4293,1148,"Fujin",true
+4294,1148,"Raijin",false
+4295,1148,"Zell",false
+4296,1149,"October 1st, 2019",false
+4297,1149,"October 31st, 2019",true
+4298,1149,"January 13th, 2019",false
+4299,1149,"September 6th, 2018",false
+4300,1150,"Diamonds",false
+4301,1150,"Spades",false
+4302,1150,"Hearts",true
+4303,1150,"Clubs",false
+4304,1151,"Toy Story",false
+4305,1151,"James and the Giant Peach",false
+4306,1151,"Aladdin",true
+4307,1151,"The Hunchback of Notre Dame",false
+4308,1152,"Blue",false
+4309,1152,"Green",false
+4310,1152,"Red",true
+4311,1152,"Purple",false
+4312,1153,"New York Rangers",false
+4313,1153,"Philadelphia Flyers",true
+4314,1153,"Toronto Maple Leafs",false
+4315,1153,"Boston Bruins",false
+4316,1154,"Cyrus",false
+4317,1154,"Palutena",false
+4318,1154,"Marie",true
+4319,1154,"Shulk",false
+4320,1155,"Harrison Ford",false
+4321,1155,"Martin Landau",false
+4322,1155,"Harvey Keitel",false
+4323,1155,"Tommy Lee Jones",true
+4324,1156,"Kandy",false
+4325,1156,"Moratuwa",false
+4326,1156,"Negombo",false
+4327,1156,"Colombo",true
+4328,1157,"True",true
+4329,1157,"False",false
+4330,1158,"True",false
+4331,1158,"False",true
+4332,1159,"Auguste Rodin",false
+4333,1159,"Fr&eacute;d&eacute;ric Auguste Bartholdi",true
+4334,1159,"Henri Matisse",false
+4335,1159,"Jean-L&eacute;on G&eacute;r&ocirc;me",false
+4336,1160,"John Rutsey",false
+4337,1160,"Neil Peart",true
+4338,1160,"Alex Lifeson",false
+4339,1160,"Geddy Lee",false
+4340,1161,"19",true
+4341,1161,"12",false
+4342,1161,"20",false
+4343,1161,"15",false
+4344,1162,"100m",false
+4345,1162,"10m ",false
+4346,1162,"0.1m",true
+4347,1162,"1m",false
+4348,1163,"False",true
+4349,1163,"True",false
+4350,1164,"NH3",true
+4351,1164,"CH4",false
+4352,1164,"NO3",false
+4353,1164,"CO2",false
+4354,1165,"Sailor Moon",true
+4355,1165,"Sailor Jupiter",false
+4356,1165,"Sailor Venus",false
+4357,1165,"Sailor Mars",false
+4358,1166,"Pineapple",false
+4359,1166,"Place",false
+4360,1166,"People",false
+4361,1166,"Thing",true
+4362,1167,"Kuwaiti",false
+4363,1167,"Korean",true
+4364,1167,"Kenyan",false
+4365,1167,"Kazakhstan",false
+4366,1168,"Solid Snake",false
+4367,1168,"Link",true
+4368,1168,"Q*bert",false
+4369,1168,"Wario",false
+4370,1169,"Bravery",false
+4371,1169,"Innovation",false
+4372,1169,"Courage",true
+4373,1169,"Revolution",false
+4374,1170,"False",true
+4375,1170,"True",false
+4376,1171,"938,000&deg; F (521093.3&deg; C)",false
+4377,1171,"Absolute Zero (Both F and C)",false
+4378,1171,"8&deg; Billion F (&deg;4.4 Billion C)",false
+4379,1171,"27&deg; Million F (15&deg; Million C)",true
+4380,1172,"Battle of Antietam",true
+4381,1172,"September 11th",false
+4382,1172,"D-Day",false
+4383,1172,"Pearl Harbor",false
+4384,1173,"3",false
+4385,1173,"5",true
+4386,1173,"7",false
+4387,1173,"0",false
+4388,1174,"1971",false
+4389,1174,"1981",false
+4390,1174,"1997",true
+4391,1174,"1986",false
+4392,1175,"Ultimate Gambler",false
+4393,1175,"Ultimate Swimmer",true
+4394,1175,"Ultimate Detective",false
+4395,1175,"Ultimate Dancer",false
+4396,1176,"False",false
+4397,1176,"True",true
+4398,1177,"Yeezus",true
+4399,1177,"The Life of Pablo",false
+4400,1177,"My Beautiful Dark Twisted Fantasy",false
+4401,1177,"Watch the Throne",false
+4402,1178,"True",false
+4403,1178,"False",true
+4404,1179,"True",false
+4405,1179,"False",true
+4406,1180,"Gimli Superb",false
+4407,1180,"Gimli Glider",true
+4408,1180,"Gimli Microlight",false
+4409,1180,"Gimli Chaser",false
+4410,1181,"HTC",false
+4411,1181,"Oculus",false
+4412,1181,"Tobii",false
+4413,1181,"Microsoft",true
+4414,1182,"376",false
+4415,1182,"346",false
+4416,1182,"427",true
+4417,1182,"364",false
+4418,1183,"Rank 1 Master",false
+4419,1183,"Rank 1 Elite",false
+4420,1183,"Rank 1 Legend",true
+4421,1183,"Rank 1 Supreme",false
+4422,1184,"True",true
+4423,1184,"False",false
+4424,1185,"False",false
+4425,1185,"True",true
+4426,1186,"Emission",false
+4427,1186,"Transmutation",false
+4428,1186,"Restoration",true
+4429,1186,"Specialization",false
+4430,1187,"Lightning + Shield",false
+4431,1187,"Arcane + Life",false
+4432,1187,"Lightning + Life",false
+4433,1187,"Arcane + Shield",true
+4434,1188,"6",false
+4435,1188,"4",false
+4436,1188,"5",false
+4437,1188,"8",true
+4438,1189,"A-1 Pictures",false
+4439,1189,"Gainax",true
+4440,1189,"Pierrot",false
+4441,1189,"Kyoto Animation",false
+4442,1190,"A percussion instrument",true
+4443,1190,"A building in Oxford University",false
+4444,1190,"A chess move",false
+4445,1190,"A geometric theorem",false
+4446,1191,"Chile",false
+4447,1191,"Fiji",false
+4448,1191,"Indonesia",true
+4449,1191,"New Zealand",false
+4450,1192,"Rick &amp; Morty",true
+4451,1192,"South Park",false
+4452,1192,"American Dad",false
+4453,1192,"Family Guy",false
+4454,1193,"11",false
+4455,1193,"22",false
+4456,1193,"13",true
+4457,1193,"20",false
+4458,1194,"The inability to make decisions",false
+4459,1194,"The inability to stand up",false
+4460,1194,"The inability to concentrate on anything",true
+4461,1194,"A feverish desire to rip one&#039;s clothes off",false
+4462,1195,"C21H23NO3",false
+4463,1195,"C13H25NO4",false
+4464,1195,"C18H27NO3",true
+4465,1195,"C6H4Cl2",false
+4466,1196,"GZA",false
+4467,1196,"Method Man",false
+4468,1196,"Inspectah Deck",false
+4469,1196,"Masta Killa",true
+4470,1197,"Aurelia",false
+4471,1197,"Osea",true
+4472,1197,"Japan",false
+4473,1197,"Australia",false
+4474,1198,"Kyary Pamyu Pamyu",false
+4475,1198,"Kyoko Ito",true
+4476,1198,"Yoko Ono",false
+4477,1198,"LiSA",false
+4478,1199,"False",false
+4479,1199,"True",true
