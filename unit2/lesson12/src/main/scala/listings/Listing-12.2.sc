@@ -1,5 +1,1 @@
-trait Nameable {
-
-  def name: String
-
-}
+trait Nameable(name: String)
