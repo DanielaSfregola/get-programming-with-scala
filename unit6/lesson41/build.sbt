@@ -7,7 +7,7 @@ scalaVersion := "2.13.1"
 val ScalaCsvVersion = "1.3.6"
 val LogbackVersion = "1.2.3"
 
-libraryDependencies ++= Seq(
+libraryDependencies ++= List(
   "com.github.tototoshi" %% "scala-csv" % ScalaCsvVersion,
   "ch.qos.logback"  %  "logback-classic"     % LogbackVersion
 )

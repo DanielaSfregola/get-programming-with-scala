@@ -6,7 +6,7 @@ scalaVersion := "2.13.3"
 
 val CirceVersion = "0.13.0"
 
-libraryDependencies ++= Seq(
+libraryDependencies ++= List(
   "io.circe" %% "circe-core" % CirceVersion,
   "io.circe" %% "circe-generic" % CirceVersion,
   "io.circe" %% "circe-parser" % CirceVersion

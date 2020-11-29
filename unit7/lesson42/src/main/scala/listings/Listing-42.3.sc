@@ -1,6 +1,6 @@
 case class User(id: Int)
 case class UserContext(id: Int, details: PersonalDetails, account: Account)
-case class ProductSelection(productIds: Seq[Int])
+case class ProductSelection(productIds: List[Int])
 
 case class PersonalDetails(/* some fields here */)
 case class Account(/* some fields here */)

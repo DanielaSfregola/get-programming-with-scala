@@ -8,7 +8,7 @@ val CirceVersion = "0.12.3"
 val ScalaCsvVersion = "1.3.6"
 val LogbackVersion = "1.2.3"
 
-libraryDependencies ++= Seq(
+libraryDependencies ++= List(
   "io.circe" %% "circe-core" % CirceVersion,
   "io.circe" %% "circe-generic" % CirceVersion,
   "io.circe" %% "circe-parser" % CirceVersion,

@@ -7,7 +7,7 @@ scalaVersion := "2.13.1"
 val CirceVersion  = "0.13.0"
 val Http4sVersion = "0.21.8"
 
-libraryDependencies ++= Seq(
+libraryDependencies ++= List(
   "io.getquill" %% "quill-async-postgres" % "3.5.2",
   "org.testcontainers" % "postgresql" % "1.15.0-rc2",
   "org.postgresql" % "postgresql" % "42.2.11",
