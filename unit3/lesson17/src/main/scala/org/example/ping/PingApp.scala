@@ -1,19 +1,24 @@
 package org.example.ping
 
-import cats.effect.IO
-import fs2.StreamApp
-import org.http4s.server.blaze.BlazeBuilder
+import cats.effect.{ExitCode, IO, IOApp}
+import org.http4s.server.Router
 
-import scala.concurrent.ExecutionContext.Implicits.global
+import org.http4s.implicits._
+import org.http4s.server.blaze.BlazeServerBuilder
+import scala.concurrent.ExecutionContext
 
-object PingApp extends StreamApp[IO] {
+object PingApp extends IOApp {
 
-  def stream(args: List[String], requestShutdown: IO[Unit]) =
-    BlazeBuilder[IO]
+  private val httpApp = Router(
+    "/" -> new PingApi().routes
+  ).orNotFound
+
+  override def run(args: List[String]): IO[ExitCode] =
+    stream(args).compile.drain.as(ExitCode.Success)
+
+  private def stream(args: List[String]): fs2.Stream[IO, ExitCode] =
+    BlazeServerBuilder[IO](ExecutionContext.global)
     .bindHttp(8000, "0.0.0.0")
-    .mountService(pingService, "/")
+    .withHttpApp(httpApp)
     .serve
-
-  private def pingService = (new PingService).service
-
 }

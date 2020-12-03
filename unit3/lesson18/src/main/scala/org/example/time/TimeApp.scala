@@ -1,19 +1,24 @@
 package org.example.time
 
-import cats.effect.IO
-import fs2.StreamApp
-import org.http4s.server.blaze.BlazeBuilder
+import cats.effect.{ExitCode, IO, IOApp}
+import org.http4s.implicits._
+import org.http4s.server.Router
+import org.http4s.server.blaze.BlazeServerBuilder
 
-import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.ExecutionContext
 
-object TimeApp extends StreamApp[IO] {
+object TimeApp extends IOApp {
 
-  def stream(args: List[String], requestShutdown: IO[Unit]) =
-    BlazeBuilder[IO]
-      .bindHttp(8080, "0.0.0.0")
-      .mountService(timeService, "/")
-      .serve
+  private val httpApp = Router(
+    "/" -> new TimeApi().routes
+  ).orNotFound
 
-  def timeService = (new TimeService).service
+  override def run(args: List[String]): IO[ExitCode] =
+    stream(args).compile.drain.as(ExitCode.Success)
 
+  private def stream(args: List[String]) =
+    BlazeServerBuilder[IO](ExecutionContext.global)
+    .bindHttp(8000, "0.0.0.0")
+    .withHttpApp(httpApp)
+    .serve
 }

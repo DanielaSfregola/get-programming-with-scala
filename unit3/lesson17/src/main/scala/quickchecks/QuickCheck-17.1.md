@@ -1,4 +1,4 @@
-Suppose you’d like your PingService to match a request with a /ping URI, 
+Suppose you’d like your PingApi to match a request with a /ping URI, 
 but with any HTTP method (i.e., GET, POST, PUT, DELETE, PATCH). How would you change your code?
 
 
