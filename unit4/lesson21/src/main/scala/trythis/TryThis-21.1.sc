@@ -1,4 +1,4 @@
-// Which of the following functions are pure? Which are impure?
+// Which ones of the following functions are pure? Which ones are impure?
 
 class User
 def insertUser(user: User): Unit = ???
@@ -30,6 +30,7 @@ def getUser(id: Int): User = {
 
 
 // ANSWERS
+
 // 1. Pure
 // 2. Impure
 // 3. Pure

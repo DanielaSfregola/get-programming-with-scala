@@ -3,11 +3,13 @@
 
 
 // ANSWER
-// The function welcome no longer compiles. The compiler complains that it cannot find a value Person:
-// a companion object with name Person containing an implementation for the unapply function no longer
-// exists because you have declared Person as a regular class rather than a case class.
 
-class Person(name: String, age: Int)
+// The function welcome no longer compiles. The compiler complains that it cannot find a value Person:
+// a companion object with the name Person containing an implementation for the unapply function no longer
+// exists because you have declared Person as a regular class rather than a case class.
+// Also, its fields name and age are no longer publicly accessible.
+
+class Person(val name: String, val age: Int)
 
 def welcome(person: Person): String = person match {
   case Person("Tom", _) => "Hello Mr Tom!"

@@ -29,13 +29,14 @@ def anotherPowerOf2(d: Double): Double = {
 def getCurrentTime(): Long = System.currentTimeMillis()
 
 // ANSWERS
+
 // The answers are the following:
 // 1.	The function div has no side effects: throwing exceptions is not a side effect
-//    as it does not change the state of components external to the function.
-// 2.	The function getUserAge will return different results depending on which objects
-//    are stored in the database, so it has a (read) side effect.
+//    because it does not change the state of components external to the function.
+// 2.	The function getUserAge returns different results depending on which objects are
+//    in the database, which is a (read) side effect.
 // 3.	The function powerOf2 has no side effects as its return value depends entirely on its input.
 // 4.	The function anotherPowerOf2 has a (write) side effects: every time you call it,
 //    it produces a new message to the console, changing its state.
-// 5.	The function getCurrentTime returns a value that depends on the internal clock of
-//    your machine, so it has a (read) side effect.
+// 5.	The function getCurrentTime returns a value that depends on your machine’s internal clock,
+//    which is a (read) side effect.

@@ -1,9 +1,11 @@
-// Write a function called greetings which takes an optional custom message as its parameter
-// and it returns a string. When the optional parameter is defined (i.e., it contains a value)
-// use it as greeting message, when missing use the predefined message “Greetings, Human!”.
-// For example greetings(Some("Hello Scala")) should return the string “Hello Scala”,
+// Write a function called greetings that takes an optional custom message as its parameter
+// and returns a string. Use its optional parameter as its greeting message when defined
+// (i.e., it contains a value), use the predefined message “Greetings, Human!” when missing.
+// For example, greetings(Some("Hello Scala")) should return the string “Hello Scala”,
 // while greetings(None) should return “Greetings, Human!”.
 
+
+// ANSWER
 
 def greetings(customMessage: Option[String]): String =
   customMessage match {

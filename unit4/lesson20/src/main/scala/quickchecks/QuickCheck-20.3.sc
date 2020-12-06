@@ -1,6 +1,9 @@
 // Change the code shown in listing 21.4 to add a new type of statics to count the whitespaces
 // in a string: use the function isWhitespace defined in the class Char.
 
+
+// ANSWER
+
 sealed trait Mode
 case object Length extends Mode
 case object Letters extends Mode

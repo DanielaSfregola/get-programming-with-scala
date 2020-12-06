@@ -1,4 +1,7 @@
-// Implement a function, called carWithLicensedOwner, which takes and return an optional car instance if its owner has a driving license
+// Implement a function called carWithLicensedOwner that takes and returns
+// an optional car instance if its owner has a driving license.
+
+// ANSWER
 
 case class Car(model: String,
                owner: Option[Person],

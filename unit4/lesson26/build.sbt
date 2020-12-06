@@ -2,7 +2,7 @@ name := "get-programming-with-scala-lesson26"
 
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.13.4"
 
 val Http4sVersion = "0.21.9"
 
