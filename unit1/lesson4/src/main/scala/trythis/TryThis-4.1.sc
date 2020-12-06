@@ -1,15 +1,25 @@
-// Change the code of your mark function to keep track of both the lowest and
+// Modify your mark function to keep track of both the lowest and
 // the highest mark computed so far.
 
 
-var marksSum = 0 	//#A
-var marksCount = 0	//#A
+// ANSWER
+
+var marksSum = 0
+var marksCount = 0
 
 var minMark = 100
 var maxMark = -100
 
 def averageMark: Double =
-  marksSum.toDouble / marksCount //#B
+  marksSum.toDouble / marksCount
+
+def updateMinMark(mark: Int) = {
+  if (mark < minMark) minMark = mark
+}
+
+def updateMaxMark(mark: Int) = {
+  if (mark > maxMark) maxMark = mark
+}
 
 def markExam(q1: Double, q2: Double, q3: Double): Int = {
   val avgScore = (q1 + q2 + q3) / 3
@@ -22,13 +32,5 @@ def markExam(q1: Double, q2: Double, q3: Double): Int = {
   updateMinMark(mark)
   updateMaxMark(mark)
 
-  mark //#C
-}
-
-def updateMinMark(mark: Int) = {
-  if (mark < minMark) minMark = mark
-}
-
-def updateMaxMark(mark: Int) = {
-  if (mark > maxMark) maxMark = mark
+  mark
 }

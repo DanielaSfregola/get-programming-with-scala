@@ -3,6 +3,8 @@
 // Express these relations using classes and subclasses.
 
 
+// ANSWER
+
 abstract class Drink(name: String, price: Double)
 
 class HotDrink(name: String, price: Double) extends Drink(name, price) {

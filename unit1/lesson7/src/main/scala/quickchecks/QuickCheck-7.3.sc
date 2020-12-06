@@ -3,6 +3,8 @@
 // called hello, that takes one parameter of type string and returns a string.
 
 
+// ANSWER
+
 abstract class Person(name: String, age: Int = 0) {
 
   def presentYourself = s"My name is $name and I am $age"
