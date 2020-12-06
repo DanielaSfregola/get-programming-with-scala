@@ -14,6 +14,7 @@ case class Assistant(id: Long, name: String)
 
 
 //  ANSWERS
+
 // 1.	Retrieve the name of the tutor of a given student
 def tutorName(student: Student): Option[String] =
   student.tutor.map(_.name)

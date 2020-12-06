@@ -3,6 +3,9 @@
 //-	A genre has only three possible values: Drama, Horror, Romantic.
 //-	A book has a title, an author, and a genre.
 
+
+// ANSWER
+
 case class Author(forename: String, surname: String)
 
 sealed trait Genre

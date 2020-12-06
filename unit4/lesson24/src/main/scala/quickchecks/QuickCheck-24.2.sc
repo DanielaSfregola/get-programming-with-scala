@@ -1,5 +1,8 @@
-// In QuickCheck 23.3 you have implemented a function ownerBelowAge that returns
-// the name of a car owner if younger than a given age: re-implement it using for-comprehension.
+// In the previous lesson, you have implemented a function ownerBelowAge that returns
+// the car owner’s name if younger than a given age: re-implement it using
+// a for-comprehension statement.
+
+// ANSWER
 
 case class Car(model: String,
                owner: Option[Person],
