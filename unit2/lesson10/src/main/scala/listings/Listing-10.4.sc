@@ -1,9 +1,3 @@
-// Can you access the function estimateCosts from outside the class Event?
-// Use the REPL to validate your hypothesis.
-
-
-// ANSWER
-
 class Event {
 
   protected def estimateCosts(attendees: Int): Double =
@@ -19,6 +13,3 @@ class Party extends Event {
   def register(guests: Int) =
     attendees += guests
 }
-
-val event = new Event
-event.estimateCosts(5) // doesn't compile: it is not accessible!

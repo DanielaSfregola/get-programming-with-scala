@@ -1,5 +1,5 @@
 class Party {
-  var attendees = 0
+  private var attendees = 0
 
   def register(guests: Int) =
     attendees += guests
