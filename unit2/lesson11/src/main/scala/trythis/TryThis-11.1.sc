@@ -3,11 +3,14 @@
 // - Determine the oldest between two people
 // - Create a person by copying the parameters of an existing one
 
+
+// ANSWER
+
 class Person(val name: String, val age: Int)
 
 object Person {
 
-  def apply(p1: Person, p2: Person): Person = { //#A
+  def apply(p1: Person, p2: Person): Person = {
     val name = s"Son of ${p1.name} and ${p2.name}"
     val age = 0
     new Person(name, age)
