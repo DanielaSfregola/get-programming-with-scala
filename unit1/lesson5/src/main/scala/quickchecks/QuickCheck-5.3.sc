@@ -2,5 +2,6 @@
 //for (a <- "hello") println(a)
 //Use the REPL to validate your hypothesis.
 
+// ANSWER
 
 for (a <- "hello") println(a)
