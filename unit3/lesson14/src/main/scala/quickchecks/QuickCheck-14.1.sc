@@ -2,6 +2,9 @@
 // that the function returns for the following inputs.
 // Use the REPL to validate your hypotheses.
 
+
+// ANSWER
+
 def objInfo(param: Any) = param match {
   case n: Int if n > 0 => s"$n is a positive integer"
   case d: Double => s"$d is a double"

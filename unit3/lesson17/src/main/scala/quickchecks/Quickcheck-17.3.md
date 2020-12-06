@@ -1,18 +1,18 @@
-Remove the scala.concurrent.ExecutionContext.Implicits.global import.
-What happens when you try to compile your code?
+Change your code not to provide a host or port for your server by invoking the function bindHttp 
+without parameters. What happens when you start your application using the command sbt run?
 
 
 ANSWER:
 
-The application needs a set of threads to run the HTTP server, but the compiler cannot find one, so it fails with a compilation error asking you to either provide a custom ExecutionContext or to use the global one by adding the following import:
+The function bindHttp uses predefined defaults when invoked with no parameters. 
+It binds the server to host 127.0.01 and port 8080: 
 
-import scala.concurrent.ExecutionContext.Implicits.global
+[info] running org.example.ping.PingApp 
+Service bound to address /127.0.0.1:8080 
 
-[error] /path/to/src/main/scala/org/example/ping/PingApp.scala:15:6: Cannot find an implicit ExecutionContext. You might pass
-[error] an (implicit ec: ExecutionContext) parameter to your method
-[error] or import scala.concurrent.ExecutionContext.Implicits.global.
-[error]     .serve
-[error]      ^
-[error] one error found
-[error] (Compile / compileIncremental) Compilation failed
-[error] Total time: 3 s, completed 30-May-2018 16:16:30
+  _   _   _        _ _
+ | |_| |_| |_ _ __| | | ___
+ | ' \  _|  _| '_ \_  _(_-<
+ |_||_\__|\__| .__/ |_|/__/
+             |_| 
+http4s v0.21.9 on blaze v0.14.14 started at http://127.0.0.1:8080/
