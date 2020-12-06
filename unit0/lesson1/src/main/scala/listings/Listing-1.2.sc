@@ -4,6 +4,6 @@ class MyClass(name: String) {
 }
 
 object MyObject {
-  val a = new MyClass
-  println(a.sayHello("Scala"))
+  val a = new MyClass("Scala")
+  println(a.sayHello("Martin"))
 }

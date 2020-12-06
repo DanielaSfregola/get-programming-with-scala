@@ -1,4 +1,4 @@
 var a = "hello"
 println(a)
-a = "Batman"
+a = "Scala"
 println(a)
