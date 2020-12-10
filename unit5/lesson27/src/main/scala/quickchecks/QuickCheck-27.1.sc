@@ -2,8 +2,7 @@
 // What is the type of your List instance? Why?
 
 
-
-// ANSWER:
+// ANSWER
 
 // You can create the list my typing the following instruction in the Scala REPL:
 

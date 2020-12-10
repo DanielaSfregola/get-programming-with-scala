@@ -16,4 +16,4 @@ List().sorted
 //  ^
 // The snippet List() has type List[Nothing]. When invoking the function sorted on it,
 // the compiler looks for an instance of Ordering[Nothing] to use in the ordering:
-// the compiler is not able to find exactly one, so it rejects the expression as valid.
+// the compiler cannot find exactly one, so it rejects the expression as valid.
