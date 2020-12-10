@@ -3,6 +3,6 @@
 List("").isEmpty
 
 
-// ANSWERS
+// ANSWER
 
 // The expression returns false because the list contains one element: the empty string.

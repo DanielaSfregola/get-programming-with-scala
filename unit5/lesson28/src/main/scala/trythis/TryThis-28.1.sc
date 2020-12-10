@@ -1,10 +1,10 @@
-// Define a function that takes a list of people and extract the name of those that are 18 or more.
-// Use the following case class to represent a person:
+// Define a function that takes a list of people and extract their names if they are
+// 18 years old or more. Use the following case class to represent a person:
 
 case class Person(name: String, age: Int)
 
 
-// ANSWER:
+// ANSWER
 
 def adultNames(people: List[Person]): List[String] =
   for {
