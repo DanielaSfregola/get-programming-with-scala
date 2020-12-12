@@ -1,5 +1,6 @@
-// Implement a function called getCapitals that returns a list of all the capitals in a
+// Implement a function called getCapitals that returns a list of the capitals in a
 // key-value data structure representing a group of capitals and their countries.
+
 
 // ANSWER
 

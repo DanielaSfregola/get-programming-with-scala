@@ -2,7 +2,6 @@
 // if the given text is “Scala”, false otherwise.
 
 
-
 // ANSWER
 
 def isScala(value: Either[String, Int]): Boolean =

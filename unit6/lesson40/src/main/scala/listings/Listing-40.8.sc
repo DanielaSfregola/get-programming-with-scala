@@ -25,7 +25,7 @@ def getNextExamSession(topic: String): Try[ExamSession] = ???
 
 def registerForNextExamSession(student: Student,
                                topic: String): Try[Registration] =
-  getNextExamSession(topic).map { examSession =>
+  getNextExamSession(topic).flatMap { examSession =>
     register(student, examSession)
-  }.flatten
+  }
 

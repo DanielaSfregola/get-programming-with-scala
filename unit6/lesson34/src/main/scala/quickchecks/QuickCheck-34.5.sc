@@ -1,6 +1,6 @@
 // Define a function called crossMultiplier that takes two sets of integers as its parameters,
-// and it returns a new one containing all the numbers produced by multiplying
-// each element of the first set for the second.
+// and returns a new set containing all the numbers produced by multiplying
+// each element of the first one for the second.
 //
 // def crossMultiplier(groupA: Set[Int], groupB: Set[Int]): Set[Int] = ???
 //
