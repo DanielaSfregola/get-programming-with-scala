@@ -2,7 +2,6 @@
 // and it returns true if it contains a double bigger than zero, false otherwise.
 
 
-
 // ANSWER
 
 def isPositive(value: Either[String, Double]): Boolean =
