@@ -29,6 +29,3 @@ private def validateSelection(
 
 private def placeOrder(
               selection: ProductSelection, userContext: UserContext): Int = ???
-
-def welcome(name: String)(implicit msg: String): Unit =
-  println(s"$msg, $name!")

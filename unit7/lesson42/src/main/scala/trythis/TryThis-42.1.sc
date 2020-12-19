@@ -4,16 +4,19 @@
 import java.util.Currency
 case class Money(amount: Double, currency: Currency)
 
-// Define an instance of Numeric[Money], so that Scala can recognize it as
+// Define an instance of Numeric[Money] so that Scala can recognize it as
 // a numeric value and perform calculations on them, such as summing two Money instances.
 // Ensure to forbid operations between monetary amounts that have different currencies.
 
 
 // ANSWER
 
+import scala.util.Try
+
 object Money {
 
-  implicit val numeric = new Numeric[Money] {
+  // In Scala 2: implicit val numeric = new Numeric[Money] { ... }
+  given numeric: Numeric[Money] with {
 
     private val defaultCurrency = Currency.getInstance("USD")
 
@@ -52,18 +55,33 @@ object Money {
 
     private def sameCurrencyOp(x: Money, y: Money) =
       require(x.currency == y.currency, "Monetary amounts needs to have the same currency")
+
+    override def parseString(text: String): Option[Money] = {
+      text.split("\\s+").toList match {
+        case amountText :: currencyCode :: _ =>
+          val parsedMoney = for {
+            amount <- Try(amountText.toDouble)
+            currency <- Try(Currency.getInstance(currencyCode))
+          } yield Money(amount, currency)
+          parsedMoney.toOption
+        case _ => None  
+      }
+    }
   }
 }
 
-val GBP = Currency.getInstance("GBP")
-val USD = Currency.getInstance("USD")
-val EUR = Currency.getInstance("EUR")
+object MyApp {
+  val GBP = Currency.getInstance("GBP")
+  val USD = Currency.getInstance("USD")
+  val EUR = Currency.getInstance("EUR")
 
-List(Money(1, USD), Money(10, USD)).sum
+  List(Money(1, USD), Money(10, USD)).sum
 
-// The import Money.numeric._ enables
-// a more compact syntax you can use with numeric types
-import Money.numeric._
-Money(1, GBP) + Money(10, GBP)
+  // The import enables
+  // a more compact syntax you can use with numeric types
+  import Money.numeric._
 
-Money(100, USD) - Money(42, EUR)
+  Money(1, GBP) + Money(10, GBP)
+  Money(100, USD) - Money(42, EUR)
+
+}
