@@ -8,6 +8,7 @@ def test(): Unit = {
   (0 to 2).map(print)
 }
 
+
 // ANSWER
 
 // The function compiles: an instance of ExecutionContext.global is available through the import

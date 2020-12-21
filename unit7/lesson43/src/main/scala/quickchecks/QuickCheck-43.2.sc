@@ -5,6 +5,7 @@ import scala.concurrent.Future
 
 def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
 
+
 // ANSWER
 
 // The function isSuccess compiles, but it returns no value: when your Future instance completes,

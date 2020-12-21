@@ -1,5 +1,5 @@
-name := "lesson43"
+name := "get-programming-with-scala-lesson43"
 
 version := "0.1"
 
-scalaVersion := "2.12.4"
+scalaVersion := "3.0.0-M3"
