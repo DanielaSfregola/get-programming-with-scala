@@ -9,10 +9,10 @@ case class Account(id: String)
 case class User(name: String)
 
 def getAccount(orderId: Int)
-              (implicit ec: ExecutionContext): Future[Account] = ???
+              (using ec: ExecutionContext): Future[Account] = ???
 
 def getUser(accountId: String)
-           (implicit ec: ExecutionContext): Future[User] = ???
+           (using ec: ExecutionContext): Future[User] = ???
 
-def getUser(orderId: Int)(implicit ec: ExecutionContext): Future[User] =
+def getUser(orderId: Int)(using ec: ExecutionContext): Future[User] =
   getAccount(orderId).flatMap(account => getUser(account.id))

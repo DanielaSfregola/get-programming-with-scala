@@ -5,7 +5,7 @@ import java.io.File
 import scala.concurrent.{ExecutionContext, Future}
 
 def contentInDir(path: String)
-                (implicit ec: ExecutionContext): Future[List[String]] =
+                (using ec: ExecutionContext): Future[List[String]] =
   Future {
     val file = new File(path)
     if (file.isDirectory)
@@ -22,5 +22,5 @@ def contentInDir(path: String)
 // ANSWER
 
 def countItemsInDir(path: String)
-                   (implicit ec: ExecutionContext): Future[Int] =
+                   (using ec: ExecutionContext): Future[Int] =
   contentInDir(path).map(_.size)
