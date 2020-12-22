@@ -14,10 +14,10 @@ case class Availability(productId: Int,
                         location: Warehouse)
 
 def checkAvailability(productId: Int, warehouse: Warehouse)
-                     (implicit ec: ExecutionContext): Future[Availability] = ???
+                     (using ec: ExecutionContext): Future[Availability] = ???
 
 def getAvailability(productId: Int, quantity: Double)
-                   (implicit ec: ExecutionContext): Future[Option[Availability]] =
+                   (using ec: ExecutionContext): Future[Option[Availability]] =
   Future.find(
     Warehouse.all.map(checkAvailability(productId, _))
   )(availability => availability.quantity >= quantity)
