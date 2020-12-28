@@ -1,4 +1,4 @@
-// You have now four possible implementations for the sealed trait Currency.
+// You now have four possible implementations for the sealed trait Currency.
 // Fix the function exchangeRateUSD so that you no longer see the match-not-exhaustive warning
 // when compiling your code.
 
@@ -10,6 +10,7 @@ object CAD extends Currency
 
 
 // ANSWER
+
 // The warning disappears as soon as the function exchangeRateUSD has a case for Canadian Dollars.
 // For example, you could change it as follows:
 

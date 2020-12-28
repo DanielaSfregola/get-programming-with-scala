@@ -16,7 +16,7 @@ object Vocabulary {
 
   val sentenceA = "Hi there!"
   val sentenceB = "Welcome!"
-  val sentenceC = "What's up bro"
+  val sentenceC = "Hello :)"
 
 }
 
@@ -24,8 +24,8 @@ val tom = new Robot("Tom") {
   def welcome = Vocabulary.sentenceA
 }
 
-val bob = new Robot("Bob") {
+val alice = new Robot("Alice") {
   def welcome = Vocabulary.sentenceB
 }
 
-Robot.mostTalkative(tom, bob)
+Robot.mostTalkative(tom, alice)

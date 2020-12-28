@@ -11,5 +11,5 @@ Set(3,4).diff(Set(1,2,3))
 // ANSWER
 
 // The two expressions are not equivalent. The difference between sets is not commutative,
-// which means that the order of its parameters does change the result.
+// which means that its parameters' order does change the result.
 // While the first expression returns the instance Set(1, 2), the other evaluates to Set(4).

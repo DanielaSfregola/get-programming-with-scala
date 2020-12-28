@@ -15,6 +15,7 @@ case object Home extends Label
 
 case class ContactNumber(number: String, label: Label)
 
+
 // ANSWER
 
 def findByCompany(addressBook: List[Contact],

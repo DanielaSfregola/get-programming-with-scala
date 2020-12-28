@@ -1,4 +1,4 @@
-name := "lesson11"
+name := "get-programming-with-scala-lesson11"
 
 version := "0.1"
 

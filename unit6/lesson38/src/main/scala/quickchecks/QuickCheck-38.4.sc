@@ -15,8 +15,7 @@ validation(Left("first failure"), Left("second failure"))
 // ANSWER
 // The function validation returns Left("first failure") because the flatMap operation doesn’t evaluate its parameter if finds an instance of Left:
 
-// The type Either does not work well when error accumulation is needed. Instead, you should
-// consider using cats.data.Validated from the typelevel cats project. Although this is not part
-// of the standard library, it is particularly popular, and it allows you to use more advanced
-// functional programming techniques, such as applicatives, which unfortunately
-// we are not going to cover in this book.
+// The type Either does not work well when error accumulation is needed. Consider using
+// cats.data.Validated from the typelevel cats project instead. Although this is not part of
+// the standard library, it is relatively popular because it introduces more advanced functional
+// programming techniques, such as applicatives, a topic which we’ll unfortunately not cover in this book.

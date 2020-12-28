@@ -8,6 +8,7 @@ val zero: PartialFunction[Int, Double] = { case _ => 0 }
 
 
 // ANSWER
+
 // The two partial functions are not equivalent because of their composition order:
 // differently from sqrt.orElse(zero)(4), the function zero.orElse(sqrt)
 // returns zero for any input.

@@ -1,6 +1,7 @@
 // Implement a function called getLongestCapitalName that takes a capital-to-country
 // key-value structure, and it returns the capital with the longest name.
 
+
 // ANSWER
 
 def getLongestCapitalName(capitalToCountry: Map[String, String]): String = {

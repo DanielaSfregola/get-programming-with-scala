@@ -2,6 +2,8 @@
 // Use the REPL to validate your hypothesis.
 
 
+// ANSWER
+
 class Event {
 
   protected def estimateCosts(attendees: Int): Double =
@@ -19,4 +21,4 @@ class Party extends Event {
 }
 
 val event = new Event
-event.estimateCosts(5)
+event.estimateCosts(5) // doesn't compile: it is not accessible!

@@ -1,7 +1,7 @@
 // Use the Scala REPL to prepend the number 42 to the list containing the string "scala".
 
 
-// ANSWER:
+// ANSWER
 
 // The following expressions prepends the number 42 to a list containing the word "scala":
 
