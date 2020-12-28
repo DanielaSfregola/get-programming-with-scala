@@ -6,7 +6,8 @@ case class Person(fullName: String, dateOfBirth: LocalDate)
 
 object Person {
 
-  implicit val personDecoder: Decoder[Person] = new Decoder[Person] {
+  // In Scala 2: implicit val personDecoder: Decoder[Person] = new Decoder[Person] { ... }
+  given personDecoder: Decoder[Person] with {
 
     def apply(c: HCursor): Either[DecodingFailure, Person] =
       for {

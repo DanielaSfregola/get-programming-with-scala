@@ -24,7 +24,7 @@ val formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy")
 import java.time.LocalDate
 import io.circe._
 
-implicit val dateEncoder: Encoder[LocalDate] = new Encoder[LocalDate] {
+given dateEncoder: Encoder[LocalDate] with {
   def apply(date: LocalDate): Json =
     Json.fromString(formatter.format(date))
   }

@@ -11,9 +11,10 @@ import io.circe.generic.semiauto._
 
 object Book {
 
-  implicit val bookEncoder: Encoder[Book] = deriveEncoder[Book]
-  implicit val bookDecoder: Decoder[Book] = deriveDecoder[Book]
-
+  // In Scala 2: implicit val bookEncoder: Encoder[Book] = deriveEncoder[Book]
+  given bookEncoder: Encoder[Book] = deriveEncoder[Book]
+  // In Scala 2: implicit val bookDecoder: Decoder[Book] = deriveDecoder[Book]
+  given bookDecoder: Decoder[Book] = deriveDecoder[Book]
 }
 
 
