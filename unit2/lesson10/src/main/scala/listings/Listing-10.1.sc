@@ -1,8 +1,6 @@
-class Test {
-  val configA = "I am public"
-  private val configB = "I am private"
-}
+class Party {
+  var attendees = 0
 
-val test = new Test
-test.configA
-test.configB
+  def register(guests: Int) =
+    attendees += guests
+}

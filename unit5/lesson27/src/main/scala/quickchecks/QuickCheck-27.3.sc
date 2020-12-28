@@ -2,7 +2,7 @@
 // and it returns an integer representing the sum of all its elements.
 
 
-// ANSWER:
+// ANSWER
 
 // A possible implementation for the function sum is the following:
 

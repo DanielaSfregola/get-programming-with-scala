@@ -25,7 +25,15 @@ def getNextExamSession(topic: String): Try[ExamSession] = ???
 
 def registerForNextExamSession(student: Student,
                                topic: String): Try[Registration] =
-  getNextExamSession(topic).flatMap { examSession =>
-    register(student, examSession)
-  }
+  for {
+    examSession <- getNextExamSession(topic)
+    registration <- register(student, examSession)
+  } yield registration
 
+
+Try(1).flatMap(n => Try(2/n))
+
+for {
+  n <- Try(1)
+  res <- Try(2/n)
+} yield res

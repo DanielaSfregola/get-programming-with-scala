@@ -1,7 +1,9 @@
-// Write a function, called ownerBelowAge, which takes two parameters: an instance of Car and
-// an age parameter of type Int. It returns an optional string containing the name of the car owner
-// if younger that then the age parameter. Use the flatMap function on Option:
+// Write a function called ownerBelowAge that takes two parameters: an instance of Car and
+// an age parameter of type Int. It returns an optional string containing the car owner’s name
+// if younger than the given age. Use the flatMap function on Option.
 
+
+// ANSWER
 
 case class Car(model: String,
                owner: Option[Person],

@@ -3,6 +3,8 @@
 // Use a sealed trait to group them all as currency.
 
 
+// ANSWER
+
 sealed trait Currency
 case object USD extends Currency
 case object GBP extends Currency

@@ -1,5 +1,5 @@
 // The method apply is impure because it throws an exception when the given index does not
-// conform with the length of the sequence. Implement a method, called safeApply, as its pure
+// conform to the sequence's length. Implement a method called safeApply as its pure
 // equivalent. Your function should return an optional value other than throwing an exception:
 
 // def safeApply[A](list: List[A], n: Int): Option[A]

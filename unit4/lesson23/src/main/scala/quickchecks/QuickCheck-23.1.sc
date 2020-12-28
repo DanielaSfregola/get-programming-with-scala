@@ -1,7 +1,9 @@
-// Consider the case class Car shown in listing 23.1.
-// Write a function, called extractRegistrationPlate, which takes an instance of Car,
-// and it returns an optional registration plate with its text all upper case:
-// use the function map on Option.
+// Consider the case class Car shown in listing 23.1. Write a function
+// called extractRegistrationPlate that takes an instance of Car and returns an optional
+// registration plate with its text all upper case. Use the function map on Option.
+
+
+// ANSWER
 
 case class Car(model: String,
                owner: Option[Person],

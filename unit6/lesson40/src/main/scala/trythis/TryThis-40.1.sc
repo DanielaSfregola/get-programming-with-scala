@@ -3,8 +3,8 @@
 
 case class Person(age: Int, name: String)
 
-// For example, the text "35, John Doe" should result in a Person instance equal
-// to Person(35, "John Doe"). If your program cannot parse the given text,
+// For example, the text "35, Jane Doe" should result in a Person instance equal
+// to Person(35, "Jane Doe"). If your program cannot parse the given text,
 // by returning an informative failure without throwing exceptions.
 // HINT: You can use the method split to tokenize a string.
 
@@ -24,5 +24,5 @@ def parse(text: String): Try[Person] = Try {
   Person(age.toInt, name)
 }
 
-parse("35, John Doe")
+parse("35, Jane Doe")
 parse("invalid")

@@ -19,8 +19,8 @@ case object LowSaturatedFat extends Label
 case object LowSugar extends Label
 case object HighSaturatedFatAndSugar extends Label
 
-private val saturatedFatThreshold: Double = ???
-private val sugarThreshold: Double = ???
+val saturatedFatThreshold: Double = ???
+val sugarThreshold: Double = ???
 
 def analyze(drink: Drink): Label = drink.loadNutritionFacts() match {
   case NutritionFacts(_, saturatedFat, sugar, _)

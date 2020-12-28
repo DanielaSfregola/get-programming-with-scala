@@ -8,9 +8,11 @@ object Dog {
     new Dog(s"$name The Dog")
 }
 
-
 // ANSWER:
-// The two expressions are not equivalent.
-// The first expression returns an instance of Dog with the name “Tigger”: it calls the constructor
-// of the class Dog directly. The second expression returns an instance of Dog with the name
-// “Tigger The Dog”: it calls the apply method defined in the companion object.
+
+new Dog("Tigger")
+Dog("Tigger")
+
+// The two expressions are not equivalent. The first returns a Dog instance with the name
+// “Tigger” because it invokes its constructor directly. The second one returns one named
+// “Tigger The Dog” because it calls the apply method defined in its companion object.

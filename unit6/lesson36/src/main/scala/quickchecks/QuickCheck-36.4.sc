@@ -14,4 +14,4 @@ Map("hello" -> 1, "scala" -> 1).map { case (w, n) => n -> w }
 
 // The snippet of code creates a new Map by swapping keys with values. Because its keys must
 // be unique, the compiler overrides new entries with the same key without warnings.
-// You should be careful when transforming data of a Map, or you may discard it without realizing it!
+// You should be careful when transforming a Map's data, or you may discard it without realizing it!
