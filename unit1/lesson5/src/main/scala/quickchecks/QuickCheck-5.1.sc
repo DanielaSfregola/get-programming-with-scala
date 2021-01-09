@@ -7,3 +7,5 @@
 def evenOrOdd(n: Int) =
   if (n % 2 == 0) println(s"$n is even")
   else println(s"$n is odd")
+
+for (i <- 0 to 5) println(evenOrOdd(i))
