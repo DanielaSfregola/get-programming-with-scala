@@ -4,3 +4,5 @@ enum Suit {
 
 
 Suit.Hearts
+Suit.values
+Suit.fromOrdinal(0)
