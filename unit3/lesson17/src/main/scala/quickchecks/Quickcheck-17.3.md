@@ -5,7 +5,7 @@ without parameters. What happens when you start your application using the comma
 ANSWER:
 
 The function bindHttp uses predefined defaults when invoked with no parameters. 
-It binds the server to host 127.0.01 and port 8080: 
+It binds the server to host 127.0.0.1 and port 8080: 
 
 [info] running org.example.ping.PingApp 
 Service bound to address /127.0.0.1:8080 

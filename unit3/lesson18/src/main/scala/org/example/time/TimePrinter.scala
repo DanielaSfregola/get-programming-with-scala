@@ -19,7 +19,7 @@ class TimePrinter(formatter: DateTimeFormatter) {
       case "japan" => "Asia/Tokyo"
       case _ =>
         val msg = s"Unknown timezone for country $country"
-        throw new IllegalStateException(msg)
+        throw new IllegalArgumentException(msg)
     }
 
   private def currentDateTime(timezone: String): ZonedDateTime = {

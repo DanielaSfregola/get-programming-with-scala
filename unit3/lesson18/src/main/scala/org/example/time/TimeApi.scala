@@ -15,7 +15,7 @@ class TimeApi extends Http4sDsl[IO] {
       try {
         Ok(printer.now(country))
       } catch {
-        case ex: IllegalStateException => NotFound(ex.getMessage)
+        case ex: IllegalArgumentException => NotFound(ex.getMessage)
       }
   }
 
