@@ -1,15 +1,15 @@
 // Consider the following snippet of code:
 
+def f(n: Int): Option[Int] =
+  if (n < 5) Some(n * 2)
+  else None
+
 def foo(optA: Option[Int]) =
   for {
     a <- optA
     b <- f(a)
     c <- Some(5 * b)
   } yield c
-
-def f(n: Int): Option[Int] =
-  if (n < 5) Some(n * 2)
-  else None
 
 // What is the value returned by each of the following function calls?
 // Verify your hypothesis using the Scala REPL.
