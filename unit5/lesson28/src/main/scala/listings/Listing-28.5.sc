@@ -1,14 +1,13 @@
-case class Contact(name: String,
-                   surname: String,
-                   numbers: List[ContactNumber],
-                   company: Option[String],
-                   email: Option[String])
+sealed abstract class List[+A] {
 
-sealed trait Label
-case object Work extends Label
-case object Home extends Label
+  case class ::[A](head: A, tail: List[A]) extends List[A]
+  case object Nil extends List[Nothing]
 
-case class ContactNumber(number: String, label: Label)
+  def ++[B >: A](other: List[B]): List[B] = ???
 
-def getNumbers(contacts: List[Contact]): List[ContactNumber] =
-  contacts.flatMap(contact => contact.numbers)
+  def flatMap[B](f: A => List[B]): List[B] =
+    this match {
+      case Nil => Nil
+      case head :: tail => f(head) ++ tail.flatMap(f)
+    }
+}

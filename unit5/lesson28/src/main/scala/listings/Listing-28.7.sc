@@ -12,10 +12,8 @@ case class ContactNumber(number: String, label: Label)
 
 def selectByEmails(contacts: List[Contact],
                    emails: List[String]): List[Contact] =
-  contacts.flatMap { contact =>
-    emails.flatMap { email =>
-      if (contact.email.exists(_.equalsIgnoreCase(email)))
-        List(contact)
-      else List()
-    }
-  }
+ for {
+   contact <- contacts
+   email <- emails
+   if contact.email.exists(_.equalsIgnoreCase(email))
+ } yield contact
