@@ -4,11 +4,10 @@
 
 // ANSWER
 
-// The statement doesn’t compile because you cannot add an entry of type (String, Int) to a key-value data structure of type Map[Int, String]:
+// The statement doesn’t compile because an integer is not a valid representation for the entry of a dictionary:
 
-Map(42 -> "hi") + ("*" -> 42)
-// <console>:12: error: type mismatch;
-//  found   : (String, Int)
-//  required: (Int, ?)
-//  Map(42 -> "hi") + ("*" -> 42)
-//  ^
+Map(42 -> "hi") + 3
+// 1 |Map(42 -> "hi") + 3
+//  |                  ^
+//  |                  Found:    (3 : Int)
+//  |                  Required: (Any, Any)

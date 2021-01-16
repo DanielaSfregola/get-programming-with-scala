@@ -1,9 +1,12 @@
-package scala.util
+// copied from the implementation of scala.util.Try:
 
-object Try {
+//package scala.util
+//import scala.util.control.NonFatal
 
-  def apply[T](r: => T): Try[T] =
-    try Success(r) catch {
-      case NonFatal(e) => Failure(e)
-    }
-}
+//object Try {
+//
+//  def apply[T](r: => T): Try[T] =
+//    try Success(r) catch {
+//      case NonFatal(e) => Failure(e)
+//    }
+//}

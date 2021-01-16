@@ -1,6 +1,6 @@
 // In Quick Check 38.4, you have seen that the given implementation of the function validation
 // doesn’t behave as expected when you need to accumulate errors. Change its return type to
-// Ether[List[String], Int], and its implementation to address this issue.
+// Either[List[String], Int], and its implementation to address this issue.
 // HINT: Use a pattern matching statement.
 
 
