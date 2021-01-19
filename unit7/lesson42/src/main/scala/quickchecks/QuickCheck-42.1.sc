@@ -2,7 +2,7 @@
 
 // In Scala 2, use the keyword 'implicit' instead of 'using'
 def plusOne(using n: Int): Int = n + 1
-plusOne(3)
+plusOne(using 3) // In Scala 2, plusOne(3)
 
 
 // ANSWER
