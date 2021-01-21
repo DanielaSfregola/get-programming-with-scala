@@ -1,12 +1,12 @@
-class Player(id: Long, name: String) {
-  lazy val stats: Stats = new Stats(id)
-}
-
 class Stats(playerId: Long) {
   /* some meaningful stats loaded here */
 
   // Sleeping here to simulate a slow operation
   Thread.sleep(10000) // 10 seconds
+}
+
+class Player(id: Long, name: String) {
+  lazy val stats: Stats = new Stats(id)
 }
 
 

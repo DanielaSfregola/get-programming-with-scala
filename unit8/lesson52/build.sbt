@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.13.4" // cannot upgrade to scala 3 yet because of http4s, quill :(
 
-val CirceVersion  = "0.14.0-M2"
+val CirceVersion  = "0.14.0-M3"
 val Http4sVersion = "0.21.8"
 
 libraryDependencies ++= List(

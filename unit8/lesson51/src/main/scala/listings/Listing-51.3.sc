@@ -1,11 +1,11 @@
 import cats.effect.IO
 import scala.util.Random
 
-def rollDice: IO[Int] = IO(Random.nextInt(6) + 1)
+def rollDie: IO[Int] = IO(Random.nextInt(6) + 1)
 
-def rollDiceTwice: IO[Int] =
+def rollDieTwice: IO[Int] =
   for {
-    n1 <- rollDice
-    n2 <- rollDice
+    n1 <- rollDie
+    n2 <- rollDie
   } yield n1 + n2
 

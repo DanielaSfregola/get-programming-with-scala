@@ -9,9 +9,9 @@ import cats.effect.IO
 
 import scala.util.Random
 
-def rollDice: IO[Int] = IO(Random.nextInt(6) + 1)
+def rollDie: IO[Int] = IO(Random.nextInt(6) + 1)
 
-def rollOutcome: IO[String] = rollDice.map(n => s"Rolled $n!")
+def rollOutcome: IO[String] = rollDie.map(n => s"Rolled $n!")
 
 def printToConsole(msg: String): IO[Unit] = IO(println(msg))
 
