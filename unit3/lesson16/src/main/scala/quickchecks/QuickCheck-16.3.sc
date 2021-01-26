@@ -1,6 +1,6 @@
 // The following expression throws an IllegalArgumentException exception:
 // val b = "hello".toBoolean
-// Write a try-catch statement to default any non-parsable value to false.
+// Write a try-catch expression to default any non-parsable value to false.
 
 
 // ANSWER
