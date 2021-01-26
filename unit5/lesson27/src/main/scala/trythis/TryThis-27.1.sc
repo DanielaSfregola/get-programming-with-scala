@@ -1,5 +1,5 @@
 // Define a function to filter all the even numbers of a sequence of integers:
-// pass the list as its parameter and use a pattern matching statement on it.
+// pass the list as its parameter and use pattern matching on it.
 
 
 // ANSWER

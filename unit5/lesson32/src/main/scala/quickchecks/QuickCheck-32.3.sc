@@ -4,7 +4,7 @@
 
 // For example, sumOfFirstN(10) should return 55, and sumOfFirstN(-10) should return 0.
 // HINT: You can generate a sequential structure containing all numbers from 0 to n inclusive
-// using the operator to. For example, the statement 0 to 3 returns a range containing
+// using the operator to. For example, the expression 0 to 3 returns a range containing
 // the numbers 0, 1, 2, and 3.
 
 

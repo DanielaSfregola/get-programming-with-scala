@@ -1,5 +1,5 @@
 // In the previous Quick Check, you have implemented a function called triple using flatMap:
-// re-implement it using a for-comprehension statement.
+// re-implement it using for-comprehension.
 
 
 // ANSWER
