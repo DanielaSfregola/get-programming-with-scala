@@ -4,7 +4,7 @@
 
 // ANSWER
 
-// The statement doesn’t compile because an integer is not a valid representation for the entry of a dictionary:
+// The snippet of code doesn’t compile because an integer is not a valid representation for the entry of a dictionary:
 
 Map(42 -> "hi") + 3
 // 1 |Map(42 -> "hi") + 3

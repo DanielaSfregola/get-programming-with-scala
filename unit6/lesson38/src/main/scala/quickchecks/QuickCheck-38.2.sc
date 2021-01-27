@@ -1,6 +1,6 @@
 // Implement a method called sqrtOrZero that takes an integer. It uses the function sqrt
 // that you have implemented in the previous quick check to compute the square root of the number.
-// Use a pattern matching statement to return zero when the operation is not supported.
+// Use pattern matching to return zero when the operation is not supported.
 
 
 // ANSWER

@@ -26,7 +26,7 @@ Set(1, 2, 3).intersect(Set())
 
 Set(1, 2, 3).diff(Set(1, 4))
 // res0: scala.collection.immutable.Set[Int] = Set(2, 3)
-// You following two statements are also equivalent:
+// The following two expressions are also equivalent:
 // Set(1, 2, 3) diff Set(1, 4)
 // Set(1, 2, 3) -- Set(1, 4)
 
