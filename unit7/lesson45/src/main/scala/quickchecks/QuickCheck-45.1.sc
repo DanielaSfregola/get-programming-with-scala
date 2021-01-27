@@ -1,5 +1,5 @@
 // Consider the following snippet of code: refactor the function getUserId
-// to use a for-comprehension statement.
+// to use for-comprehension.
 
 
 import scala.concurrent.{ExecutionContext, Future}
