@@ -1,5 +1,5 @@
 // In Quick Check 51.2, you have implemented a function called printRollOutcome:
-// refactor it to use a for-comprehension statement.
+// refactor it to use for-comprehension.
 
 
 

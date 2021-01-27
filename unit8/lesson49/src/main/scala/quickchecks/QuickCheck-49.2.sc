@@ -1,6 +1,6 @@
 // Consider the following snippet of code. What does it return? Why?
 // What would happen if a wasn’t lazy? Use the REPL to validate your hypothesis.
-// Use the REPL to validate your hypothesis. Note: make sure to evaluate all the statements
+// Use the REPL to validate your hypothesis. Note: make sure to evaluate all the instructions
 // at the same time by copying and pasting the whole snippet of code in the REPL.
 
 lazy val a = b

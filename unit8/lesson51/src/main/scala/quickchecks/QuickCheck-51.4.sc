@@ -11,7 +11,7 @@
 
 // val randomNumber: IO[Int] = IO(Random.nextInt(10) + 1)
 
-// HINT: The statement (0 to 99).toList returns a sequence of size 100 containing
+// HINT: The expression (0 to 99).toList returns a sequence of size 100 containing
 // all the numbers from 0 to 99 inclusive.
 
 
