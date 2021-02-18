@@ -9,8 +9,11 @@ class FakeCategoryDao(implicit ec: ExecutionContext) extends CategoryDao(ctx = n
 
   private var fakeCategories = Fixtures.categories
 
+  private def safelyModify(f: List[Category] => List[Category]): Unit =
+    synchronized { fakeCategories = f(fakeCategories) }
+
   override def save(category: Category): Future[Long] = {
-    synchronized { fakeCategories = fakeCategories :+ category }
+    safelyModify(_ :+ category)
     Future(category.id)
   }
 
@@ -21,7 +24,7 @@ class FakeCategoryDao(implicit ec: ExecutionContext) extends CategoryDao(ctx = n
 
   override def deleteById(id: Long): Future[Boolean] = {
     val isPresent = fakeCategories.exists(_.id == id)
-    synchronized { fakeCategories = fakeCategories.filterNot(_.id == id) }
+    safelyModify(_.filterNot(_.id == id))
     Future(isPresent)
   }
 

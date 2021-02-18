@@ -1,4 +1,4 @@
-name := "get-programming-with-scala-lesson52"
+name := "get-programming-with-scala-lesson53"
 
 version := "0.1"
 
@@ -19,5 +19,5 @@ libraryDependencies ++= List(
   "org.http4s" %% "http4s-blaze-server" % Http4sVersion,
   "org.http4s" %% "http4s-dsl" % Http4sVersion,
   "org.http4s" %% "http4s-circe" % Http4sVersion,
-  "org.scalatest" %% "scalatest" % "3.2.2" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.3" % "test"
 )
