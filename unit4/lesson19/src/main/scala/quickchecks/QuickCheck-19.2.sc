@@ -1,5 +1,5 @@
 // What happens to the implementation of the function welcome if you declare Person
-// as a regular class rather than a case class – there is you remove the case keyword from its declaration?
+// as a regular class rather than a case class – that is, you remove the case keyword from its declaration?
 
 
 // ANSWER

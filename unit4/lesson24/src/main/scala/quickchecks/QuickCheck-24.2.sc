@@ -1,6 +1,5 @@
 // In the previous lesson, you have implemented a function ownerBelowAge that returns
-// the car owner’s name if younger than a given age: re-implement it using
-// a for-comprehension statement.
+// the car owner’s name if younger than a given age: re-implement it using for-comprehension.
 
 // ANSWER
 
