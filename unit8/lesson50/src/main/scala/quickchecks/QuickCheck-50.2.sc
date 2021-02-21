@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
 def convertToIO[T](future: => Future[T])
-                  (implicit ec: ExecutionContext): IO[T] =
+                  (using ec: ExecutionContext): IO[T] =
   IO.async { callback =>
       future.onComplete {
         case Success(t) => callback(Right(t))

@@ -1,5 +1,7 @@
 // Consider the following snippet of code. What does it return? Why?
 // What would happen if a wasn’t lazy? Use the REPL to validate your hypothesis.
+// Use the REPL to validate your hypothesis. Note: make sure to evaluate all the instructions
+// at the same time by copying and pasting the whole snippet of code in the REPL.
 
 lazy val a = b
 val b = "hello"
@@ -10,15 +12,9 @@ a.length
 
 // The snippet of code returns the number 5:
 
-// scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-//
-// lazy val a = b
-// val b = "hello"
-// a.length
-
-// Exiting paste mode, now interpreting.
-
+// scala> lazy val a = b
+//      | val b = "hello"
+//      | a.length
 // a: String = <lazy>
 // b: String = hello
 //   res0: Int = 5
@@ -29,15 +25,9 @@ a.length
 // the snippet of code throws a NullPointerException:
 
 
-//  scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-
-//  val a = b
-//  val b = "hello"
-//  a.length
-
-//   // Exiting paste mode, now interpreting.
-
+// scala> val a = b
+//      | val b = "hello"
+//      | a.length
 // <pastie>:11: warning: Reference to uninitialized value b
 //      val a = b
 //       ^

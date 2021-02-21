@@ -7,7 +7,8 @@ case class Person(fullName: String, dateOfBirth: LocalDate)
 
 object Person {
 
-  implicit val personDecoder: Decoder[Person] = deriveDecoder[Person]
+  // In Scala 2: implicit val personDecoder: Decoder[Person] = deriveDecoder[Person]
+  given personDecoder: Decoder[Person] = deriveDecoder[Person]
 }
 
 

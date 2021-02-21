@@ -3,18 +3,18 @@ import cats.syntax.parallel._
 
 import scala.util.Random
 
-def rollDice(n: Int): IO[Int] = IO {
-  println(s"Rolling $n-side dice...")
+def rollDie(n: Int): IO[Int] = IO {
+  println(s"Rolling $n-side die...")
   Random.nextInt(n) + 1
 }
 
-def rollDice(implicit cs: ContextShift[IO]): IO[List[Int]] = {
-  List(rollDice(6), rollDice(8), rollDice(12), rollDice(20)).parSequence
+def rollDice(using cs: ContextShift[IO]): IO[List[Int]] = {
+  List(rollDie(6), rollDie(8), rollDie(12), rollDie(20)).parSequence
 }
 
 
 
 import scala.concurrent.ExecutionContext
-implicit val cs: ContextShift[IO] = IO.contextShift(ExecutionContext.global)
+given cs: ContextShift[IO] = IO.contextShift(ExecutionContext.global)
 
 rollDice.unsafeRunSync()

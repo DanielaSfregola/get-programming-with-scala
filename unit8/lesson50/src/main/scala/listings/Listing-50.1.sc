@@ -1,6 +1,6 @@
 import scala.concurrent.{ExecutionContext, Future}
 
-def fooA(implicit ec: ExecutionContext): Future[Int] = {
+def fooA(using ec: ExecutionContext): Future[Int] = {
   def future = Future { println("Scala"); 5 }
   for {
     a <- future
@@ -8,7 +8,7 @@ def fooA(implicit ec: ExecutionContext): Future[Int] = {
   } yield a + b
 }
 
-def fooB(implicit ec: ExecutionContext): Future[Int] = {
+def fooB(using ec: ExecutionContext): Future[Int] = {
   val future = Future { println("Scala"); 5 }
   for {
     a <- future

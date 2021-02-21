@@ -6,7 +6,8 @@ case class Person(fullName: String, dateOfBirth: LocalDate)
 
 object Person {
 
-  implicit val personEncoder: Encoder[Person] = new Encoder[Person] {
+  // In Scala 2: implicit val personEncoder: Encoder[Person] = new Encoder[Person] { ... }
+  given personEncoder: Encoder[Person] with {
     def apply(p: Person): Json = {
       val age = Period.between(p.dateOfBirth, LocalDate.now()).getYears
       Json.obj(

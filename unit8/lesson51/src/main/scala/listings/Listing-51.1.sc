@@ -1,6 +1,6 @@
 import scala.util.Random
 import cats.effect.IO
 
-def rollDice: IO[Int] = IO(Random.nextInt(6) + 1)
+def rollDie: IO[Int] = IO(Random.nextInt(6) + 1)
 
-def rollOutcome: IO[String] = rollDice.map(n => s"Rolled $n!")
+def rollOutcome: IO[String] = rollDie.map(n => s"Rolled $n!")

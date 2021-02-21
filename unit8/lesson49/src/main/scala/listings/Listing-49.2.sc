@@ -1,7 +1,7 @@
 import scala.annotation.tailrec
 import scala.util.{Random, Try}
 
-def rollDice(): Int = {
+def rollDie(): Int = {
   val n = Random.nextInt(6) + 1
   println(s"Rolled $n...")
   if (n < 4) throw new IllegalStateException(s"Failure! Rolled $n")
@@ -15,4 +15,4 @@ def retry[T](n: Int, operation: => T): Try[T] = {
   else result
 }
 
-retry(n = 2, rollDice())
+retry(n = 2, rollDie())

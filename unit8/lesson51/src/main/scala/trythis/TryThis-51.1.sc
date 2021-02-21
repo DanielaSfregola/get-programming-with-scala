@@ -6,8 +6,8 @@
 
 import cats.effect.IO
 
-private def printText(msg: String): IO[Unit] = IO(println(msg))
-private val readText: IO[String] = IO(scala.io.StdIn.readLine())
+def printText(msg: String): IO[Unit] = IO(println(msg))
+val readText: IO[String] = IO(scala.io.StdIn.readLine())
 
 val greetings: IO[Unit] = for {
   _ <- printText("What is your name?")

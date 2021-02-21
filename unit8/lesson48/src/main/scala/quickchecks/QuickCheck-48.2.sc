@@ -26,7 +26,7 @@ val formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy")
 import java.time.LocalDate
 import io.circe._
 
-implicit val dateDecoder: Decoder[LocalDate] = new Decoder[LocalDate] {
+given dateDecoder: Decoder[LocalDate] with {
   override def apply(c: HCursor): Either[DecodingFailure, LocalDate] =
     c.as[String].map(text => LocalDate.parse(text, formatter))
 }

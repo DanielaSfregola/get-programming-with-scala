@@ -120,4 +120,5 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 49](unit8/lesson49): Lazy Evaluation
     - [LESSON 50](unit8/lesson50): The IO type
     - [LESSON 51](unit8/lesson51): Working with the IO type
-    - [LESSON 52](unit8/lesson52): CAPSTONE 8 – The Quiz Application: Part 2
+    - [LESSON 52](unit8/lesson52): Testing with ScalaTest
+    - [LESSON 53](unit8/lesson53): CAPSTONE 8 – The Quiz Application: Part 2
