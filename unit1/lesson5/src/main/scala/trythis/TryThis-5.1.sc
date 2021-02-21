@@ -15,3 +15,5 @@ def applyDiscount(price: Double) = {
 
   price * (1 - discount)
 }
+
+for (p <- List(10, 60, 110)) println(applyDiscount(p))

@@ -59,7 +59,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 - **UNIT 1:  THE BASICS**
     - [LESSON 4](unit1/lesson4): Values and Variables
-    - [LESSON 5](unit1/lesson5): Conditional Statements and Loops
+    - [LESSON 5](unit1/lesson5): Conditional Constructs and Loops
     - [LESSON 6](unit1/lesson6): Function as the most fundamental block of code
     - [LESSON 7](unit1/lesson7): Classes as a representation of our world
     - [LESSON 8](unit1/lesson8): CAPSTONE 1 - The Vending Machine

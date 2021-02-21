@@ -7,3 +7,5 @@ def categorizeDayOfWeek(n: Int) = {
     "unknown"
   }
 }
+
+for (i <- 1 to 7) println(categorizeDayOfWeek(i))

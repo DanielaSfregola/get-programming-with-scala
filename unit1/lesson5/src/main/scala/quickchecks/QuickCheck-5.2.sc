@@ -9,3 +9,5 @@ def count() = {
     i += 1
   }
 }
+
+count()
