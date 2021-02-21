@@ -2,7 +2,7 @@ name := "get-programming-with-scala-lesson47"
 
 version := "0.1"
 
-scalaVersion := "2.13.1"  // waiting on quill to upgrade to scala 3
+scalaVersion := "2.13.4"  // waiting on quill to upgrade to scala 3
 
 libraryDependencies ++= List(
   "io.getquill" %% "quill-async-postgres" % "3.5.2",

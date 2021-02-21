@@ -12,16 +12,10 @@ def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
 // the callback produces a boolean value that the method onComplete then discards.
 
 
-// scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-//
-// import scala.concurrent.ExecutionContext.Implicits.global
-// import scala.concurrent.Future
-//
-// def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
-//
-// // Exiting paste mode, now interpreting.
-//
+// scala> import scala.concurrent.ExecutionContext.Implicits.global
+//      | import scala.concurrent.Future
+//      |
+//      | def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
 // import scala.concurrent.ExecutionContext.Implicits.global
 // import scala.concurrent.Future
 // isSuccess: [T](f: scala.concurrent.Future[T])Unit

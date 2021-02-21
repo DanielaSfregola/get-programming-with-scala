@@ -19,23 +19,15 @@ val customers: Future[List[String]] = run(quote {
 // The code compiles, but it fails at runtime because the table's name is incorrect:
 // the correct table name is customer, not customers.
 
-// scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-//
-// import org.example.registrations._
-// import TestDatabase.ctx._
-// import io.getquill.Query._
-//
-// import scala.concurrent.Future
-// import scala.concurrent.ExecutionContext.Implicits.global
-//
-// val customers: Future[List[String]] = run(quote {
-//   infix"SELECT name FROM customers".as[Query[String]]
-// })
-
-// // Exiting paste mode, now interpreting.
-
-
+// scala> import org.example.registrations._
+//      | import TestDatabase.ctx._
+//      | import io.getquill.Query._
+//      | import scala.concurrent.Future
+//      |
+//      |
+//      | val customers: Future[List[String]] = run(quote {
+//      |   infix"SELECT name FROM customers".as[Query[String]]
+//      | })
 // val customers: Future[List[String]] = run(quote {
 //   ^
 //   <pastie>:7: SELECT x.* FROM (SELECT name FROM customers) AS x
@@ -57,4 +49,3 @@ val customers: Future[List[String]] = run(quote {
 //
 // Note that the snippet of code used as[Query[String]] instead of as[String]
 // because the query returns zero or more records, rather than exactly one.
-
