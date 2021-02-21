@@ -1,13 +1,21 @@
-sealed abstract class List[+A] {
+case class Contact(name: String,
+                   surname: String,
+                   numbers: List[ContactNumber],
+                   company: Option[String],
+                   email: Option[String])
 
-  case class ::[A](head: A, tail: List[A]) extends List[A]
-  case object Nil extends List[Nothing]
+sealed trait Label
+case object Work extends Label
+case object Home extends Label
 
-  def ++[B >: A](other: List[B]): List[B] = ???
+case class ContactNumber(number: String, label: Label)
 
-  def flatMap[B](f: A => List[B]): List[B] =
-    this match {
-      case Nil => Nil
-      case head :: tail => f(head) ++ tail.flatMap(f)
+def selectByEmails(contacts: List[Contact],
+                   emails: List[String]): List[Contact] =
+  contacts.flatMap { contact =>
+    emails.flatMap { email =>
+      if (contact.email.exists(_.equalsIgnoreCase(email)))
+        List(contact)
+      else List()
     }
-}
+  }

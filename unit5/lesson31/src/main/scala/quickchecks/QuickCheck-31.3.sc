@@ -3,14 +3,14 @@
 class A(i: Int)
 val myList = List(new A(1), new A(2), new A(1))
 
-// What is the value returned by the statement myList.distinct? Why?
+// What is the value returned by the expression myList.distinct? Why?
 // Use the REPL to validate your hypothesis.
 
 
 
 // ANSWER
 
-// The statement myList.distinct returns the sequence myList.
+// The expression myList.distinct returns the sequence myList.
 // You have declared A as a regular class rather than a case class: class equality requires
 // two classes to be the same if and only if their memory allocation address is the same.
 // Notice that the following expression returns false:

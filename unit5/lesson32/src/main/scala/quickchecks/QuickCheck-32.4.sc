@@ -2,7 +2,7 @@
 
 // def perLetter(addressBook: List[Contact]): Map[Char, List[Contact]]
 
-// You should add those contacts with an empty surname to a category identified by the empty char ' '.
+// You should add those contacts with an empty surname to a category identified by the space char ' '.
 
 case class Contact(name: String,
                    surname: String,

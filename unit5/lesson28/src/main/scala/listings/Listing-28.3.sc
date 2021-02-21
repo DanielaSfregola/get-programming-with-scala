@@ -1,11 +1,14 @@
-sealed abstract class List[+A] {
+case class Contact(name: String,
+                   surname: String,
+                   numbers: List[ContactNumber],
+                   company: Option[String],
+                   email: Option[String])
 
-  case class ::[A](head: A, tail: List[A]) extends List[A]
-  case object Nil extends List[Nothing]
+sealed trait Label
+case object Work extends Label
+case object Home extends Label
 
-  def map[B](f: A => B): List[B] =
-    this match {
-      case Nil => Nil
-      case head :: tail => f(head) :: tail.map(f)
-    }
-}
+case class ContactNumber(number: String, label: Label)
+
+def getNumbers(contacts: List[Contact]): List[ContactNumber] =
+  contacts.map(contact => contact.numbers).flatten
