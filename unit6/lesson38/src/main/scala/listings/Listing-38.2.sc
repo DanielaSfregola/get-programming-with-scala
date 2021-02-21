@@ -1,5 +1,3 @@
-package scala
-
 sealed abstract class Either[A, B]
 
 case class Left[A, B](value: A) extends Either[A, B]

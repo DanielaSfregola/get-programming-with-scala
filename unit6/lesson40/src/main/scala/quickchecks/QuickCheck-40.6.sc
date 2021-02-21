@@ -1,5 +1,5 @@
 // Rewrite the function findStudent(id: String) that you have implemented
-// in quick check 40.5 using a for-comprehension statement.
+// in quick check 40.5 using for-comprehension.
 
 
 // ANSWER

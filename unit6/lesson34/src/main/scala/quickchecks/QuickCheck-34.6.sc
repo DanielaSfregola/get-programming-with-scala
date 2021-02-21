@@ -1,5 +1,5 @@
 // Rewrite the function crossMultiplier you have implemented in quick check 34.5
-// using a for-comprehension statement.
+// using for-comprehension.
 
 // ANSWER
 
