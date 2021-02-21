@@ -12,15 +12,9 @@ a.length
 
 // The snippet of code returns the number 5:
 
-// scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-//
-// lazy val a = b
-// val b = "hello"
-// a.length
-
-// Exiting paste mode, now interpreting.
-
+// scala> lazy val a = b
+//      | val b = "hello"
+//      | a.length
 // a: String = <lazy>
 // b: String = hello
 //   res0: Int = 5
@@ -31,15 +25,9 @@ a.length
 // the snippet of code throws a NullPointerException:
 
 
-//  scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-
-//  val a = b
-//  val b = "hello"
-//  a.length
-
-//   // Exiting paste mode, now interpreting.
-
+// scala> val a = b
+//      | val b = "hello"
+//      | a.length
 // <pastie>:11: warning: Reference to uninitialized value b
 //      val a = b
 //       ^
