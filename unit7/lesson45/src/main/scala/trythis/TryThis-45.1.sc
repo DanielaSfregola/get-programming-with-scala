@@ -6,7 +6,7 @@ import java.io.File
 import scala.concurrent.{ExecutionContext, Future}
 
 def contentInDir(path: String)
-                (implicit ec: ExecutionContext): Future[List[String]] =
+                (using ec: ExecutionContext): Future[List[String]] =
   Future {
     val file = new File(path)
     if (file.isDirectory)
@@ -18,15 +18,11 @@ def contentInDir(path: String)
 
 // Write a function to asynchronously list the content of a directory and all its subdirectories. Visit each subdirectory independently to improve the runtime of your function.
 
-// def allContentInDir(path: String)
-//                    (implicit ec: ExecutionContext): Future[List[String]]
-
-
 
 // ANSWER
 
 def allContentInDir(path: String)
-                   (implicit ec: ExecutionContext): Future[List[String]] = {
+                   (using ec: ExecutionContext): Future[List[String]] = {
   for {
     content <- contentInDir(path)
     contentInSubDirs <- Future.sequence(content.map(allContentInDir))

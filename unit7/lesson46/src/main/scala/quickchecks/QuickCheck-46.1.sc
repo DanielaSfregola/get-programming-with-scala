@@ -1,6 +1,6 @@
 // Define a Quill context to connect to a PostgreSQL database by parsing a configuration file
 // and using a camel case naming convention.
-// Your application.properties contains the following data:
+// Your application.properties file contains the following data:
 
 // db.url=postgresql://host:5432/database?user=root&password=root
 

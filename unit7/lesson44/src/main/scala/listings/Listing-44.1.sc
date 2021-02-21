@@ -6,7 +6,7 @@ case class Order(id: Int, customerId: Int,
                  productId: Int, quantity: Double)
 
 private def getAvailability(productId: Int)
-                           (implicit ec: ExecutionContext): Future[Availability] = ???
+                           (using ec: ExecutionContext): Future[Availability] = ???
 
 private def createOrder(customerId: Int,
                         productId: Int,
@@ -14,7 +14,7 @@ private def createOrder(customerId: Int,
 
 def placeOrder(customerId: Int,
                productId: Int,
-               quantity: Double)(implicit ec: ExecutionContext): Future[Order] = {
+               quantity: Double)(using ec: ExecutionContext): Future[Order] = {
   getAvailability(productId).map { availability =>
     if (quantity <= availability.quantity)
       createOrder(customerId = customerId, productId = productId, quantity)

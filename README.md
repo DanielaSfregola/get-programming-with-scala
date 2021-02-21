@@ -112,7 +112,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
     - [LESSON 43](unit7/lesson43): Future					
     - [LESSON 44](unit7/lesson44): Working with Future: map and flatMap				
     - [LESSON 45](unit7/lesson45): Working with Future: for-comprehension and other operations			
-    - [LESSON 46](unit7/lesson46): Database queries with quill
+    - [LESSON 46](unit7/lesson46): Database queries with Quill
     - [LESSON 47](unit7/lesson47): CAPSTONE 7 – The Quiz Application: Part 1
 
 - **UNIT 8: JSON (DE)SERIALIZATION**

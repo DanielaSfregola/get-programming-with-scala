@@ -1,5 +1,6 @@
-// The following snippet of code defines a SQL query to retrieve the names of all the customers
-// in the database. What happens when you execute it? Use the Scala REPL within your sbt console to validate your hypothesis.
+// The following snippet of code defines a SQL query to retrieve all the customers' names in the
+// database. What happens when you execute it? Use the Scala REPL within your sbt console
+// to validate your hypothesis.
 
 import org.example.registrations._
 import TestDatabase.ctx._
@@ -15,26 +16,18 @@ val customers: Future[List[String]] = run(quote {
 
 // ANSWER
 
-// The code compiles, but it fails at runtime because the name of the table is incorrect:
+// The code compiles, but it fails at runtime because the table's name is incorrect:
 // the correct table name is customer, not customers.
 
-// scala> :paste
-// // Entering paste mode (ctrl-D to finish)
-//
-// import org.example.registrations._
-// import TestDatabase.ctx._
-// import io.getquill.Query._
-//
-// import scala.concurrent.Future
-// import scala.concurrent.ExecutionContext.Implicits.global
-//
-// val customers: Future[List[String]] = run(quote {
-//   infix"SELECT name FROM customers".as[Query[String]]
-// })
-
-// // Exiting paste mode, now interpreting.
-
-
+// scala> import org.example.registrations._
+//      | import TestDatabase.ctx._
+//      | import io.getquill.Query._
+//      | import scala.concurrent.Future
+//      |
+//      |
+//      | val customers: Future[List[String]] = run(quote {
+//      |   infix"SELECT name FROM customers".as[Query[String]]
+//      | })
 // val customers: Future[List[String]] = run(quote {
 //   ^
 //   <pastie>:7: SELECT x.* FROM (SELECT name FROM customers) AS x
@@ -56,4 +49,3 @@ val customers: Future[List[String]] = run(quote {
 //
 // Note that the snippet of code used as[Query[String]] instead of as[String]
 // because the query returns zero or more records, rather than exactly one.
-
