@@ -2,7 +2,7 @@
 // -	0% discount if the price is less than $50
 // -	10% discount if the price is at least $50 but less than $100
 // -	15% discount if the price is at least $100
-// Re-implement it using pattern matching instead of an if…else statement.
+// Re-implement it using pattern matching instead of an if-else construct.
 
 
 def applyDiscount(price: Double) = {
