@@ -2,7 +2,7 @@
   * public class MySingleton {
   * private static MySingleton instance = null;
   **
-  *protected MySingleton() {}
+  *private MySingleton() {}
   **
   *public static MySingleton getInstance() {
   * if(instance == null) {
