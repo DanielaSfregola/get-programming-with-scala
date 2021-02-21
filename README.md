@@ -54,7 +54,7 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 ## Table of Contents
 - **UNIT 0: HELLO SCALA!**
     - [LESSON 1](unit0/lesson1): Why Scala?
-    - [LESSON 2](unit0/lesson2): Scala – The REPL
+    - [LESSON 2](unit0/lesson2): The Scala Environment
     - [LESSON 3](unit0/lesson3): sbt – Scala Build Tool
 
 - **UNIT 1:  THE BASICS**
