@@ -3,14 +3,19 @@ package org.example.quiz.service
 import cats.effect.{ContextShift, IO}
 import org.example.quiz.entities.CategoryEntity
 import org.example.quiz.stubs.dao.{FakeCategoryDao, Fixtures}
-import org.scalatest.flatspec.AsyncFlatSpec
+import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class CategoryServiceTest extends AsyncFlatSpec with Matchers {
+import scala.concurrent.ExecutionContext
 
-  private implicit val cs: ContextShift[IO] = IO.contextShift(executionContext)
+class CategoryServiceTest extends AnyFlatSpec with Matchers {
 
-  private def mkService() = new CategoryService(new FakeCategoryDao)(cs)
+  private def mkService() = {
+    implicit val ec: ExecutionContext = ExecutionContext.global
+    implicit val cs: ContextShift[IO] = IO.contextShift(ec)
+
+    new CategoryService(new FakeCategoryDao)
+  }
 
   "CategoryService" should "return all the categories" in {
     val service = mkService()

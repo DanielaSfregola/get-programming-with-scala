@@ -1,4 +1,4 @@
 object NoMain extends App {
 
-    println("This lesson is not an executable program. Have a look at its Scala Worksheets")
+    println("The code for this lesson doesn't have an executable entry point: have a look at its Scala Worksheets instead.")
 }

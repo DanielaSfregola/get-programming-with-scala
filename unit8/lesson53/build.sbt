@@ -19,5 +19,5 @@ libraryDependencies ++= List(
   "org.http4s" %% "http4s-blaze-server" % Http4sVersion,
   "org.http4s" %% "http4s-dsl" % Http4sVersion,
   "org.http4s" %% "http4s-circe" % Http4sVersion,
-  "org.scalatest" %% "scalatest" % "3.2.3" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.5" % "test"
 )

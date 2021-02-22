@@ -53,19 +53,19 @@ If a lecture isn't an executable program, please see section on running Scala Wo
 
 ## Table of Contents
 - **UNIT 0: HELLO SCALA!**
-    - [LESSON 1](unit0/lesson1): Why Scala?
-    - [LESSON 2](unit0/lesson2): The Scala Environment
-    - [LESSON 3](unit0/lesson3): sbt – Scala Build Tool
+    - [LESSON 1](unit0/lesson01): Why Scala?
+    - [LESSON 2](unit0/lesson02): The Scala Environment
+    - [LESSON 3](unit0/lesson03): sbt – Scala Build Tool
 
 - **UNIT 1:  THE BASICS**
-    - [LESSON 4](unit1/lesson4): Values and Variables
-    - [LESSON 5](unit1/lesson5): Conditional Constructs and Loops
-    - [LESSON 6](unit1/lesson6): Function as the most fundamental block of code
-    - [LESSON 7](unit1/lesson7): Classes as a representation of our world
-    - [LESSON 8](unit1/lesson8): CAPSTONE 1 - The Vending Machine
+    - [LESSON 4](unit1/lesson04): Values and Variables
+    - [LESSON 5](unit1/lesson05): Conditional Constructs and Loops
+    - [LESSON 6](unit1/lesson06): Function as the most fundamental block of code
+    - [LESSON 7](unit1/lesson07): Classes as a representation of our world
+    - [LESSON 8](unit1/lesson08): CAPSTONE 1 - The Vending Machine
 
 - **UNIT 2: OBJECT-ORIENTED FUNDAMENTALS**
-    - [LESSON 9](unit2/lesson9): Import and Create Packages
+    - [LESSON 9](unit2/lesson09): Import and Create Packages
     - [LESSON 10](unit2/lesson10): Scope your code with Access Modifiers
     - [LESSON 11](unit2/lesson11): Singleton Objects
     - [LESSON 12](unit2/lesson12): Traits as interfaces
