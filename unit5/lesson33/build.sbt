@@ -2,9 +2,9 @@ name := "get-programming-with-scala-lesson33"
 
 version := "0.1"
 
-scalaVersion := "3.0.0-M3" // not yet RC1...but still Scala 3!
+scalaVersion := "3.0.0-RC1"
 
-val CirceVersion = "0.14.0-M2"
+val CirceVersion = "0.14.0-M4"
 val ScalaCsvVersion = "1.3.6"
 val LogbackVersion = "1.2.3"
 
