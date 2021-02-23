@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.13.4" // waiting on http4s and quill to upgrade to scala 3
 
-val CirceVersion  = "0.14.0-M3"
+val CirceVersion  = "0.14.0-M4"
 val Http4sVersion = "0.21.8"
 
 libraryDependencies ++= List(
@@ -12,7 +12,7 @@ libraryDependencies ++= List(
   "org.testcontainers" % "postgresql" % "1.13.0",
   "org.postgresql" % "postgresql" % "42.2.11",
   "ch.qos.logback"  %  "logback-classic" % "1.2.3",
-  "org.typelevel" %% "cats-effect" % "2.3.1",
+  "org.typelevel" %% "cats-effect" % "2.3.3",
   "io.circe" %% "circe-core" % CirceVersion,
   "io.circe" %% "circe-generic" % CirceVersion,
   "io.circe" %% "circe-parser" % CirceVersion,
