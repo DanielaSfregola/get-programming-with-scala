@@ -12,7 +12,7 @@ libraryDependencies ++= List(
   "org.testcontainers" % "postgresql" % "1.13.0",
   "org.postgresql" % "postgresql" % "42.2.11",
   "ch.qos.logback"  %  "logback-classic" % "1.2.3",
-  "org.typelevel" %% "cats-effect" % "2.3.1",
+  "org.typelevel" %% "cats-effect" % "2.3.3",
   "io.circe" %% "circe-core" % CirceVersion,
   "io.circe" %% "circe-generic" % CirceVersion,
   "io.circe" %% "circe-parser" % CirceVersion,
