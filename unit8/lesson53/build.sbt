@@ -2,10 +2,10 @@ name := "get-programming-with-scala-lesson53"
 
 version := "0.1"
 
-scalaVersion := "2.13.4" // waiting on http4s and quill to upgrade to scala 3
+scalaVersion := "2.13.4" // waiting on quill to upgrade to scala 3
 
 val CirceVersion  = "0.14.0-M4"
-val Http4sVersion = "0.21.8"
+val Http4sVersion = "0.22.0-M5"
 
 libraryDependencies ++= List(
   "io.getquill" %% "quill-async-postgres" % "3.5.2",
