@@ -19,10 +19,10 @@ List(1,2,3).take(4)
 
 
 List(1,2,3,-1,-2,-3).dropWhile(_ < 2)
-// res6: List[Int] = List(2, 3)
+// res6: List[Int] = List(2,3,-1,-2,-3)
 
 List(1,2,3,-1,-2,-3).dropWhile(_ < 0)
-// res7: List[Int] = List(1, 2, 3)
+// res7: List[Int] = List(1,2,3,-1,-2,-3)
 
 
 List(1,2,3,-1,-2,-3).takeWhile(_ < 2)
