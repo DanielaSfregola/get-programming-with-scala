@@ -14,4 +14,4 @@
 // ANSWER
 
 import io.getquill._
-new PostgresAsyncContext(CamelCase, "db")
+new PostgresJAsyncContext(CamelCase, "db")

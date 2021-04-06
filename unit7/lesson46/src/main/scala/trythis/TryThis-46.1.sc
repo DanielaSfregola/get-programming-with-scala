@@ -18,13 +18,13 @@
 
 import java.time.LocalDate
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 import scala.concurrent.{ExecutionContext, Future}
 
 case class Customer(id: Int, name: String)
 case class Product(id: Int, title: String, creationDate: LocalDate)
 
-class ProductQueries(ctx: PostgresAsyncContext[SnakeCase.type]) {
+class ProductQueries(ctx: PostgresJAsyncContext[SnakeCase.type]) {
   import ctx._
 
   private val products = quote { query[Product] }
@@ -36,7 +36,7 @@ class ProductQueries(ctx: PostgresAsyncContext[SnakeCase.type]) {
   }
 
   def allByTitle(title: String)
-                (implicit ec: ExecutionContext): Future[List[Product]] = {
+                (implicit ec: ExecutionContext): Future[Seq[Product]] = {
     val q = quote { products.filter(_.title == lift(title)) }
     run(q)
   }

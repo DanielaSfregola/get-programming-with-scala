@@ -1,22 +1,22 @@
 package org.example.registrations
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 import scala.concurrent.{ExecutionContext, Future}
 
 case class Customer(id: Int, name: String)
 
-class CustomerQueries(ctx: PostgresAsyncContext[SnakeCase.type]) {
+class CustomerQueries(ctx: PostgresJAsyncContext[SnakeCase.type]) {
   import ctx._
 
   private val customers = quote { query[Customer] }
 
-  def all()(implicit ec: ExecutionContext): Future[List[Customer]] = {
+  def all()(implicit ec: ExecutionContext): Future[Seq[Customer]] = {
     // Generated SQL: SELECT x.id, x.name FROM customer x
     run(customers)
   }
 
   def nameById(id: Int)
-              (implicit ec: ExecutionContext): Future[List[String]] = {
+              (implicit ec: ExecutionContext): Future[Seq[String]] = {
     // Generated SQL: SELECT x1.name FROM customer x1 WHERE x1.id = ?
     val q = quote {
       customers.filter(_.id == lift(id))
