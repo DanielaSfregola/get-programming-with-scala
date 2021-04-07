@@ -1,11 +1,11 @@
 package org.example.quiz
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 
 object TestDatabase {
 
   private val psqlServer = new PostgreSQL("init.sql")
-  val ctx = new PostgresAsyncContext(SnakeCase, psqlServer.config)
+  val ctx = new PostgresJAsyncContext(SnakeCase, psqlServer.config)
 
   def stop(): Unit = psqlServer.stop()
 }
