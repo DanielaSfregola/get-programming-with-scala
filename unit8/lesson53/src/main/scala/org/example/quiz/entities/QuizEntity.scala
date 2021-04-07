@@ -25,7 +25,7 @@ object QuestionEntity {
     deriveDecoder[QuestionEntity]
 
   def fromRecord(question: Question,
-                 answers: List[Answer]): QuestionEntity = {
+                 answers: Seq[Answer]): QuestionEntity = {
     val possibleAnswers = answers.map(PossibleAnswerEntity.fromRecord).toSet
     apply(question.id, question.text, possibleAnswers)
   }

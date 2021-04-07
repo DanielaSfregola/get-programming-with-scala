@@ -1,12 +1,12 @@
 package org.example.quiz.dao
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 import org.example.quiz.dao.records.{Answer, Question}
 
 import scala.concurrent.{ExecutionContext, Future}
 
 
-class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
+class QuestionAnswerDao(ctx: PostgresJAsyncContext[SnakeCase.type])
                        (implicit ec: ExecutionContext) {
 
   import ctx._
@@ -14,7 +14,7 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
   private val questions = quote { query[Question] }
   private val answers = quote { query[Answer] }
 
-  def save(newQuestion: Question, newAnswers: List[Answer]): Future[(Long, List[Long])] = {
+  def save(newQuestion: Question, newAnswers: Seq[Answer]): Future[(Long, Seq[Long])] = {
     val saveQuestion = quote {
       questions.insert(lift(newQuestion)).returningGenerated(_.id)
     }
@@ -37,8 +37,8 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
     }
   }
 
-  def pickByCategoryId(categoryId: Long, n: Int): Future[Map[Question, List[Answer]]] = {
-    val result: Future[List[(Question, Answer)]] = run {
+  def pickByCategoryId(categoryId: Long, n: Int): Future[Map[Question, Seq[Answer]]] = {
+    val result: Future[Seq[(Question, Answer)]] = run {
       for {
         question <- questions.filter(_.categoryId == lift(categoryId))
                              .sortBy(_ => infix"random()").take(lift(n))
@@ -47,12 +47,12 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
     }
 
     result.map { questionsAndAnswers =>
-      val questions: List[Question] =
+      val questions: Seq[Question] =
         questionsAndAnswers.map { case (q, _) => q }.distinct
-      val answersByQuestionId: Map[Long, List[Answer]] =
+      val answersByQuestionId: Map[Long, Seq[Answer]] =
         questionsAndAnswers.map { case (_, a) => a }.groupBy(_.questionId)
       questions.map { question =>
-        question -> answersByQuestionId.getOrElse(question.id, List.empty)
+        question -> answersByQuestionId.getOrElse(question.id, Seq.empty)
       }.toMap
     }
   }
@@ -62,7 +62,7 @@ class QuestionAnswerDao(ctx: PostgresAsyncContext[SnakeCase.type])
     run(q).map(_ > 0)
   }
 
-  def getCorrectQuestionAnswers(questionIds: List[Long]): Future[List[(Long, Long)]] = {
+  def getCorrectQuestionAnswers(questionIds: Seq[Long]): Future[Seq[(Long, Long)]] = {
     val q = quote {
       for {
         question <- questions.filter(q => lift(questionIds).contains(q.id))

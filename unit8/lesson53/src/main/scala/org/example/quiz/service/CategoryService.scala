@@ -14,6 +14,6 @@ class CategoryService(dao: CategoryDao)(implicit cs: ContextShift[IO]) {
 
   def all(): IO[List[CategoryEntity]] =
     IO.fromFuture(IO(dao.all())).map { records =>
-      records.map(CategoryEntity.fromRecord)
+      records.toList.map(CategoryEntity.fromRecord)
     }
 }
