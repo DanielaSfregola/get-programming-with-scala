@@ -1,5 +1,5 @@
 // Implement a function called sqrt that takes an integer. It returns the square root of
-// the given number if non-negative, a message otherwise explaining that this operation
+// the given number if nonnegative, a message otherwise explaining that this operation
 // for negative numbers is not supported.
 
 

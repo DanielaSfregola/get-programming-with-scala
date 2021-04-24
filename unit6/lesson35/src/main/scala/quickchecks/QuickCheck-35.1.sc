@@ -1,4 +1,4 @@
-// Consider these two snippets of code: are they equivalent?
+// Consider these two snippets of code. Are they equivalent?
 // Use the Scala REPL to validate your hypotheses.
 
 // 1)

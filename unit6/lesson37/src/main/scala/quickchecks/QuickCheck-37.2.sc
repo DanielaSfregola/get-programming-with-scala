@@ -9,5 +9,5 @@
 def getCapitals(capitalToCountry: Map[String, String]): List[String] =
   capitalToCountry.keys.toList
 
-// The return type of your function is List[String], rather than Iterable[String]:
+// The return type of your function is List[String], rather than Iterable[String];
 // you need to use the methods toList to convert the generic iterable value into a list.

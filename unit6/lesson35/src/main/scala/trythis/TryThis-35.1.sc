@@ -1,5 +1,5 @@
 // Implement a function that takes a group of students and a set of topics as its parameters.
-// It returns a new set containing the students that are taking any of the given topics.
+// It returns a new set containing the students who are taking any of the given topics.
 // Use the representation of student you have seen in this lesson:
 
 case class Student(id: Int, name: String, topics: Set[String])

@@ -1,4 +1,4 @@
-// Rewrite the function crossMultiplier you have implemented in quick check 34.5
+// Rewrite the function crossMultiplier you implemented in quick check 34.5
 // using for-comprehension.
 
 // ANSWER

@@ -1,4 +1,4 @@
-// In Quick Check 36.1, you have defined a key-value data structure of type Map[Int, String]
+// In quick check 36.1, you have defined a key-value data structure of type Map[Int, String]
 // to represent the numbers and their corresponding days of the week.
 // Use the operator -- to create a new map containing only weekdays (i.e., all but Saturday and Sunday).
 
