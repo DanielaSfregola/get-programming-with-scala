@@ -1,6 +1,6 @@
 // Imagine you are building a program to mark exams. Assume that a mark has an exam name, a score,
-// and a student id. Write a function that takes a sequence of marks and prints a human-readable
-// message to the console containing the top five scores’ student id.
+// and a student ID. Write a function that takes a sequence of marks and prints a human-readable
+// message to the console containing the top five scores’ student ID.
 
 
 // ANSWER

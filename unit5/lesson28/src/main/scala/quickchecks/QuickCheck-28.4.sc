@@ -1,4 +1,4 @@
-// In the previous Quick Check, you have implemented a function called triple using flatMap:
+// In quick check 28.3, you have implemented a function called triple using flatMap:
 // re-implement it using for-comprehension.
 
 
