@@ -1,4 +1,4 @@
-// In this lesson, you have seen how to measure duration in seconds of two specific operations:
+// In this lesson, you saw how to measure duration in seconds of two specific operations:
 // initializing a player and retrieving its game statistics.
 // Reuse the same logic to define a function, called timed, to measure the execution time
 // in seconds of any operation.
