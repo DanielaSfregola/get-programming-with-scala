@@ -1,4 +1,5 @@
-// In quick check 44.2, you have implemented a function getUser(orderId: Int) using the function flatten: refactor it to use the flatMap method instead.
+// In quick check 44.2, you have implemented a function getUser(orderId: Int) using the function
+// flatten. Refactor it to use the flatMap method instead.
 
 
 // ANSWER

@@ -1,4 +1,4 @@
-// The init.sql file you have downloaded for this lesson also creates another table called product
+// The init.sql file you downloaded for this lesson also creates another table called product
 // with the following structure:
 //
 // CREATE TABLE IF NOT EXISTS product (
@@ -9,10 +9,10 @@
 // );
 //
 // Define functions to perform the following operations:
-// -	create a product
-// -	select all of those with a given title
-// -	change the title of a specific product
-// - 	delete a product by id.
+// -	Create a product.
+// -	Select all of those with a given title.
+// -	Change the title of a specific product.
+// - 	Delete a product by ID.
 
 // ANSWERS
 

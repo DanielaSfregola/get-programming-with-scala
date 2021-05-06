@@ -1,4 +1,4 @@
-// Add a function customersByName to your class CustomerQueries to generate and run
+// Add the function customersByName to your class CustomerQueries to generate and run
 // a query to retrieve customers with a given name.
 
 // def customersByName(name: String): Seq[Customer] = ???

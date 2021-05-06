@@ -1,4 +1,4 @@
-// Consider the following snippet of code: refactor the function getUserId
+// Consider the following snippet of code. Refactor the function getUserId
 // to use for-comprehension.
 
 
