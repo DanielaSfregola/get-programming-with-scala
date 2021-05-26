@@ -3,7 +3,7 @@
 case class Person(name: String, age: Int)
 
 // Define a default implementation for Show[Person] so that your function prettyPrintln
-// can print the person's name followed by its age. For example, the expression
+// can print the person's name followed by their age. For example, the expression
 // prettyPrintln(Person("Jon Doe", 25)) should print "Jon Doe (25)" to the console.
 
 

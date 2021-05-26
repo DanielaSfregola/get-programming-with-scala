@@ -1,4 +1,4 @@
-// Implement a function that given a list of double, returns a new sequence
+// Implement a function that, given a list of double, returns a new sequence
 // containing only its non-negative numbers:
 //
 // def filterNonNegative(numbers: List[Double]): List[Double]

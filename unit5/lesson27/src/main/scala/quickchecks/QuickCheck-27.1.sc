@@ -4,7 +4,7 @@
 
 // ANSWER
 
-// You can create the list my typing the following instruction in the Scala REPL:
+// You can create the list by typing the following instruction in the Scala REPL:
 
 42 :: Some("scala") :: Nil
 

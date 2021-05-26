@@ -1,4 +1,4 @@
-// Use pattern matching to define a function sum that takes a list of integers as its parameter,
+// Use pattern matching to define a function sum that takes a list of integers as its parameter
 // and it returns an integer representing the sum of all its elements.
 
 

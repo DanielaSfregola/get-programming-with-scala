@@ -1,4 +1,4 @@
-// Consider the following functions: what is the behavior of their function calls?
+// Consider the following functions. What is the behavior of their function calls?
 // Use the REPL to validate your hypotheses.
 
 def fooByValue(n: Int): Int = n + n
@@ -11,7 +11,7 @@ fooByName { println("Scala"); 21 }
 // ANSWER
 
 // Both function calls return the value 42. However, the function fooByName prints
-// the text "Scala" to the console twice, while fooByValue does it only once.
+// the text "Scala" to the console twice, while fooByValue does it only once:
 
 // scala> def fooByValue(n: Int): Int = n + n
 // fooByValue: (n: Int)Int

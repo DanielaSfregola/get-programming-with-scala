@@ -3,7 +3,7 @@
 // import cats.effect.{ContextShift, IO}
 // def selectionAverage(using cs: ContextShift[IO]): IO[Double]
 
-// Use the given value randomNumber to pick one random number between one and ten,
+// Use the given value randomNumber to pick one random number between 1 and 10,
 // and perform the number selection in parallel.
 
 // import cats.effect.IO
@@ -11,7 +11,7 @@
 
 // val randomNumber: IO[Int] = IO(Random.nextInt(10) + 1)
 
-// HINT: The expression (0 to 99).toList returns a sequence of size 100 containing
+// HINT: The expression (0 to 99).toList returns a sequence of size 100, with
 // all the numbers from 0 to 99 inclusive.
 
 

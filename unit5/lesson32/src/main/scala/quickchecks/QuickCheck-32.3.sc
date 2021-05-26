@@ -14,7 +14,7 @@
 
 def sumOfFirstN(n: Int): Int = (0 to n).sum
 
-// The expression 0 to n produces a sequence like structure called “inclusive range” containing
+// The expression 0 to n produces a sequence like structure called “inclusive range”, which contains
 // all the numbers from 0 to n inclusive. You can invoke the toList function to convert a range
 // to a list:
 

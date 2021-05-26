@@ -5,8 +5,8 @@ import java.util.Currency
 case class Money(amount: Double, currency: Currency)
 
 // Define an instance of Numeric[Money] so that Scala can recognize it as
-// a numeric value and perform calculations on them, such as summing two Money instances.
-// Ensure to forbid operations between monetary amounts that have different currencies.
+// a numeric value and perform calculations, such as summing two Money instances.
+// Forbid operations between monetary amounts that have different currencies.
 
 
 // ANSWER

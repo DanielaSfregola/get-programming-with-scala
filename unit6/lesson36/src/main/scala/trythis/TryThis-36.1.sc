@@ -1,4 +1,4 @@
-// Suppose you have two key-value structures representing a capital to its country,
+// Suppose you have two key-value structures representing a capital to its country
 // and a country to its continent. Combine the two instances of Map to link
 // each capital to its continent.
 

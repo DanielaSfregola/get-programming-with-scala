@@ -1,6 +1,6 @@
 // Consider the following snippet of code. What does it return? Why?
-// Use the Scala REPL to validate your hypothesis.
-
+// Use the Scala REPL to validate your hypothesis:
+// Map(42 -> "hi") + 3
 
 // ANSWER
 

@@ -1,4 +1,4 @@
-// Let’s consider the following snippet of code that prints the list of files in the current directory:
+// Consider the following snippet of code that prints the list of files in the current directory:
 
 import java.io.File
 

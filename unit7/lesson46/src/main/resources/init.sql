@@ -13,9 +13,9 @@ CREATE TABLE IF NOT EXISTS product (
 
 INSERT INTO customer (id, name)
 VALUES
-    (1, 'Jon Snow'),
-    (2, 'Daenerys Targaryen'),
-    (3, 'Arya Stark');
+    (1, 'Alice Abbott'),
+    (2, 'Bob Brown'),
+    (3, 'Charlie Clarke');
 
 INSERT INTO product (id, title, creation_date)
 VALUES

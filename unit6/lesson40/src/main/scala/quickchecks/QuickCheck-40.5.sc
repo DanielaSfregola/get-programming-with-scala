@@ -1,12 +1,12 @@
-// Imagine you have implemented a function to find a student by an id:
+// Imagine you have implemented a function to find a student by an ID:
 
 import scala.util._
 
 case class Student(id: Int, name: String, topics: Set[String])
 def findStudent(id: Int): Try[Student] = ???
 
-// Implement another function called findStudent that takes a string as its parameter, and
-// it returns an instance of Try[Student] by reusing the the existing findStudent(id: Int) function.
+// Implement another function called findStudent that takes a string as its parameter and
+// returns an instance of Try[Student] by reusing the the existing findStudent(id: Int) function.
 
 // def findStudent(id: String): Try[Student] = ???
 
