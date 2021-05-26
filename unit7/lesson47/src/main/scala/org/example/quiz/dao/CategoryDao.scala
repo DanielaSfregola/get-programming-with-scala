@@ -1,11 +1,11 @@
 package org.example.quiz.dao
 
-import io.getquill.{SnakeCase, PostgresAsyncContext}
+import io.getquill.{SnakeCase, PostgresJAsyncContext}
 import org.example.quiz.dao.records.Category
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class CategoryDao(ctx: PostgresAsyncContext[SnakeCase.type])(implicit ec: ExecutionContext) {
+class CategoryDao(ctx: PostgresJAsyncContext[SnakeCase.type])(implicit ec: ExecutionContext) {
   import ctx._
 
   private val categories = quote { query[Category] }
@@ -17,7 +17,7 @@ class CategoryDao(ctx: PostgresAsyncContext[SnakeCase.type])(implicit ec: Execut
     run(q)
   }
 
-  def all(): Future[List[Category]] = run(categories)
+  def all(): Future[Seq[Category]] = run(categories)
 
   def deleteById(id: Long): Future[Boolean] = {
     val q = quote { categories.filter(_.id == lift(id)).delete }

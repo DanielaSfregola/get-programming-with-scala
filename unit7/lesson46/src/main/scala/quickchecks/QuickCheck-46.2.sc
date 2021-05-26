@@ -45,7 +45,7 @@ val customers: Future[Seq[String]] = run(quote {
 // ^
 // SELECT x.* FROM (SELECT name FROM customer) AS x
 // res0: Future[Seq[String]] =
-// Future(Success(Seq(Alice Abbott, Bob Brown, Charlie Clarke)))
+// Future(Success(List(Jon Snow, Daenerys Targaryen, Arya Stark)))
 //
 // Note that the snippet of code used as[Query[String]] instead of as[String]
 // because the query returns zero or more records, rather than exactly one.
