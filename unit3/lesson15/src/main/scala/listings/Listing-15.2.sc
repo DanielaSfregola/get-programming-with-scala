@@ -8,7 +8,7 @@ object MySecondCalculator {
 
   val divide = { (a: Int, b: Int) => a / b }
 
-  val negate = { a: Int => subtract(0, a) }
+  val negate = { (a: Int) => subtract(0, a) }
 
 }
 
@@ -19,3 +19,5 @@ subtract(4, 4)
 multiply(5, 3)
 divide(6, 2)
 negate(-5)
+
+

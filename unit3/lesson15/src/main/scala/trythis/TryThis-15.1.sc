@@ -37,7 +37,7 @@ def myLongFunc(s: String): String = {
 }
 
 // ANSWER:
-val myLongFunc = { s: String =>
+val myLongFunc = { (s: String) =>
   val length = s.length
   s.reverse * length
 }
