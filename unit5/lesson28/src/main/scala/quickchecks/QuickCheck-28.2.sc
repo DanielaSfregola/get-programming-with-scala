@@ -9,8 +9,4 @@
 // (i.e., an instance of GenTraversableOnce).
 
 List(12.34).flatten
-//<console>:12: error:
-//  |          No implicit view available from Double => IterableOnce[B]
-//  |          where:    B is a type variable
-//  |          .[B].
-
+// error: No implicit view available from Double => scala.collection.IterableOnce[B].

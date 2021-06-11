@@ -32,11 +32,15 @@ object MovieApp extends App {
   printResult(
     question = "TOP 5 movies per vote average and count",
     answers = {
-      val topPerVote = movies.filter(_.voteCount >= 50).sortBy(movie =>
-        (- movie.voteAverage, - movie.voteCount)
-      ).take(5)
+      val topPerVote =
+        movies.filter(_.voteCount >= 50)
+              .sortBy { movie =>
+                (- movie.voteAverage, - movie.voteCount)
+              }.take(5)
       topPerVote.map { movie =>
-        s"[AVG: ${movie.voteAverage}, COUNT: ${movie.voteCount}] ${movie.title}" }
+        s"[AVG: ${movie.voteAverage}, COUNT: ${movie.voteCount}] " +
+        s"${movie.title}"
+      }
     }
   )
 
@@ -44,11 +48,13 @@ object MovieApp extends App {
   printResult(
     question = "TOP 5 movies per popularity",
     answers = {
-      val topPerPopularity = movies.sortBy(movie =>
-        - movie.popularity.getOrElse(0f)
-      ).take(5)
+      val topPerPopularity =
+        movies.sortBy { movie =>
+          -movie.popularity.getOrElse(0f)
+        }.take(5)
       topPerPopularity.map { movie =>
-        s"[POPULARITY: ${movie.popularity.getOrElse(unknown)}] ${movie.title}"
+        s"[POPULARITY: ${movie.popularity.getOrElse(unknown)}] " +
+        s"${movie.title}"
       }
     }
   )
@@ -57,11 +63,13 @@ object MovieApp extends App {
   printResult(
     question = "5 non-english movies",
     answers = {
-      val topNonEnglishPerPopularity = movies.filterNot(
-        _.originalLanguage == "en"
-      ).take(5)
+      val topNonEnglishPerPopularity =
+        movies.filterNot(_.originalLanguage == "en")
+              .take(5)
       topNonEnglishPerPopularity.map { movie =>
-        s"[LANG: ${movie.originalLanguage}, RELEASE DATE: ${movie.releaseDate.getOrElse(unknown)}] ${movie.title} (${movie.originalTitle})"
+        s"[LANG: ${movie.originalLanguage}, " +
+        s"RELEASE DATE: ${movie.releaseDate.getOrElse(unknown)}] " +
+        s"${movie.title} (${movie.originalTitle})"
       }
     }
   )
@@ -70,7 +78,8 @@ object MovieApp extends App {
   printResult(
     question = "Which movie made the most profit?",
     answer = {
-      val mostProfit = movies.maxBy(movie => movie.revenue - movie.budget)
+      val mostProfit = movies.maxBy(
+        movie => movie.revenue - movie.budget)
       val formattedProfit = {
         val formatter = java.text.NumberFormat.getInstance()
         formatter.format(mostProfit.revenue - mostProfit.budget)
