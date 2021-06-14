@@ -6,7 +6,8 @@ import org.slf4j.{Logger, LoggerFactory}
 class BookService(bookCatalogPath: String) {
   private val logger: Logger = LoggerFactory.getLogger(this.getClass)
 
-  private val books: List[Book] = new BookParser(bookCatalogPath).books
+  private val books: List[Book] =
+    new BookParser(bookCatalogPath).books
 
   private var bookLoans: Set[BookLoan] = Set.empty
 
@@ -21,13 +22,15 @@ class BookService(bookCatalogPath: String) {
                                       substring: String): Boolean =
     text.toLowerCase.contains(substring.toLowerCase)
 
-  def reserveBook(bookId: Long, user: User): Either[String, BookLoan] = {
+  def reserveBook(bookId: Long,
+                  user: User): Either[String, BookLoan] = {
     val res = for {
       _ <- checkReserveLimits(user)
       book <- checkBookExists(bookId)
       _ <- checkBookIsAvailable(book)
     } yield registerBookLoan(book, user)
-    logger.info(s"Book $bookId - User ${user.id} - Reserve request: ${outcomeMsg(res)}")
+    logger.info(s"Book $bookId - User ${user.id} - " +
+                s"Reserve request: ${outcomeMsg(res)}")
     res
   }
 
@@ -64,7 +67,8 @@ class BookService(bookCatalogPath: String) {
   private def checkBookIsTaken(book: Book): Either[String, User] =
     findBookLoan(book) match {
       case Some(BookLoan(_, user)) => Right(user)
-      case None => Left(s"Book ${book.id} does not result out on loan")
+      case None => Left(
+        s"Book ${book.id} does not result out on loan")
     }
 
   private def findBookLoan(book: Book): Option[BookLoan] =
@@ -82,7 +86,8 @@ class BookService(bookCatalogPath: String) {
     bookLoan
   }
 
-  private def updateBookLoans(f: Set[BookLoan] => Set[BookLoan]): Unit =
+  private def updateBookLoans(
+       f: Set[BookLoan] => Set[BookLoan]): Unit =
     synchronized { bookLoans = f(bookLoans) }
 
 }
