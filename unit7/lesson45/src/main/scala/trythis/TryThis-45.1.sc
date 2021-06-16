@@ -22,7 +22,7 @@ def contentInDir(path: String)
 // ANSWER
 
 def allContentInDir(path: String)
-                   (using ec: ExecutionContext): Future[List[String]] = {
+       (using ec: ExecutionContext): Future[List[String]] = {
   for {
     content <- contentInDir(path)
     contentInSubDirs <- Future.sequence(content.map(allContentInDir))

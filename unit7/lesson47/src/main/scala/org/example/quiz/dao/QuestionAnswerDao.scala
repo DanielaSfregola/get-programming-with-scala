@@ -14,7 +14,8 @@ class QuestionAnswerDao(ctx: PostgresJAsyncContext[SnakeCase.type])
   private val questions = quote { query[Question] }
   private val answers = quote { query[Answer] }
 
-  def save(newQuestion: Question, newAnswers: Seq[Answer]): Future[(Long, Seq[Long])] = {
+  def save(newQuestion: Question,
+           newAnswers: Seq[Answer]): Future[(Long, Seq[Long])] = {
     val saveQuestion = quote {
       questions.insert(lift(newQuestion)).returningGenerated(_.id)
     }
@@ -37,7 +38,8 @@ class QuestionAnswerDao(ctx: PostgresJAsyncContext[SnakeCase.type])
     }
   }
 
-  def pickByCategoryId(categoryId: Long, n: Int): Future[Map[Question, Seq[Answer]]] = {
+  def pickByCategoryId(categoryId: Long,
+                       n: Int): Future[Map[Question, Seq[Answer]]] = {
     val result: Future[Seq[(Question, Answer)]] = run {
       for {
         question <- questions.filter(_.categoryId == lift(categoryId))

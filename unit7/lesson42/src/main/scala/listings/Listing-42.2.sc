@@ -5,6 +5,20 @@ case class ProductSelection(productIds: List[Int])
 case class PersonalDetails(/* some fields here */)
 case class Account(/* some fields here */)
 
+/*private*/ def getUserContext(userId: Int): UserContext = ???
+
+/*private*/ def validateBalance(selection: ProductSelection)
+                           (userContext: UserContext): Either[String, Double] = ???
+
+/*private*/ def validateAddressWithinDistance(
+                                         userContext: UserContext): Either[String, UserContext] = ???
+
+/*private*/ def validateSelection(selection: ProductSelection)
+                             (userContext: UserContext): Either[String, ProductSelection] = ???
+
+/*private*/ def placeOrder(selection: ProductSelection)
+                      (userContext: UserContext): Int = ???
+
 
 def purchase(userId: Int, selection: ProductSelection): Either[String, Int] = {
   val userContext = getUserContext(userId)
@@ -15,16 +29,3 @@ def purchase(userId: Int, selection: ProductSelection): Either[String, Int] = {
   } yield placeOrder(selection)(userContext)
 }
 
-private def getUserContext(userId: Int): UserContext = ???
-
-private def validateBalance(selection: ProductSelection)
-                           (userContext: UserContext): Either[String, Double] = ???
-
-private def validateAddressWithinDistance(
-              userContext: UserContext): Either[String, UserContext] = ???
-
-private def validateSelection(selection: ProductSelection)
-                             (userContext: UserContext): Either[String, ProductSelection] = ???
-
-private def placeOrder(selection: ProductSelection)
-                      (userContext: UserContext): Int = ???

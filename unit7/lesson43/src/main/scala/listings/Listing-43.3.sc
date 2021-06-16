@@ -11,5 +11,6 @@ def trackAvailability(availability: Future[Availability]): Unit =
     case Success(p) =>
       println(s"Product ${p.id} has available quantity ${p.quantity}")
     case Failure(ex) =>
-      println(s"Couldn't get the availability because of ${ex.getMessage}")
+      println(s"Couldn't get the availability " +
+      s"because of ${ex.getMessage}")
   }

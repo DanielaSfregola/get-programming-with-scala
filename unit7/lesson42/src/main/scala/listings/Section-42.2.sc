@@ -3,7 +3,6 @@ def pow(exp: Int)(using base: Int): Double = Math.pow(base, exp)
 
 // In Scala 2: implicit val a: Int = …
 given b: Int = 2 // implicit found in the local scope
-
 pow(5)
 
 
@@ -17,7 +16,7 @@ object Base {
 import Base.given // importing all the implicit instances in Base
 
 // implicit found in the imported code
-  pow(5)
+pow(5)
 
 trait Name[A] {
   def name(): String
