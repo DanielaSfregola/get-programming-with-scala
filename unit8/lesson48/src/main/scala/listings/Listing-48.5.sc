@@ -1,21 +1,14 @@
 import java.time.LocalDate
 
 import io.circe._
+import io.circe.generic.semiauto._
 
 case class Person(fullName: String, dateOfBirth: LocalDate)
 
 object Person {
 
-  // In Scala 2: implicit val personDecoder: Decoder[Person] = new Decoder[Person] { ... }
-  given personDecoder: Decoder[Person] with {
-
-    def apply(c: HCursor): Either[DecodingFailure, Person] =
-      for {
-        fullName <- c.downField("fullName").as[String]
-        dateOfBirth <- c.downField("dateOfBirth").as[LocalDate]
-      } yield Person(fullName, dateOfBirth)
-
-  }
+  // In Scala 2: implicit val personDecoder: Decoder[Person] = deriveDecoder[Person]
+  given personDecoder: Decoder[Person] = deriveDecoder[Person]
 }
 
 

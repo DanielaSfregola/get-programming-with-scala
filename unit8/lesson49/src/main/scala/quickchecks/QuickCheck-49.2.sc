@@ -15,9 +15,9 @@ a.length
 // scala> lazy val a = b
 //      | val b = "hello"
 //      | a.length
-// a: String = <lazy>
-// b: String = hello
-//   res0: Int = 5
+// val a: String = <lazy>
+// val b: String = hello
+// val res0: Int = 5
 
 // The REPL initially does not assign a value to a, but it displays the message a: String = <lazy>.
 // Then, it assigns b to the text "hello". It eventually initializes the value a when executing
@@ -26,10 +26,9 @@ a.length
 
 
 // scala> val a = b
-//      | val b = "hello"
-//      | a.length
-// <pastie>:11: warning: Reference to uninitialized value b
-//      val a = b
-//       ^
-//       java.lang.NullPointerException
-//       ... 36 elided
+// | val b = "hello"
+// | a.length
+// ^
+// warning: Reference to uninitialized value b
+// java.lang.NullPointerException: Cannot invoke "String.length()" because the return value of "a()" is null
+// ... 32 elided

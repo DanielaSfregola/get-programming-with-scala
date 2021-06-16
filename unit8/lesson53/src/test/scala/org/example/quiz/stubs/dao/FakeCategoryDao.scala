@@ -5,7 +5,7 @@ import org.example.quiz.dao.records.Category
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class FakeCategoryDao(implicit ec: ExecutionContext) extends CategoryDao(ctx = null /* unused */) {
+class FakeCategoryDao(implicit ec: ExecutionContext) extends CategoryDao(ctx = _ /* unused */) {
 
   private var fakeCategories = Fixtures.categories
 
