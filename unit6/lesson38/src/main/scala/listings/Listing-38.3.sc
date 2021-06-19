@@ -5,6 +5,6 @@ case class Pass(score: Int) {
 
 def toMessage(outcome: Either[String, Pass]): String =
   outcome match {
-    //case Left(msg) => s"Fail: $msg"
+    case Left(msg) => s"Fail: $msg"
     case Right(pass) => s"Pass with score ${pass.score}"
   }

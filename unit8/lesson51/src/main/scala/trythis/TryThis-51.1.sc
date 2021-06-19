@@ -1,4 +1,3 @@
-
 // Using the type IO, define a small program that prints a message for the name of the user,
 // reads it from the console, and displays a personalized greeting message in return.
 
