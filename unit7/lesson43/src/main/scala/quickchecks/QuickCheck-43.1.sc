@@ -24,7 +24,7 @@ def test(): Unit = {
 //      | }
 // import scala.concurrent.Future
 // import scala.concurrent.ExecutionContext.Implicits.global
-// test: ()Unit
+// def test: ()Unit
 //
 // scala> test()
 // abc012

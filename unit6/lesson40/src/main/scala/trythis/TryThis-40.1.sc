@@ -9,10 +9,10 @@ case class Person(age: Int, name: String)
 // HINT: You can use the method split to tokenize a string.
 
 "a-b-c".split("-").toList
-//res0: List[String] = List(a, b, c)
+// val res0: List[String] = List(a, b, c)
 
 "a-b-c".split("-", 2).toList // limiting to up to two tokens
-//res1: List[String] = List(a, b-c)
+// val res1: List[String] = List(a, b-c)
 
 
 // ANSWER

@@ -18,7 +18,7 @@ def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
 //      | def isSuccess[T](f: Future[T]): Unit = f.onComplete(_.isSuccess)
 // import scala.concurrent.ExecutionContext.Implicits.global
 // import scala.concurrent.Future
-// isSuccess: [T](f: scala.concurrent.Future[T])Unit
+// def isSuccess: [T](f: scala.concurrent.Future[T])Unit
 //
 // scala> isSuccess(Future("hello"))
 //

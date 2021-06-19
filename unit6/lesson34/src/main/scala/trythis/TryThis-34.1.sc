@@ -1,6 +1,8 @@
 // Define a function that takes a set of book to return the set of genres
 // a given author has written. Use the following case class to represent a book:
-case class Book(title: String, authors: List[String], genres: Set[String])
+case class Book(title: String,
+                authors: List[String],
+                genres: Set[String])
 
 
 // ANSWER

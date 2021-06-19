@@ -1,6 +1,8 @@
 // Consider the following case class to represent a book:
 
-case class Book(title: String, authors: List[String], tags: Set[String])
+case class Book(title: String,
+                authors: List[String],
+                tags: Set[String])
 
 // Serialize and deserialize its instances to JSON using the circe library.
 
@@ -21,13 +23,13 @@ object Book {
 import io.circe.syntax._
 import io.circe.parser._
 
-val myBook = Book(
+val thisBook = Book(
   title = "Get Programming With Scala",
   authors = List("Daniela Sfregola"),
   tags = Set("programming", "scala", "tags"))
 
-val myBookAsJsonString = myBook.asJson.toString()
-// val myBookAsJsonString: String =
+val thisBookAsJsonString = thisBook.asJson.toString()
+// val thisBookAsJsonString: String =
 // {
 //   "title" : "Get Programming With Scala",
 //   "authors" : [
@@ -40,5 +42,5 @@ val myBookAsJsonString = myBook.asJson.toString()
 //   ]
 // }
 
-decode[Book](myBookAsJsonString)
+decode[Book](thisBookAsJsonString)
 // val res0: Either[io.circe.Error,Book] = Right(Book(Get Programming With Scala,List(Daniela Sfregola),Set(programming, scala, tags)))

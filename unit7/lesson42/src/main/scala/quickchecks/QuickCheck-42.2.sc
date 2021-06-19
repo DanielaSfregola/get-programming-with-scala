@@ -16,9 +16,12 @@ object A {
 
 // The compiler fails in finding an implicit value for the parameter n:
 
-// <console>:13: error: could not find implicit value for parameter n: Int
-//  (new A()).test
-//   ^
+//|no implicit argument of type Int was found for parameter n of method test in class A
+//|
+//|The following import might fix the problem:
+//|
+//|  import A.n
+//|
 //  First, it searches in the current scope: this is the code accessible from (new A()).test and
 // from def test(using n: Int): String. It fails to find a good match, so it looks at the
 // companion object of Int, which has no accessible implicit value of type Int. The compiler stops

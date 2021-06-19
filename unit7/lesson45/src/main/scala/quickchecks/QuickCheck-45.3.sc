@@ -7,5 +7,5 @@
 import scala.concurrent.{ExecutionContext, Future}
 
 def firstSuccessful[T](in: List[Future[T]])
-                      (using ec: ExecutionContext): Future[Option[T]] =
+      (using ec: ExecutionContext): Future[Option[T]] =
   Future.find(in)(_ => true)

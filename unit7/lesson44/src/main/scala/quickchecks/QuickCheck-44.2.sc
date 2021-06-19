@@ -19,5 +19,6 @@ def getUser(accountId: String)
 
 // ANSWER
 
-def getUser(orderId: Int)(using ec: ExecutionContext): Future[User] =
+def getUser(orderId: Int)
+           (using ec: ExecutionContext): Future[User] =
   getAccount(orderId).map(account => getUser(account.id)).flatten

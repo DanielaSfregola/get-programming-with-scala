@@ -7,7 +7,8 @@ import org.http4s.HttpRoutes
 import org.http4s.circe._
 import org.http4s.dsl.Http4sDsl
 
-class CategoryApi(categoryService: CategoryService) extends Http4sDsl[IO] {
+class CategoryApi(categoryService: CategoryService)
+  extends Http4sDsl[IO] {
 
   private implicit val categoriesEncoder =
     jsonEncoderOf[IO, List[CategoryEntity]]

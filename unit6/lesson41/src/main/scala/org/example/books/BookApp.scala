@@ -13,27 +13,27 @@ object BookApp extends App {
   val res = books.map(_.toPrettyString)
   logger.info(s"Found ${books.size} books: \n${res.mkString("\n")}")
 
-  val martin = User(1, "Martin Odersky")
-  val daniela = User(2, "Daniela Sfregola")
+  val alice = User(1, "Alice Abbott")
+  val bob = User(2, "Bob Brown")
 
   require(books.size >= 2,
           "This example scenario needs at least two books")
   val bookA = books.apply(0)
   val bookB = books.apply(1)
 
-  // martin takes the first two books
-  bookService.reserveBook(bookA.id, martin)
-  bookService.reserveBook(bookB.id, martin)
+  // alice takes the first two books
+  bookService.reserveBook(bookA.id, alice)
+  bookService.reserveBook(bookB.id, alice)
 
-  // daniela tries to reserve one of the books that martin has
-  bookService.reserveBook(bookA.id, daniela)
+  // bob tries to reserve one of the books that alice has
+  bookService.reserveBook(bookA.id, bob)
 
-  // daniela tries to reserve a random book that does not exist
-  bookService.reserveBook(-1, daniela)
+  // bob tries to reserve a random book that does not exist
+  bookService.reserveBook(-1, bob)
 
-  // martin returns the book daniela wants
+  // alice returns the book bob wants
   bookService.returnBook(bookA.id)
 
-  // daniela takes the book
-  bookService.reserveBook(bookA.id, daniela)
+  // bob takes the book
+  bookService.reserveBook(bookA.id, bob)
 }

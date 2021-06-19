@@ -15,5 +15,6 @@ def getAccount(orderId: Int)
 def getUser(accountId: String)
            (using ec: ExecutionContext): Future[User] = ???
 
-def getUser(orderId: Int)(using ec: ExecutionContext): Future[User] =
+def getUser(orderId: Int)
+           (using ec: ExecutionContext): Future[User] =
   getAccount(orderId).flatMap(account => getUser(account.id))

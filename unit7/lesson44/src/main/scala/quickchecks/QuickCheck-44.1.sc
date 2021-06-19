@@ -6,5 +6,6 @@
 
 import scala.concurrent.{ExecutionContext, Future}
 
-def toInt(f: Future[String])(using ec: ExecutionContext): Future[Int] =
+def toInt(f: Future[String])
+         (using ec: ExecutionContext): Future[Int] =
   f.map(_.toInt)

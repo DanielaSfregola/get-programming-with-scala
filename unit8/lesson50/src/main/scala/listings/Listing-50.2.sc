@@ -19,14 +19,14 @@ def fooB: IO[Int] = {
 
 
 val resultA = fooA
-//resultA: cats.effect.IO[Int] = IO$976545953
+//val resultA: cats.effect.IO[Int] = IO$976545953
 resultA.unsafeRunSync()
 //Scala
 //Scala
-//res0: Int = 10
+// val res0: Int = 10
 
 val resultB = fooB
-//resultB: cats.effect.IO[Int] = IO$976545953
+//val resultB: cats.effect.IO[Int] = IO$976545953
 resultB.unsafeRunSync()
 //Scala
 //Scala

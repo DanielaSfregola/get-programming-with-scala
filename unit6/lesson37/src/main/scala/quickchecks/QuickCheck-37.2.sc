@@ -6,7 +6,9 @@
 
 // You can implement the function getCapitals as the following:
 
-def getCapitals(capitalToCountry: Map[String, String]): List[String] =
+def getCapitals(
+     capitalToCountry: Map[String, String]
+    ): List[String] =
   capitalToCountry.keys.toList
 
 // The return type of your function is List[String], rather than Iterable[String];

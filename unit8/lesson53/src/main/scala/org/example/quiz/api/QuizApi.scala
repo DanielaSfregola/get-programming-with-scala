@@ -16,7 +16,8 @@ class QuizApi(quizService: QuizService) extends Http4sDsl[IO] {
   private implicit val quizScoreEncoder =
     jsonEncoderOf[IO, ScoreEntity]
 
-  private object CategoryParam extends QueryParamDecoderMatcher[Long]("category_id")
+  private object CategoryParam
+    extends QueryParamDecoderMatcher[Long]("category_id")
 
   val routes = HttpRoutes.of[IO] {
     case GET -> Root :? CategoryParam(categoryId) =>

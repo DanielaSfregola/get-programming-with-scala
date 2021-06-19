@@ -4,7 +4,11 @@
 
 // ANSWER
 
-def longestCapitalName(capitalToCountry: Map[String, String]): String = {
-  val (capital, _) = capitalToCountry.maxBy { case (c, _) => c.length }
+def longestCapitalName(
+      capitalToCountry: Map[String, String]
+    ): String = {
+  val (capital, _) = capitalToCountry.maxBy { case (c, _) =>
+    c.length
+  }
   capital
 }

@@ -11,7 +11,8 @@
 
 // ANSWER
 
-def crossMultiplier(groupA: Set[Int], groupB: Set[Int]): Set[Int] =
+def crossMultiplier(groupA: Set[Int],
+                    groupB: Set[Int]): Set[Int] =
   groupA.flatMap { a =>
     groupB.map(b => a * b)
   }

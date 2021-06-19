@@ -1,7 +1,9 @@
 // Using the functions drop and take, implement the following method to paginate
 // a sequence of strings:
 //
-// def paginate(data: List[String], pageN: Int, pageSize: Int): List[String]
+//def paginate(data: List[String],
+//             pageN: Int,
+//             pageSize: Int): List[String]
 //
 // To simplify, you can assume that the parameters pageN and pageSize are positive numbers.
 // If the sequence is not big enough for the requested pagination, return an empty list.

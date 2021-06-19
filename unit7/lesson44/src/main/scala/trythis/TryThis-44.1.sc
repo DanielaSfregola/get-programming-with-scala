@@ -9,8 +9,8 @@ def contentInDir(path: String)
   Future {
     val file = new File(path)
     if (file.isDirectory)
-    // unfortunately, listFiles returns null
-    // if invoked on a file that is not directory
+      // unfortunately, listFiles returns null
+      // if invoked on a file that is not directory
       file.listFiles().toList.map(_.getAbsolutePath)
     else List.empty
   }

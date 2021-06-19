@@ -13,7 +13,7 @@ Map("hello" -> 1, "scala" -> 10).flatMap { case (w, n) =>
 Map("hello" -> 1, "scala" -> 10).flatMap { case (w, n) =>
   if (w.length > n ) Some(w -> n) else None
 }
-// res0: scala.collection.immutable.Map[String,Int] = Map(hello -> 1)
+// val res0: scala.collection.immutable.Map[String,Int] = Map(hello -> 1)
 
 // The compiler can return its resulting value of type Iterable[(String, Int)]
 // as an instance of Map[String, Int].

@@ -3,7 +3,8 @@
 
 // ANSWER
 
-def crossMultiplier(groupA: Set[Int], groupB: Set[Int]): Set[Int] =
+def crossMultiplier(groupA: Set[Int],
+                    groupB: Set[Int]): Set[Int] =
   for {
     a <- groupA
     b <- groupB

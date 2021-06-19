@@ -2,9 +2,9 @@ name := "get-programming-with-scala-lesson26"
 
 version := "0.1"
 
-scalaVersion := "3.0.0-RC1"
+scalaVersion := "3.0.0"
 
-val Http4sVersion = "0.22.0-M5"
+val Http4sVersion = "0.22.0-RC1"
 
 libraryDependencies ++= List(
   "org.http4s"      %% "http4s-blaze-server" % Http4sVersion,

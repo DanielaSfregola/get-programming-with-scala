@@ -18,8 +18,12 @@ def placeOrder(customerId: Int,
               (using ec: ExecutionContext): Future[Order] = {
   getAvailability(productId).flatMap { availability =>
     if (quantity <= availability.quantity)
-      createOrder(customerId = customerId, productId = productId, quantity)
+      createOrder(customerId = customerId,
+                  productId = productId,
+                  quantity)
     else throw new IllegalStateException(
-      s"Product $productId unavailable: requested $quantity, available ${availability.quantity}")
+      s"Product $productId unavailable: " +
+      s"requested $quantity, " +
+      s"available ${availability.quantity}")
   }
 }

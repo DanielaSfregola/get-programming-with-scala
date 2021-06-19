@@ -2,8 +2,12 @@
 // that describes a Student-Professor-Assistant relation:
 // You can translate the above to code with the following case classes:
 
-case class Student(id: Long, name: String, tutor: Option[Professor])
-case class Professor(id: Long, name: String, assistant: Option[Assistant])
+case class Student(id: Long,
+                   name: String,
+                   tutor: Option[Professor])
+case class Professor(id: Long,
+                     name: String,
+                     assistant: Option[Assistant])
 case class Assistant(id: Long, name: String)
 
 // Re-implement these following function using for-comprehension and the other operations on Option you have seen in this lesson:

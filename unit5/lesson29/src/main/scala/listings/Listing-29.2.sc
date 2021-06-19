@@ -21,7 +21,8 @@ private val maxCollSize = 1000
 private def validateWithinSize(contacts: List[Contact]): List[Contact] = {
   val size = contacts.size
   if (size > maxCollSize)
-    reject(s"Address book collection too big! Found $size contacts, maximum allowed is $maxCollSize")
+    reject(s"Address book collection too big! " +
+    s"Found $size contacts, maximum allowed is $maxCollSize")
   else contacts
 }
 

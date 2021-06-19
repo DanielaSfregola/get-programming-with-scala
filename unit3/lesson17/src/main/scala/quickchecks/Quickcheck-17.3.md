@@ -15,4 +15,4 @@ Service bound to address /127.0.0.1:8080
  | ' \  _|  _| '_ \_  _(_-<
  |_||_\__|\__| .__/ |_|/__/
              |_| 
-http4s v0.21.9 on blaze v0.14.14 started at http://127.0.0.1:8080/
+http4s v0.22.0-RC1 on blaze v0.15.1 started at http://127.0.0.1:8080/

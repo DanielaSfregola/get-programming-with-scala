@@ -28,7 +28,8 @@ class QuizService(dao: QuestionAnswerDao,
 
   def score(givenAnswers: List[GivenAnswerEntity]): IO[ScoreEntity] = {
     val questionIds = givenAnswers.map(_.questionId)
-    IO.fromFuture(IO(dao.getCorrectQuestionAnswers(questionIds))).map { correctAnswers =>
+    IO.fromFuture(
+      IO(dao.getCorrectQuestionAnswers(questionIds))).map { correctAnswers =>
       val goodAnswers = givenAnswers.filter { answer =>
         correctAnswers.exists { case (q, a) =>
           q == answer.questionId && a == answer.answerId

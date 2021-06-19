@@ -9,7 +9,7 @@ Perform the following operations in the REPL:
 ANSWER:
 
 1. scala> "na" * 3 + 42
-   res1: String = nanana42
+   val res0: String = nanana42
 
 2. scala> :reset
    Resetting interpreter state.
