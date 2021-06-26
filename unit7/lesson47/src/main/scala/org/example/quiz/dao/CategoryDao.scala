@@ -1,17 +1,17 @@
 package org.example.quiz.dao
 
-import io.getquill.{SnakeCase, PostgresJAsyncContext}
+import io.getquill._
 import org.example.quiz.dao.records.Category
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class CategoryDao(ctx: PostgresJAsyncContext[SnakeCase.type])(implicit ec: ExecutionContext) {
+class CategoryDao(ctx: PostgresJAsyncContext[SnakeCase.type])(using ec: ExecutionContext) {
   import ctx._
 
-  private val categories = quote { query[Category] }
+  private inline def categories = quote { query[Category] }
 
   def save(category: Category): Future[Long] = {
-    val q = quote {
+    inline def q = quote {
       categories.insert(lift(category)).returningGenerated(_.id)
     }
     run(q)
@@ -20,7 +20,7 @@ class CategoryDao(ctx: PostgresJAsyncContext[SnakeCase.type])(implicit ec: Execu
   def all(): Future[Seq[Category]] = run(categories)
 
   def deleteById(id: Long): Future[Boolean] = {
-    val q = quote { categories.filter(_.id == lift(id)).delete }
+    inline def q = quote { categories.filter(_.id == lift(id)).delete }
     run(q).map(_ > 0)
   }
 
