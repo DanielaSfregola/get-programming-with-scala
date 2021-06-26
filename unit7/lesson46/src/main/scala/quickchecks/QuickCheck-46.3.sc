@@ -6,7 +6,7 @@
 
 // ANSWER
 
-import io.getquill.{PostgresJAsyncContext, SnakeCase}
+import io.getquill._
 import scala.concurrent.{ExecutionContext, Future}
 
 case class Customer(id: Int, name: String)
@@ -17,8 +17,9 @@ class CustomerQueries(ctx: PostgresJAsyncContext[SnakeCase.type]) {
   private val customers = quote { query[Customer] }
 
   def customersByName(name: String)
-                     (implicit ec: ExecutionContext): Future[Seq[Customer]] = {
-    val q = quote { customers.filter(_.name == lift(name)) }
+                     (using ec: ExecutionContext): Future[Seq[Customer]] = {
+    // In Scala 2: val q = ...
+    inline def q = quote { customers.filter(_.name == lift(name)) }
     run(q)
   }
 }
