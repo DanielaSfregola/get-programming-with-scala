@@ -1,6 +1,6 @@
 package org.example.quiz
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 
 object TestDatabase {
 
@@ -11,7 +11,7 @@ object TestDatabase {
       "data/questions.csv" -> "/data/questions.csv",
       "data/answers.csv" -> "/data/answers.csv",
     ))
-  val ctx = new PostgresAsyncContext(SnakeCase, psqlServer.config)
+  val ctx = new PostgresJAsyncContext(SnakeCase, psqlServer.config)
 
   def stop(): Unit = psqlServer.stop()
 }
