@@ -8,7 +8,7 @@ def findStudent(id: Int): Try[Student] = ???
 // Implement another function called findStudent that takes a string as its parameter and
 // returns an instance of Try[Student] by reusing the the existing findStudent(id: Int) function.
 
-// def findStudent(id: String): Try[Student] = ???
+// def findStudent(id: String): Try[Student]
 
 // HINT: You can parse a string instance into an integer using the toInt function,
 // which throws an exception if this is not possible.

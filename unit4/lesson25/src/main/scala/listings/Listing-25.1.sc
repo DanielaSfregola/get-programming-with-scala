@@ -1,5 +1,3 @@
-def getStats(): WebsiteStats = ???
-
 case class WebsiteStats(
   lastHour: Long,
   lastDay: Long,
@@ -8,6 +6,8 @@ case class WebsiteStats(
   /* many more fields here!*/)
 
 case class MyStats(lastDay: Long, lastMonth: Long)
+
+def getStats(): WebsiteStats = ???
 
 def lastDayAndMonthStats(): MyStats = {
   val allStats = getStats()

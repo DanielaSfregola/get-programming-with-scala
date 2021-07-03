@@ -1,7 +1,7 @@
 // Add the function customersByName to your class CustomerQueries to generate and run
 // a query to retrieve customers with a given name.
 
-// def customersByName(name: String): Seq[Customer] = ???
+// def customersByName(name: String): Seq[Customer]
 
 
 // ANSWER
@@ -22,4 +22,3 @@ class CustomerQueries(ctx: PostgresJAsyncContext[SnakeCase.type]) {
     run(q)
   }
 }
-

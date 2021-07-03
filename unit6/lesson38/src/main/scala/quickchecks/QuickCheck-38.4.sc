@@ -9,7 +9,7 @@ def validation(a: Either[String, Int],
 // What value does the following function call return? Why? Use the REPL to validate your hypothesis.
 
 validation(Left("first failure"), Left("second failure"))
-// res0: Either[String,Int] = Left(first failure)
+// val res0: Either[String,Int] = Left(first failure)
 
 
 // ANSWER

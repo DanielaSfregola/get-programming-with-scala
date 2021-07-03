@@ -5,7 +5,6 @@ import org.example.quiz.dao.records._
 
 import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
-import scala.util.{Failure, Success}
 
 object Main extends App {
 

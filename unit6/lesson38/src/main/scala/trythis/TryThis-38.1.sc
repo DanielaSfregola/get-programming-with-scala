@@ -16,4 +16,4 @@ def validation(a: Either[String, Int],
   }
 
 validation(Left("first failure"), Left("second failure"))
-// res0: Either[List[String],Int] = Left(List(first failure, second failure))
+// val res0: Either[List[String],Int] = Left(List(first failure, second failure))

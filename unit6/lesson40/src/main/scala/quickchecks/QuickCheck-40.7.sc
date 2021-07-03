@@ -5,6 +5,7 @@
 
 
 // ANSWER
+
 import scala.util.Try
 
 def toSafeBoolean(text: String): Boolean =

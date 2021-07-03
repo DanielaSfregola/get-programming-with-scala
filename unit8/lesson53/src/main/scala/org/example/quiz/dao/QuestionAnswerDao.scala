@@ -72,6 +72,4 @@ class QuestionAnswerDao(ctx: PostgresJAsyncContext[SnakeCase.type])
     run(q)
   }
 
-
-
 }

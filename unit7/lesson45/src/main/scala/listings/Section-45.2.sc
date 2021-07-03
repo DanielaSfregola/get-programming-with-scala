@@ -8,7 +8,7 @@ def futureB = Future(123/0)
 // futureB: scala.concurrent.Future[Int]
 
 Future.firstCompletedOf(Seq(futureA, futureB))
-// res0: scala.concurrent.Future[Int] = Future(Failure(java.lang.ArithmeticException: / by zero))
+// val res0: scala.concurrent.Future[Int] = Future(Failure(java.lang.ArithmeticException: / by zero))
 
 
 val seqAB = Future.find(Seq(futureA, futureB))(_ > 10)

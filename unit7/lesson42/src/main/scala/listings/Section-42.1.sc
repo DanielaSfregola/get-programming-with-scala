@@ -1,7 +1,7 @@
 // In Scala 2: def welcome(name: String)(implicit msg: String): Unit
 def welcome(name: String)(using msg: String): Unit =
   println(s"$msg, $name!")
-// welcome: (name: String)(using msg: String)Unit
+// def welcome: (name: String)(using msg: String)Unit
 // the function welcome requires an implicit parameter of type String
 
 // In Scala 2: welcome("Jane")("Hello")
@@ -17,7 +17,7 @@ welcome("Jane")
 // It fails to find one (there are no implicit elements!)
 
 val hi = "Hi"
-// hi: String = Hello
+// val hi: String = Hello
 
 welcome("Jane")
 // <console>:13: no implicit argument of type String was found for parameter msg of method welcome

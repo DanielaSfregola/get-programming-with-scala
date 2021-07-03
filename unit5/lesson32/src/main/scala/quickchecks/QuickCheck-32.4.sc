@@ -3,19 +3,18 @@
 // def perLetter(addressBook: List[Contact]): Map[Char, List[Contact]]
 
 // You should add those contacts with an empty surname to a category identified by the space char ' '.
-
-case class Contact(name: String,
-                   surname: String,
-                   numbers: List[ContactNumber],
-                   company: Option[String],
-                   email: Option[String])
-
 sealed trait Label
 case object Work extends Label
 case object Home extends Label
 
 case class ContactNumber(number: String, label: Label)
 
+
+case class Contact(name: String,
+                   surname: String,
+                   numbers: List[ContactNumber],
+                   company: Option[String],
+                   email: Option[String])
 
 // ANSWER
 

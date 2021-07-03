@@ -6,13 +6,16 @@
 // -	An assistant has an id and a name.
 // You can translate the above to code with the following case classes:
 
-case class Student(id: Long,
-                   name: String,
-                   tutor: Option[Professor])
+case class Assistant(id: Long, name: String)
+
 case class Professor(id: Long,
                      name: String,
                      assistant: Option[Assistant])
-case class Assistant(id: Long, name: String)
+
+case class Student(id: Long,
+                   name: String,
+                   tutor: Option[Professor])
+
 
 // Write functions to extract the following information:
 

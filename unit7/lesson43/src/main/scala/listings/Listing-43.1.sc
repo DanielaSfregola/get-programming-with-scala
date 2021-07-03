@@ -6,5 +6,5 @@ def isProductAvailable(productId: Int,
   requestAvailability(productId, quantity)
 }
 
-private def requestAvailability(productId: Int,
+/*private*/ def requestAvailability(productId: Int,
                                 quantity: Double): Boolean = ???

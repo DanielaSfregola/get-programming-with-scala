@@ -4,10 +4,10 @@ case class Availability(id: Int, quantity: Double)
 case class Order(id: Int, customerId: Int,
                  productId: Int, quantity: Double)
 
-private def getAvailability(productId: Int)
+/*private*/ def getAvailability(productId: Int)
                            (using ec: ExecutionContext): Future[Availability] = ???
 
-private def createOrder(customerId: Int,
+/*private*/ def createOrder(customerId: Int,
                         productId: Int,
                         quantity: Double)
                        (using ec: ExecutionContext): Future[Order] = ???

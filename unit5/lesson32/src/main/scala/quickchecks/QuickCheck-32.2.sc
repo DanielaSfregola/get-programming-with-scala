@@ -21,5 +21,3 @@ List(new B(0), new B(1), new B(2)).mkString(",")
 // its structural composition. On the other hand, A is a regular class: its toString method
 // refers to its default implementation in java.lang.Object which returns a text containing the
 // class name and the memory address of the instance.
-
-List().mkString
