@@ -5,7 +5,7 @@ version := "0.1"
 scalaVersion := "2.13.6" // quill doesn't support scala 3 yet
 
 val CirceVersion  = "0.14.1"
-val Http4sVersion = "0.22.0-RC1"
+val Http4sVersion = "0.22.0"
 
 libraryDependencies ++= Seq(
   "io.getquill" %% "quill-jasync-postgres" % "3.7.2",
