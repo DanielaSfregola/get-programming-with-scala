@@ -12,5 +12,4 @@ def read: IO[String] = IO(scala.io.StdIn.readLine())
 read.unsafeRunSync()
 // the cursor waits for you to type,
 // and it returns it after you press the enter key.
-// res0: String = Daniela
-
+// val res0: String = Daniela

@@ -1,4 +1,5 @@
-// In quick check 44.2, you have implemented a function getUser(orderId: Int) using the function flatten: refactor it to use the flatMap method instead.
+// In quick check 44.2, you have implemented a function getUser(orderId: Int) using the function
+// flatten. Refactor it to use the flatMap method instead.
 
 
 // ANSWER
@@ -14,5 +15,6 @@ def getAccount(orderId: Int)
 def getUser(accountId: String)
            (using ec: ExecutionContext): Future[User] = ???
 
-def getUser(orderId: Int)(using ec: ExecutionContext): Future[User] =
+def getUser(orderId: Int)
+           (using ec: ExecutionContext): Future[User] =
   getAccount(orderId).flatMap(account => getUser(account.id))

@@ -1,5 +1,5 @@
 // Define a Quill context to connect to a PostgreSQL database by parsing a configuration file
-// and using a camel case naming convention.
+// and using a CamelCase naming convention.
 // Your application.properties file contains the following data:
 
 // db.url=postgresql://host:5432/database?user=root&password=root
@@ -14,4 +14,4 @@
 // ANSWER
 
 import io.getquill._
-new PostgresAsyncContext(CamelCase, "db")
+new PostgresJAsyncContext(CamelCase, "db")

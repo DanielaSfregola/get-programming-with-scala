@@ -15,16 +15,16 @@ def objInfo(param: Any) = param match {
 
 
 objInfo(-1)
-// res0: String = -1
+// val res0: String = -1
 
 objInfo(true)
-// res1: String = true
+// val res1: String = true
 
 objInfo(200)
-// res2: String = 200 is a positive integer
+// val res2: String = 200 is a positive integer
 
 objInfo(200.00)
-// res3: String = 200.0 is a double
+// val res3: String = 200.0 is a double
 
 objInfo("ping")
-// res4: String = pong
+// val res4: String = pong

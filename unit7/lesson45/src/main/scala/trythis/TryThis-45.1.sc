@@ -1,4 +1,4 @@
-// Let’s consider the function contentInDir that you have seen in the Try This section of Lesson 44
+// Let’s consider the function contentInDir that you saw in the lesson's 44 "Try This" section
 // to list the content of a given directory:
 
 import java.io.File
@@ -22,7 +22,7 @@ def contentInDir(path: String)
 // ANSWER
 
 def allContentInDir(path: String)
-                   (using ec: ExecutionContext): Future[List[String]] = {
+       (using ec: ExecutionContext): Future[List[String]] = {
   for {
     content <- contentInDir(path)
     contentInSubDirs <- Future.sequence(content.map(allContentInDir))

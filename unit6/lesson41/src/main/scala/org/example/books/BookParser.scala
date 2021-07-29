@@ -16,7 +16,8 @@ class BookParser(filePath: String) {
       Book.parse(rowData) match {
         case Success(book) => Some(book)
         case Failure(ex) =>
-          logger.warn(s"Skipping book: Unable to parse row because of ${ex.getMessage} - row was $rowData")
+          logger.warn(s"Skipping book: Unable to parse row because " +
+            s"of ${ex.getMessage} - row was $rowData")
           None
       }
     }
@@ -24,10 +25,12 @@ class BookParser(filePath: String) {
 
   private def loadCSVFile(path: String): List[Map[String, String]] = {
     logger.info(s"Processing file $path...")
-    val file = Source.fromResource(path)
+    val file = Source.fromResource(
+      path, classOf[BookParser].getClassLoader)
     val reader = CSVReader.open(file)
     val data = reader.allWithHeaders()
-    logger.info(s"Completed processing of file $path! ${data.size} records loaded")
+    logger.info(s"Completed processing of file $path! " +
+                s"${data.size} records loaded")
     data
   }
 }

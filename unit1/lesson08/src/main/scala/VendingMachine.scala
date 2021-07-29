@@ -6,8 +6,10 @@ class VendingMachine {
   var totalMoney = 0.0
 
   def buy(product: String, money: Double): String =
-    if(!isProductAvailable(product)) s"Sorry, product $product not available"
-    else if (!isMoneyEnough(product, money)) "Please, insert more money"
+    if(!isProductAvailable(product))
+      s"Sorry, product $product not available"
+    else if (!isMoneyEnough(product, money))
+      "Please, insert more money"
     else completeRequest(product, money)
 
   def isProductAvailable(product: String): Boolean = {

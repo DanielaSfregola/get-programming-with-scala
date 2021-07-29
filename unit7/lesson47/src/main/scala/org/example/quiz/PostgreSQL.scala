@@ -9,7 +9,7 @@ class PostgreSQL(initScript: String) {
   private val logger = LoggerFactory.getLogger(this.getClass)
 
   private val container: PostgreSQLContainer[_] = {
-    val psql: PostgreSQLContainer[_] = new PostgreSQLContainer().withInitScript(initScript)
+    val psql: PostgreSQLContainer[_] = new PostgreSQLContainer("postgres").withInitScript(initScript)
     logger.info(s"Starting container...")
     psql.start()
     psql

@@ -1,7 +1,7 @@
 // Implement a function called toEither that converts an instance of Try[T]
 // into one of type Either[Throwable, T].
 
-// def toEither[T](tryT: Try[T]): Either[Throwable, T] = ???
+// def toEither[T](tryT: Try[T]): Either[Throwable, T]
 
 
 // ANSWER

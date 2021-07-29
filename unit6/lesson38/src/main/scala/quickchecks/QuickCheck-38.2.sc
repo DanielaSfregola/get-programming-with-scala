@@ -1,5 +1,5 @@
 // Implement a method called sqrtOrZero that takes an integer. It uses the function sqrt
-// that you have implemented in the previous quick check to compute the square root of the number.
+// that you implemented in quick check 38.1 to compute the square root of the number.
 // Use pattern matching to return zero when the operation is not supported.
 
 

@@ -5,11 +5,9 @@
 // ANSWER
 
 // The expression Set(3).flatten does not compile. You can use the flatten function
-// only on nested structures: Set(3) is not.
+// only on nested structures; Set(3) is not.
 
 Set(3).flatten
-//<console>:12: error: No implicit view available from Int => IterableOnce[B].
-//  Set(3).flatten
-//  ^
+// error: No implicit view available from Int => IterableOnce[B].
 
 

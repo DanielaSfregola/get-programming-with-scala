@@ -1,6 +1,6 @@
 // Create a key-value structure of type Map[Int, String] to associate a number to
 // its corresponding day of the week. For example, you should associate
-// the number 1 to Monday, while 2 to Tuesday.
+// the number 1 to Monday, and 2 to Tuesday.
 
 
 // ANSWER

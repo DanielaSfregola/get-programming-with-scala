@@ -7,7 +7,7 @@
 // You can define a set as follows:
 
 Set(3, 12.4)
-// res0: scala.collection.immutable.Set[Double] = Set(3.0, 12.4)
+// val res0: scala.collection.immutable.Set[Double] = Set(3.0, 12.4)
 
 // Your instance has type Set[Double] because the compiler can unify both integers
 // and doubles under the type Double.

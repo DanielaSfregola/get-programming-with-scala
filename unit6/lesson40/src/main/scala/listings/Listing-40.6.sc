@@ -9,5 +9,6 @@ case class Registration(studentId: Int,
                         examSession: ExamSession,
                         localDate: LocalDate = LocalDate.now())
 
-def getRegistrationDate(registration: Try[Registration]): Try[LocalDate] =
+def getRegistrationDate(
+       registration: Try[Registration]): Try[LocalDate] =
   registration.map(_.localDate)

@@ -2,4 +2,4 @@ name := "get-programming-with-scala-lesson29"
 
 version := "0.1"
 
-scalaVersion := "3.0.0-RC1"
+scalaVersion := "3.0.0"

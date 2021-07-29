@@ -7,4 +7,4 @@ Try(1) match {
 //  It would fail on the following input: Failure(_)
 //  Try(1) match {
 //  ^
-//  res1: Int = 1
+//  val res1: Int = 1

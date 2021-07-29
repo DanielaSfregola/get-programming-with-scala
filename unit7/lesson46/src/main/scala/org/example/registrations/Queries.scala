@@ -1,9 +1,9 @@
 package org.example.registrations
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 import scala.concurrent.{ExecutionContext, Future}
 
-class Queries(ctx: PostgresAsyncContext[SnakeCase.type]) {
+class Queries(ctx: PostgresJAsyncContext[SnakeCase.type]) {
   import ctx._
 
   def testConnection()(implicit ec: ExecutionContext): Future[Boolean] = {

@@ -1,4 +1,4 @@
-// Consider the following snippet of code: improve the execution time of the function myOp
+// Consider the following snippet of code. Improve the execution time of the function myOp
 // by running asynchronous operations in parallel where possible.
 
 

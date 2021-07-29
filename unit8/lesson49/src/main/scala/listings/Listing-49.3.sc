@@ -12,6 +12,6 @@ class Player(id: Long, name: String) {
 
 import java.time._
 val start = Instant.now()
-val daniela = new Player(1, "Daniela")
+val alice = new Player(1, "Alice")
 val duration = Duration.between(start, Instant.now())
 println(s"Took ${duration.getSeconds} seconds!")

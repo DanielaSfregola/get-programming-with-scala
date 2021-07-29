@@ -29,10 +29,10 @@ case class B(i: Int); List(new B(1)).contains(new B(1))
 // their memory allocation address is the same. For this reason, the following expression returns false:
 
 new A(1).equals(new A(1))
-// res0: Boolean = false
+// val res0: Boolean = false
 
 // 5.	It returns true because case class equality requires two classes to be the same if
 // they have the same structure. The following expression returns true because B is a case class:
 
 new B(1).equals(new B(1))
-// res1: Boolean = true
+// val res1: Boolean = true

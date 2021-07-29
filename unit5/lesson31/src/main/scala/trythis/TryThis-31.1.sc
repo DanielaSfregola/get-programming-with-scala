@@ -1,6 +1,6 @@
 // Represent a collection of books, in which each book has a title, a list of authors,
 // and a genre. Possible genres are action, comic, and drama. Implement a function to return all
-// its drama authors: ensure there are no duplicates in the sequence.
+// its drama authors and ensure there are no duplicates in the sequence.
 
 
 // ANSWER

@@ -1,10 +1,11 @@
 package org.example.quiz.dao
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class GenericDao(ctx: PostgresAsyncContext[SnakeCase.type])(implicit ec: ExecutionContext) {
+class GenericDao(ctx: PostgresJAsyncContext[SnakeCase.type])
+                (implicit ec: ExecutionContext) {
   import ctx._
 
   def testConnection(): Future[Boolean] = {

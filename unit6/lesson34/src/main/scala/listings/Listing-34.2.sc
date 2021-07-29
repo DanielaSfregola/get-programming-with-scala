@@ -1,10 +1,10 @@
 case class Student(id: Int, name: String, topics: Set[String])
 
-val jon = Student(
+val alice = Student(
   id = 1,
-  name = "Jon Snow",
+  name = "Alice Abbott",
   topics = Set("History", "Math")
 )
 
-val updatedTopics = jon.topics + "History" - "Math"
-jon.copy(topics = updatedTopics)
+val updatedTopics = alice.topics + "History" - "Math"
+alice.copy(topics = updatedTopics)

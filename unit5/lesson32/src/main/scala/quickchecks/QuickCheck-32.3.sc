@@ -14,11 +14,11 @@
 
 def sumOfFirstN(n: Int): Int = (0 to n).sum
 
-// The expression 0 to n produces a sequence like structure called “inclusive range” containing
+// The expression 0 to n produces a sequence like structure called “inclusive range”, which contains
 // all the numbers from 0 to n inclusive. You can invoke the toList function to convert a range
 // to a list:
 
 val range = 0 to 10
-// range: scala.collection.immutable.Range.Inclusive = Range 0 to 10
+// val range: scala.collection.immutable.Range.Inclusive = Range 0 to 10
 range.toList
-// res0: List[Int] = List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+// val res0: List[Int] = List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)

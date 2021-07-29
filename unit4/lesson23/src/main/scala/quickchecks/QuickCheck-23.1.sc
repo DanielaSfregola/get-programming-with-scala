@@ -5,13 +5,13 @@
 
 // ANSWER
 
-case class Car(model: String,
-               owner: Option[Person],
-               registrationPlate: Option[String])
-
 case class Person(name: String,
                   age: Int,
                   drivingLicense: Option[String])
+
+case class Car(model: String,
+               owner: Option[Person],
+               registrationPlate: Option[String])
 
 def extractRegistrationPlate(car: Car): Option[String] =
   car.registrationPlate.map(_.toUpperCase)

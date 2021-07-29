@@ -1,9 +1,10 @@
-// Rewrite the function crossMultiplier you have implemented in quick check 34.5
+// Rewrite the function crossMultiplier you implemented in quick check 34.5
 // using for-comprehension.
 
 // ANSWER
 
-def crossMultiplier(groupA: Set[Int], groupB: Set[Int]): Set[Int] =
+def crossMultiplier(groupA: Set[Int],
+                    groupB: Set[Int]): Set[Int] =
   for {
     a <- groupA
     b <- groupB

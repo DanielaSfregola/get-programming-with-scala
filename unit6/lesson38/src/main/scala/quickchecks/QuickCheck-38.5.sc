@@ -1,4 +1,4 @@
-// Re-implement the following snippet of code using for-comprehension:
+// Reimplement the following snippet of code using for-comprehension:
 
 // def validation(a: Either[String, Int], b: Either[String, Int]): Either[String, Int] =
 //   a.flatMap { aa =>

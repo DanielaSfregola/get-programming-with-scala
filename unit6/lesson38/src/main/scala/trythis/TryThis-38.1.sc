@@ -1,4 +1,4 @@
-// In Quick Check 38.4, you have seen that the given implementation of the function validation
+// In quick check 38.4, you saw that the given implementation of the function validation
 // doesn’t behave as expected when you need to accumulate errors. Change its return type to
 // Either[List[String], Int], and its implementation to address this issue.
 // HINT: Use pattern matching.
@@ -16,4 +16,4 @@ def validation(a: Either[String, Int],
   }
 
 validation(Left("first failure"), Left("second failure"))
-// res0: Either[List[String],Int] = Left(List(first failure, second failure))
+// val res0: Either[List[String],Int] = Left(List(first failure, second failure))

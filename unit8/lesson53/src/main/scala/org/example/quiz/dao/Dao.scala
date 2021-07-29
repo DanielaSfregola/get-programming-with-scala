@@ -1,10 +1,10 @@
 package org.example.quiz.dao
 
-import io.getquill.{PostgresAsyncContext, SnakeCase}
+import io.getquill.{PostgresJAsyncContext, SnakeCase}
 
 import scala.concurrent.ExecutionContext
 
-class Dao(ctx: PostgresAsyncContext[SnakeCase.type])
+class Dao(ctx: PostgresJAsyncContext[SnakeCase.type])
          (implicit ec: ExecutionContext) {
 
   val category = new CategoryDao(ctx)

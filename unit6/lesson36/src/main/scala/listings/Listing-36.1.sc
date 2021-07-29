@@ -11,11 +11,11 @@ val chemistrySession = ExamSession(
   "Chemistry", localDate = LocalDate.now.plusDays(45))
 
 // Instances of Student
-val jon = Student(id = 1, name = "Jon Snow")
-val daenerys = Student(id = 2, name = "Daenerys Targaryen")
-val arya = Student(id = 3, name = "Arya Stark")
+val alice = Student(id = 1, name = "Alice Abbott")
+val bob = Student(id = 2, name = "Bob Brown")
+val charlie = Student(id = 3, name = "Charlie Clarke")
 
 val registrations: Map[ExamSession, List[Student]] = Map(
-  historySession -> List(jon, daenerys),
-  chemistrySession -> List(jon, arya)
+  historySession -> List(alice, bob),
+  chemistrySession -> List(alice, charlie)
 )

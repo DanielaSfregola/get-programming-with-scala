@@ -1,6 +1,6 @@
 // Suppose you have two key-value structures representing a capital and its country,
 // and a country to its continent. Combine the two instances of Map to link each capital
-// to its continent using the retrieve value strategies you have seen in this lesson.
+// to its continent using the retrieve value strategies you saw in this lesson.
 
 
 // ANSWER

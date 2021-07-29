@@ -2,6 +2,6 @@ name := "get-programming-with-scala-lesson51"
 
 version := "0.1"
 
-scalaVersion := "3.0.0-RC1"
+scalaVersion := "3.0.0"
 
-libraryDependencies += "org.typelevel" %% "cats-effect" % "2.3.3"
+libraryDependencies += "org.typelevel" %% "cats-effect" % "2.5.1"

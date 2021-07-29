@@ -1,5 +1,5 @@
-// Implement a function called truncate that takes a parameter of type Either[Double, String],
-// and it truncates its text to its first 24 characters if any. Use the map method on Either.
+// Implement a function called truncate that takes a parameter of type Either[Double, String]
+// and truncates its text to its first 24 characters if any. Use the map method on Either.
 
 
 // ANSWER

@@ -11,16 +11,16 @@ Future(10/2)
 import scala.concurrent.ExecutionContext.Implicits.global
 
 Future(10/2)
-// res0: scala.concurrent.Future[Int] = Future(Success(5))
+// val res0: scala.concurrent.Future[Int] = Future(Success(5))
 // Its execution has completed with success
 // before the REPL displays its content
 
 val tenOverZero = Future(10/0)
-// res1: scala.concurrent.Future[Int] = Future(<not completed>)
+// val res1: scala.concurrent.Future[Int] = Future(<not completed>)
 // This time, its execution has not completed yet
 
 tenOverZero
-// tenOverZero: scala.concurrent.Future[Int] = Future(Failure(java.lang.ArithmeticException: / by zero))
+// val tenOverZero: scala.concurrent.Future[Int] = Future(Failure(java.lang.ArithmeticException: / by zero))
 // Checking its content again after some time,
 // it has completed with a failure
 

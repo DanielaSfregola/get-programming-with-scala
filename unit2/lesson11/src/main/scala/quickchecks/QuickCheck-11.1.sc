@@ -11,7 +11,7 @@ new MySnippet
 // defined object MySnippet
 //
 // scala> new MySnippet
-// <console>:11: error: not found: type MySnippet
+// error: not found: type MySnippet
 //
 // The first expression successfully defines an object called “MySnippet”.
 // The second one is incorrect: you cannot request the creation of an object.

@@ -21,11 +21,11 @@ import scala.concurrent.ExecutionContext.Implicits.global
 fooA
 // Scala
 // Scala
-//res0: Int = 10
+// val res0: Int = 10
 
 fooB
 // Scala
-//res1: Int = 10
+// val res1: Int = 10
 
 
 

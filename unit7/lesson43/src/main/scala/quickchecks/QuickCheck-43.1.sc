@@ -1,4 +1,4 @@
-// Consider the following function: does it compile? What output does it produce when invoked?
+// Consider the following function. Does it compile? What output does it produce when invoked?
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -24,7 +24,7 @@ def test(): Unit = {
 //      | }
 // import scala.concurrent.Future
 // import scala.concurrent.ExecutionContext.Implicits.global
-// test: ()Unit
+// def test: ()Unit
 //
 // scala> test()
 // abc012
