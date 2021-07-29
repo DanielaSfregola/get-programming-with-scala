@@ -7,7 +7,8 @@ class BookService(bookCatalogPath: String) {
 
   private val logger: Logger = LoggerFactory.getLogger(this.getClass)
 
-  private val books: List[Book] = new BookParser(bookCatalogPath).books
+  private val books: List[Book] =
+    new BookParser(bookCatalogPath).books
 
   private var bookLoans: Set[BookLoan] = ???
 
