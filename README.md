@@ -4,7 +4,7 @@ Code, exercises, and answers for the book [Get Programming with Scala](https://w
 Lessons are grouped per unit. Each lesson is a standalone sbt project and
 it has the following three packages: `listings`, `quickchecks`, `trythis`.
 
-Have a look at the [Table of Contents](#table-of-contents) for links to all the available lessons.
+Have a look at the [Table of Contents](#table-of-contents) for links to all the book lessons.
 
 ## Installation Requirements
 Make sure the following tools are installed:
