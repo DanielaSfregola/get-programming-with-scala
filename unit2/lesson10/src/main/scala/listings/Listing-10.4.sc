@@ -8,7 +8,7 @@ class Party extends Event {
 
   private var attendees = 0
 
-  var cost = estimateCosts(attendees)
+  def cost = estimateCosts(attendees)
 
   def register(guests: Int) =
     attendees += guests
